@@ -36,8 +36,8 @@ importers:
         specifier: ^2.0.11
         version: 2.0.11
       preline:
-        specifier: ^4.0.1
-        version: 4.0.1
+        specifier: ^4.1.2
+        version: 4.1.2
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
@@ -2096,8 +2096,8 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preline@4.0.1:
-    resolution: {integrity: sha512-/cyb8orusmZSymGDkCCmDvbfccK5n3fnRZ3uG59pKihxpagmJ6p1rwkXpX1uZ7VpEQrug7U8IYBJnFGaD+8Bdw==}
+  preline@4.1.2:
+    resolution: {integrity: sha512-uKK0etQ8sLyLqXH4aTmaJMm9l4nbjkmTxpXo7poQ8XuQ1zTlWi12Cmr2OkUPfYEku2+5b9YGhosGikEGF0tSeQ==}
     hasBin: true
 
   prettier-plugin-tailwindcss@0.7.2:
@@ -5032,7 +5032,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preline@4.0.1:
+  preline@4.1.2:
     dependencies:
       '@floating-ui/dom': 1.7.5
       '@types/culori': 4.0.1
