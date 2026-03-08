@@ -1,76 +1,69 @@
 ---
-title: ""
-description: ""
+title: ''
+description: ''
 
-author: ""
-pubDate: 
+author: ''
+pubDate:
 
-image: ""
-imageAlt: ""
+image: ''
+imageAlt: ''
 
-cookingTime: 
+cookingTime:
 
 steps:
-  - title: ""
+  - title: ''
     actions:
-      - ""
-      - ""
-      - ""
-  - title: ""
+      - ''
+      - ''
+      - ''
+  - title: ''
     actions:
-      - ""
-      - ""
-      - ""
-  - title: ""
+      - ''
+      - ''
+      - ''
+  - title: ''
     actions:
-      - ""
-      - ""
-      - ""
-  - title: ""
+      - ''
+      - ''
+      - ''
+  - title: ''
     actions:
-      - ""
-      - ""
-      - ""
-  - title: ""
+      - ''
+      - ''
+      - ''
+  - title: ''
     actions:
-      - ""
+      - ''
 
 ingredients:
-  - title: ""
+  - title: ''
     items:
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""        
-  - title: ""
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+  - title: ''
     items:
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""
-      - quantity: ""
-        name: ""            
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
+      - quantity: ''
+        name: ''
 
-recipeNotes: 
-    [
-        "",
-        "",
-        "",
-        "",
-        ""
-    ]
+recipeNotes: ['', '', '', '', '']
 
-tags: [ "", "", "" ]
+tags: ['', '', '']
 
-slug: 
+slug:
 ---

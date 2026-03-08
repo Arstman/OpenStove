@@ -1,17 +1,26 @@
 ---
-import Navbar from "@components/Navbar.astro";
-import Footer from "@components/Footer.astro";
-import Meta from "@components/Meta.astro";
-import "@styles/global.css";
+import Navbar from '@components/Navbar.astro';
+import Footer from '@components/Footer.astro';
+import Meta from '@components/Meta.astro';
+import '@styles/global.css';
 
-const { title = "OpenStove", description, image, type, url, recipeData } = Astro.props;
+const {
+  title = 'OpenStove',
+  description,
+  image,
+  type,
+  url,
+  canonicalUrl,
+  recipeData,
+} = Astro.props;
 
 interface Props {
   title?: string;
   description?: string;
   image?: string;
-  type?: "website" | "article";
+  type?: 'website' | 'article';
   url?: string;
+  canonicalUrl?: string;
   recipeData?: {
     author?: string;
     pubDate?: Date;
@@ -31,20 +40,27 @@ interface Props {
   };
 }
 
-const currentUrl = url || Astro.url.href;
+const currentUrl = url ?? canonicalUrl ?? Astro.url.href;
 ---
 
 <html class="scroll-pt-16 scroll-smooth" lang="en">
   <head>
     <meta charset="utf-8" />
     <title>{title}</title>
-    <Meta url={currentUrl} title={title} description={description} image={image} type={type} recipeData={recipeData} />
+    <Meta
+      url={currentUrl}
+      title={title}
+      description={description}
+      image={image}
+      type={type}
+      recipeData={recipeData}
+    />
     <script is:inline>
-      "dark" === localStorage.getItem("hs_theme") ||
-      (!("hs_theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ? document.documentElement.classList.add("dark")
-        : document.documentElement.classList.remove("dark");
+      'dark' === localStorage.getItem('hs_theme') ||
+      (!('hs_theme' in localStorage) &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ? document.documentElement.classList.add('dark')
+        : document.documentElement.classList.remove('dark');
     </script>
     <style>
       body {
@@ -75,7 +91,7 @@ const currentUrl = url || Astro.url.href;
     </style>
   </head>
   <body
-    class="bg-orange-50 text-dark selection:bg-secondary selection:text-stone-700 dark:bg-dark dark:text-stone-100 dark:selection:bg-primary dark:selection:text-stone-700"
+    class="text-dark selection:bg-secondary dark:bg-dark dark:selection:bg-primary bg-orange-50 selection:text-stone-700 dark:text-stone-100 dark:selection:text-stone-700"
   >
     <div class="mx-auto max-w-(--breakpoint-2xl) px-4 md:px-8">
       <Navbar />
@@ -83,7 +99,15 @@ const currentUrl = url || Astro.url.href;
     </div>
     <Footer />
     <script>
-      import "preline/preline.js";
+      import { HSStaticMethods } from 'preline';
+      function initPreline() {
+        HSStaticMethods.autoInit();
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPreline);
+      } else {
+        initPreline();
+      }
     </script>
   </body>
 </html>

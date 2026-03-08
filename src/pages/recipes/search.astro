@@ -1,14 +1,14 @@
 ---
-import MainLayout from "@layouts/MainLayout.astro";
-import RecipeCard from "@components/RecipeCard.astro";
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
+import MainLayout from '@layouts/MainLayout.astro';
+import RecipeCard from '@components/RecipeCard.astro';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 
-const query: string | null = Astro.url.searchParams.get("query");
+const query: string | null = Astro.url.searchParams.get('query');
 
-const allRecipes: CollectionEntry<"recipes">[] = await getCollection("recipes");
+const allRecipes: CollectionEntry<'recipes'>[] = await getCollection('recipes');
 
-const searchResults = allRecipes.filter((recipe) => {
+const searchResults = allRecipes.filter(recipe => {
   const titleMatch: boolean = recipe.data.title
     .toLowerCase()
     .includes(query!.toLowerCase());
@@ -26,15 +26,15 @@ const searchResults = allRecipes.filter((recipe) => {
     .includes(query!.toLowerCase());
 
   const notesMatch: boolean = recipe.data.recipeNotes
-    ? recipe.data.recipeNotes.some((note) =>
-        note.toLowerCase().includes(query!.toLowerCase()),
+    ? recipe.data.recipeNotes.some(note =>
+        note.toLowerCase().includes(query!.toLowerCase())
       )
     : false;
 
-  const instructionsMatch: boolean = recipe.data.steps.some((step) =>
-    step.actions.some((action) =>
-      action.toLowerCase().includes(query!.toLowerCase()),
-    ),
+  const instructionsMatch: boolean = recipe.data.steps.some(step =>
+    step.actions.some(action =>
+      action.toLowerCase().includes(query!.toLowerCase())
+    )
   );
 
   return (
@@ -48,35 +48,37 @@ const searchResults = allRecipes.filter((recipe) => {
 });
 
 // Canonical URL for search - use base path without query params for SEO
-const canonicalUrl = "/recipes/search";
-const pageDescription = query 
+const canonicalUrl = '/recipes/search';
+const pageDescription = query
   ? `Search results for "${query}" on OpenStove. Found ${searchResults.length} recipes.`
-  : "Search recipes on OpenStove. Find your favorite dishes from our community-crafted collection.";
+  : 'Search recipes on OpenStove. Find your favorite dishes from our community-crafted collection.';
 ---
 
-<MainLayout 
-  title={query ? `Search Results for "${query}" | OpenStove` : "Search | OpenStove"}
+<MainLayout
+  title={query
+    ? `Search Results for "${query}" | OpenStove`
+    : 'Search | OpenStove'}
   description={pageDescription}
   canonicalUrl={canonicalUrl}
 >
   <section class="min-h-screen">
-    <!--Tag Title Section-->
+    {/*Tag Title Section*/}
     <div class="mt-10 py-6 sm:py-8 lg:py-12">
       <div
         class="rounded-xl bg-linear-to-r from-[#FF8008] to-[#FFC837] px-4 py-6 md:py-8 lg:py-12"
       >
         <h2
-          class="mx-auto max-w-3xl text-balance text-center text-3xl font-bold text-stone-800 sm:text-4xl md:text-5xl 2xl:max-w-4xl 2xl:text-6xl"
+          class="mx-auto max-w-3xl text-center text-3xl font-bold text-balance text-stone-800 sm:text-4xl md:text-5xl 2xl:max-w-4xl 2xl:text-6xl"
         >
           Results For: {query}
         </h2>
       </div>
     </div>
 
-    <!-- Recipe Cards -->
+    {/* Recipe Cards */}
     <div id="recipeCards" class="mx-auto max-w-(--breakpoint-2xl)">
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {searchResults.map((recipe) => <RecipeCard recipe={recipe} />)}
+        {searchResults.map(recipe => <RecipeCard recipe={recipe} />)}
       </div>
     </div>
   </section>

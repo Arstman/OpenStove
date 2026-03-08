@@ -1,8 +1,8 @@
-import { z, defineCollection } from "astro:content";
-import { glob } from "astro/loaders";
+import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const recipes = defineCollection({
-  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/recipes" }),
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: './src/content/recipes' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -13,7 +13,7 @@ const recipes = defineCollection({
     scalable: z.boolean().optional(),
     image: z.string(),
     imageAlt: z.string(),
-    author: z.string().default("anonymous"),
+    author: z.string().default('anonymous'),
     tags: z.array(z.string()).optional(),
     steps: z.array(
       z.object({

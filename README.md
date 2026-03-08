@@ -3,16 +3,17 @@
 </div>  
 <p>&nbsp;</p>
 
->Welcome to **OpenStove — a curated collection of community-crafted recipes**. OpenStove is a digital gathering space where culinary enthusiasts come together to discover, share, and contribute recipes. No ads, no fees —  just a love for food and community.
+> Welcome to **OpenStove — a curated collection of community-crafted recipes**. OpenStove is a digital gathering space where culinary enthusiasts come together to discover, share, and contribute recipes. No ads, no fees — just a love for food and community.
 
 ## What is OpenStove?
 
 OpenStove is built on the belief that the best cooking experiences come from shared knowledge. We provide a platform free from distracting ads where you have direct access to a diverse collection of dishes curated and cherished by food lovers from all over the world.
 
 ### Features
-* A diverse and growing recipe database.
-* A user-friendly platform free from distracting ads.
-* Community-driven curation and contribution.
+
+- A diverse and growing recipe database.
+- A user-friendly platform free from distracting ads.
+- Community-driven curation and contribution.
 
 ## Tailored for Food Lovers
 

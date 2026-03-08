@@ -21,10 +21,10 @@
       "purpose": "maskable"
     },
     {
-       "src": "/maskable_icon.png",
-       "sizes": "1000x1000",
-       "type": "image/png",
-       "purpose": "maskable"
+      "src": "/maskable_icon.png",
+      "sizes": "1000x1000",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "display": "minimal-ui",

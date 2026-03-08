@@ -6,6 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -20,6 +22,7 @@
     "astro-robots-txt": "^1.0.0",
     "clipboard": "^2.0.11",
     "preline": "^4.1.2",
+    "prettier-plugin-astro": "^0.14.1",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"

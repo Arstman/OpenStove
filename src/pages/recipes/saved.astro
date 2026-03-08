@@ -1,43 +1,45 @@
 ---
-import MainLayout from "@layouts/MainLayout.astro";
-import RecipeCard from "@components/RecipeCard.astro";
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
+import MainLayout from '@layouts/MainLayout.astro';
+import RecipeCard from '@components/RecipeCard.astro';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 
 let savedRecipes: any = [];
-const cookieObject = Astro.cookies.get("bookmarks");
+const cookieObject =
+  // @ts-expect-error Astro is a valid runtime global in .astro frontmatter
+  Astro.cookies.get('bookmarks');
 
-const allRecipes: CollectionEntry<"recipes">[] = await getCollection("recipes");
+const allRecipes: CollectionEntry<'recipes'>[] = await getCollection('recipes');
 
 if (cookieObject) {
   let storedBookmarks = cookieObject.json();
 
-  savedRecipes = allRecipes.filter((recipe) => {
+  savedRecipes = allRecipes.filter(recipe => {
     return storedBookmarks.includes(recipe.id);
   });
 }
 ---
 
-<MainLayout 
+<MainLayout
   title="Saved Recipes | OpenStove"
   description="View your saved recipes on OpenStove. Access your bookmarked recipes anytime."
   canonicalUrl="/recipes/saved"
 >
   <section class="min-h-screen">
-    <!--Tag Title Section-->
+    {/*Tag Title Section*/}
     <div class="mt-10 py-6 sm:py-8 lg:py-12">
       <div
         class="rounded-xl bg-linear-to-r from-[#FDC830] to-[#F37335] px-4 py-6 md:py-8 lg:py-12"
       >
         <h2
-          class="mx-auto max-w-3xl text-balance text-center text-3xl font-bold text-stone-800 sm:text-4xl md:text-5xl 2xl:max-w-4xl 2xl:text-6xl"
+          class="mx-auto max-w-3xl text-center text-3xl font-bold text-balance text-stone-800 sm:text-4xl md:text-5xl 2xl:max-w-4xl 2xl:text-6xl"
         >
           Saved Recipes
         </h2>
       </div>
     </div>
 
-    <!-- Recipe Cards -->
+    {/* Recipe Cards */}
     <div id="recipeCards" class="mx-auto max-w-(--breakpoint-2xl)">
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {savedRecipes.map((recipe: any) => <RecipeCard recipe={recipe} />)}
