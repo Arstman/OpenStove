@@ -36,30 +36,40 @@ steps:
       - ''
 
 ingredients:
-  - title: ''
+  - title: ""
     items:
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-  - title: ''
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""        
+  - title: ""
     items:
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
-      - quantity: ''
-        name: ''
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
+      - quantity: ""
+        unit: ""
+        name: ""
 
 recipeNotes: ['', '', '', '', '']
 
