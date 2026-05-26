@@ -46,7 +46,7 @@ ingredients:
       - quantity: "1"
         name: "sweet pepper (red, yellow, or orange), thinly sliced"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Sliced red onion, olives, cucumber slices, or avocado for extra flavor and texture (optional)"
   - title: "Dressing Ingredients:"
     items:
@@ -63,15 +63,15 @@ ingredients:
         unit: "teaspoon"
         name: "honey or maple syrup"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
   - title: "Optional Garnish:"
     items:
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh basil leaves, chopped"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Toasted pine nuts or walnuts"
 
 recipeNotes:

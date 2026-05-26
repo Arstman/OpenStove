@@ -63,7 +63,7 @@ ingredients:
         unit: "cup"
         name: "fresh blueberries, plus more for serving"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Maple syrup or honey for serving"       
 
 recipeNotes: [

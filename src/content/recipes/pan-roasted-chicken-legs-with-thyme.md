@@ -45,13 +45,13 @@ ingredients:
       - quantity: "2"
         name: "chicken legs"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: "2"
         unit: "tablespoon"
         name: "olive oil"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Several sprigs fresh thyme"
 
 recipeNotes: [

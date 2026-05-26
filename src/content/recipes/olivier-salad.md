@@ -44,13 +44,13 @@ ingredients:
         unit: "tablespoon"
         name: "mayonnaise"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Salmon caviar, for topping"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh dill, chopped, for garnish"
 
 recipeNotes: [

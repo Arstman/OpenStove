@@ -49,13 +49,13 @@ ingredients:
       - quantity: "2"
         name: "carrots, sliced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs for garnish"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Grated Parmesan cheese for serving"
 
 recipeNotes:

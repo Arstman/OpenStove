@@ -46,8 +46,8 @@ ingredients:
         unit: "cup"
         name: "granulated sugar"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of salt"
+        unit: "Pinch"
+        name: "of salt"
       - quantity: "1/4"
         unit: "cup"
         name: "coconut oil, melted"
@@ -55,7 +55,7 @@ ingredients:
         unit: "teaspoon"
         name: "vanilla extract"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Almond milk (if needed to adjust dough consistency)"
 
 recipeNotes:

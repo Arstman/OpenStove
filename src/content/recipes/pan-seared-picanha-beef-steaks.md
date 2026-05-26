@@ -43,13 +43,13 @@ ingredients:
       - quantity: "1"
         name: "Picanha beef steaks, about 1 pound each"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Vegetable oil or olive oil (for searing)"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs (such as parsley or thyme), for garnish (optional)"
 
 recipeNotes: [

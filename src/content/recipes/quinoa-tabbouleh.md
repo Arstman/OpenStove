@@ -62,8 +62,8 @@ ingredients:
         unit: "tablespoon"
         name: "extra-virgin olive oil"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"    
+        unit: "Pinch"
+        name: "of salt and pepper to taste"    
 
 recipeNotes: [
   "Quinoa Preparation: Rinse quinoa under cold water to remove its natural coating, saponin, which can make it taste bitter or soapy.",

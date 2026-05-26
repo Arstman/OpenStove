@@ -67,10 +67,10 @@ ingredients:
       - quantity: "1/4"
         name: "bay leaf"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh parsley, chopped (for garnish)"
 
 recipeNotes:

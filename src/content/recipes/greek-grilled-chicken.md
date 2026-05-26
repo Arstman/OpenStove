@@ -40,13 +40,13 @@ ingredients:
         unit: "teaspoon"
         name: "dried oregano"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: "2"
         unit: "cup"
         name: "green beans"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Lemon slices and fresh herbs, for garnish"
 
 recipeNotes:

@@ -51,8 +51,8 @@ ingredients:
         unit: "tablespoon"
         name: "granulated sugar"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of salt"
+        unit: "Pinch"
+        name: "of salt"
       - quantity: "3"
         unit: "tablespoon"
         name: "ice-cold water"
@@ -71,8 +71,8 @@ ingredients:
         unit: "teaspoon"
         name: "ground cinnamon"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of salt"
+        unit: "Pinch"
+        name: "of salt"
 
 recipeNotes:
   [

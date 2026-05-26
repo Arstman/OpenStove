@@ -32,13 +32,13 @@ ingredients:
           unit: "tablespoon"
           name: "melted butter"
         - quantity: ""
-          unit: "pinch"
-          name: "Salt and pepper to taste"
+          unit: "Pinch"
+          name: "of salt and pepper to taste"
         - quantity: ""
-          unit: "pinch"
+          unit: ""
           name: "Fresh herbs, for garnish"
         - quantity: ""
-          unit: "pinch"
+          unit: ""
           name: "Sour cream or your choice of dip, for serving"
 
 recipeNotes: [

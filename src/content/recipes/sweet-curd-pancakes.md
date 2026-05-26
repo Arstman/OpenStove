@@ -56,7 +56,7 @@ ingredients:
         unit: "teaspoon"
         name: "baking powder"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Oil or butter, for frying"
 
   - title: "For the Cottage Cheese Topping:"

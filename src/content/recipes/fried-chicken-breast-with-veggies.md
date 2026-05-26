@@ -54,8 +54,8 @@ ingredients:
         unit: "tablespoon"
         name: "cooking oil"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
 
 recipeNotes: [
   "To get the chicken extra crispy, pat it dry before marinating.",

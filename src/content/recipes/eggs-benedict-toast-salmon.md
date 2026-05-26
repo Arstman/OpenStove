@@ -55,13 +55,13 @@ ingredients:
         unit: "tablespoon"
         name: "unsalted butter, melted"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of cayenne pepper (optional)"
+        unit: "Pinch"
+        name: "of cayenne pepper (optional)"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh chives or dill, chopped (for garnish)"
 
 recipeNotes: [

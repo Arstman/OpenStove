@@ -53,10 +53,10 @@ ingredients:
   - title: "For toppings"
     items:
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Peanut butter to taste. More is usually best!"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Unsweetened vanilla almond yogurt to taste. Silk Rich and Creamy preferred."
 
 recipeNotes: [

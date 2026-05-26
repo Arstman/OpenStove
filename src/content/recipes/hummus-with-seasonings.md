@@ -62,7 +62,7 @@ ingredients:
         unit: "teaspoon"
         name: "ground cumin"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Water, as needed for consistency"
 
 recipeNotes: [

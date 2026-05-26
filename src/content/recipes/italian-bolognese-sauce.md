@@ -65,13 +65,13 @@ ingredients:
         unit: "cup"
         name: "red wine (optional)"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of dried thyme"
+        unit: "Pinch"
+        name: "of dried thyme"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Several sprigs fresh thyme"
 
 recipeNotes:

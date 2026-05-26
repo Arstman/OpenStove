@@ -55,7 +55,7 @@ ingredients:
         unit: "cup"
         name: "yogurt"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Juice of 1 lemon"
       - quantity: "1/4"
         unit: "cup"

@@ -42,13 +42,13 @@ ingredients:
         unit: "tablespoon"
         name: "sweet dried cranberries"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Balsamic vinaigrette or dressing of your choice"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Crumbled feta cheese or toasted nuts (optional for garnish)"
 
 recipeNotes:

@@ -51,13 +51,13 @@ ingredients:
         unit: "teaspoon"
         name: "paprika"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Parmesan cheese, for garnish"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs (e.g., basil, parsley), for garnish"
 
 recipeNotes:

@@ -48,8 +48,8 @@ ingredients:
         unit: "teaspoon"
         name: "cayenne pepper"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt to taste"
+        unit: "Pinch"
+        name: "of salt to taste"
 
 recipeNotes: [
   "Be cautious when frying the chickpeas as they may splatter when added to the hot oil.",

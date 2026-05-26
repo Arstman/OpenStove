@@ -54,8 +54,8 @@ ingredients:
         unit: "teaspoon"
         name: "black pepper"
       - quantity: "1"
-        unit: "pinch"
-        name: "nutmeg"
+        unit: "Pinch"
+        name: "of nutmeg"
   - title: "For the Cream Sauce:"
     items:
       - quantity: "1"
@@ -71,11 +71,11 @@ ingredients:
         unit: "cup"
         name: "heavy cream"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: "1"
-        unit: "pinch"
-        name: "nutmeg"
+        unit: "Pinch"
+        name: "of nutmeg"
 
 recipeNotes: 
     [

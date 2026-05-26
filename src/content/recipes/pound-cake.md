@@ -49,8 +49,8 @@ ingredients:
         unit: "teaspoon"
         name: "baking powder"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of salt"
+        unit: "Pinch"
+        name: "of salt"
       - quantity: "1/2"
         unit: "teaspoon"
         name: "almond extract"
@@ -58,7 +58,7 @@ ingredients:
         unit: "cup"
         name: "sliced almonds"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Powdered sugar, for dusting (optional)"
 
 recipeNotes:

@@ -59,8 +59,8 @@ ingredients:
         unit: "cup"
         name: "fresh coriander leaves, chopped"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
 
 recipeNotes:
   [

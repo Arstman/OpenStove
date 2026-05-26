@@ -56,13 +56,13 @@ ingredients:
       - quantity: "1"
         name: "bay leaf"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of dried thyme"
+        unit: "Pinch"
+        name: "of dried thyme"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh parsley, chopped (for garnish)"
 
 recipeNotes: [

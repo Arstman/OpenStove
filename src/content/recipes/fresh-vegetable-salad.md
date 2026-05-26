@@ -52,10 +52,10 @@ ingredients:
         unit: "clove"
         name: "garlic, minced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs for garnish"
 
 recipeNotes:

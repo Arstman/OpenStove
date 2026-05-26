@@ -46,8 +46,8 @@ ingredients:
         unit: "teaspoon"
         name: "honey"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
 
 recipeNotes: [
   "For added flavor and texture, consider topping the salad with toasted nuts or seeds like almonds or pumpkin seeds.",
