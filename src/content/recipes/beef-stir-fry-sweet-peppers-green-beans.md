@@ -75,16 +75,16 @@ ingredients:
       - quantity: "2"
         name: "sweet peppers, sliced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "salt and pepper to taste"
   - title: "Optional Garnish:"
     items:
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Sliced green onions"
       - quantity: ""
-        unit: "pinch"
-        name: "Sesame seeds"
+        unit: "Pinch"
+        name: "of sesame seeds"
 
 recipeNotes: [
   "Choose tender cuts of beef like sirloin or flank steak for the best results.",

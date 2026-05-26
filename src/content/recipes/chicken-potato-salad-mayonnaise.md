@@ -55,13 +55,13 @@ ingredients:
       - quantity: "1"
         name: "lemon, juiced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper"
+        unit: "Pinch"
+        name: "of salt and pepper"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Optional: chopped celery, diced red onion, fresh herbs for additional flavor"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Optional garnish: chopped parsley or paprika"
 
 recipeNotes:

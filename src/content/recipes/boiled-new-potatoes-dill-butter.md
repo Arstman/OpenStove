@@ -38,8 +38,8 @@ ingredients:
         unit: "tablespoon"
         name: "fresh dill, chopped"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt, to taste"
+        unit: "Pinch"
+        name: "of salt, to taste"
 
 recipeNotes: [
   "New potatoes work best for this recipe due to their thin skins and creamy texture. You can use baby red or baby Yukon gold potatoes.",

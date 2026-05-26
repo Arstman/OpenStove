@@ -63,10 +63,10 @@ ingredients:
         unit: "cup"
         name: "heavy cream (or alternative)"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh basil leaves for garnish (optional)"
 
 recipeNotes:

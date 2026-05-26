@@ -73,10 +73,10 @@ ingredients:
         unit: "teaspoon"
         name: "sugar"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Chopped fresh cilantro for garnish (optional)"
 
 recipeNotes: [

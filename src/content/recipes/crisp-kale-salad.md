@@ -45,10 +45,10 @@ ingredients:
         unit: "clove"
         name: "garlic, minced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Your choice of salad toppings (e.g., nuts, seeds, dried fruit, cheese)"
 
 recipeNotes:

@@ -39,10 +39,10 @@ ingredients:
       - quantity: "1"
         name: "ball of fresh mozzarella cheese"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Balsamic glaze or vinaigrette"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Freshly ground black pepper"
 
 recipeNotes:

@@ -58,15 +58,15 @@ ingredients:
         name: "spring onions, thinly sliced"
       - quantity: "1/4"
         name: "lime, juiced"
-      - quantity: "To taste"
-        name: "Salt and pepper"
+      - quantity: ""
+        name: "Salt and pepper to taste"
       - quantity: "1/2"
         unit: "cup"
         name: "microgreens"
       - quantity: "1/2"
         name: "daikon radish, peeled and julienned or shredded"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Herbs for chicken seasoning (e.g., thyme, rosemary)"
 
 recipeNotes:

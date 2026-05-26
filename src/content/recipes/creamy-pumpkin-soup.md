@@ -60,10 +60,10 @@ ingredients:
         unit: "cup"
         name: "heavy cream, plus extra for serving"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh sage for garnish"
 
 recipeNotes:

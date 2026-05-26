@@ -43,7 +43,7 @@ ingredients:
         unit: "tablespoon"
         name: "sugar"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Additional shredded coconut or chopped nuts for rolling (optional)"
 
 recipeNotes:

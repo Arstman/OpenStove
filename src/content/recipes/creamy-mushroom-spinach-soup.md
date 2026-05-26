@@ -61,8 +61,8 @@ ingredients:
         unit: "ml"
         name: "vegetable broth"
       - quantity: ""
-        unit: "pinch"
-        name: "Pinch of dried thyme"
+        unit: "Pinch"
+        name: "of dried thyme"
       - quantity: "1/4"
         unit: "teaspoon"
         name: "salt, or to taste"
@@ -76,7 +76,7 @@ ingredients:
         unit: "ml"
         name: "heavy cream"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh parsley, chopped (for garnish)"
 
 recipeNotes: [

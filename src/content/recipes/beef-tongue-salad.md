@@ -50,8 +50,8 @@ ingredients:
         unit: "gram"
         name: "fresh spinach leaves"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
   - title: "For Cooking the Beef Tongue:"
     items:
       - quantity: "1/4"
@@ -65,10 +65,10 @@ ingredients:
   - title: "For Garnish (Optional):"
     items:
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs like parsley or chives"
       - quantity: ""  
-        unit: "pinch"
+        unit: ""
         name: "Your favorite dressing or vinaigrette"
 
 recipeNotes: [

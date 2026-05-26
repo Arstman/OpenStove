@@ -61,10 +61,10 @@ ingredients:
           unit: "cup"
           name: "fresh spinach, chopped"
         - quantity: ""
-          unit: "pinch"
+          unit: ""
           name: "Grated Parmesan cheese, for serving"
         - quantity: ""
-          unit: "pinch"
+          unit: ""
           name: "Crusty bread, for serving"
 
 recipeNotes: [

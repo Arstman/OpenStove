@@ -39,8 +39,8 @@ ingredients:
         unit: "cup"
         name: "water or broth"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt to taste"
+        unit: "Pinch"
+        name: "of salt to taste"
   - title: "For the Sautéed Mushrooms:"
     items:
       - quantity: "1/2"
@@ -50,10 +50,10 @@ ingredients:
         unit: "tablespoon"
         name: "olive oil or butter"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs (optional)"
 
 recipeNotes:

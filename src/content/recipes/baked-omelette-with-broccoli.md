@@ -44,13 +44,13 @@ ingredients:
         unit: "cup"
         name: "broccoli florets, steamed"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Shredded cheese (optional)"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs for garnish (optional)"
 
 recipeNotes: [

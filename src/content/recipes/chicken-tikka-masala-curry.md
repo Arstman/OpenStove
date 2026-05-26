@@ -56,8 +56,8 @@ ingredients:
         unit: "teaspoon"
         name: "paprika"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper, to taste"
+        unit: "Pinch"
+        name: "of salt and pepper, to taste"
   - title: "For the Sauce:"
     items:
       - quantity: "2"
@@ -92,10 +92,10 @@ ingredients:
         unit: "cup"
         name: "coconut milk"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh cilantro, chopped, for garnish"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Lemon wedges, for serving"
 
 recipeNotes: [

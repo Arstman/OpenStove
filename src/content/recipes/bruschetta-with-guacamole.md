@@ -42,8 +42,8 @@ ingredients:
         unit: "clove"
         name: "garlic, minced"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: "1"
         unit: "slice"
         name: "rustic bread"
@@ -59,7 +59,7 @@ ingredients:
         unit: "tablespoon"
         name: "cooked chickpeas"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "A few fresh sage leaves"
 
 recipeNotes:

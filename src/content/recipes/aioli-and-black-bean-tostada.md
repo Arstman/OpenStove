@@ -42,8 +42,8 @@ ingredients:
         unit: "can"
         name: "black beans, drained and rinsed"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and spices to taste"
+        unit: "Pinch"
+        name: "of salt and spices to taste"
       - quantity: "4"
         name: "tostadas"
       - quantity: "1"
@@ -52,7 +52,7 @@ ingredients:
         unit: "cup"
         name: "shredded cabbage"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh herbs for garnish"
 
 recipeNotes:

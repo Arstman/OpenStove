@@ -56,8 +56,8 @@ ingredients:
         unit: "cup"
         name: "beef or vegetable stock"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and pepper to taste"
+        unit: "Pinch"
+        name: "of salt and pepper to taste"
       - quantity: "1"
         unit: "teaspoon"
         name: "sugar"
@@ -70,10 +70,10 @@ ingredients:
         unit: "clove"
         name: "garlic, minced"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Sour cream, for serving"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh dill or parsley, for garnish"
 
 recipeNotes:

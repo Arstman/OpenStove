@@ -60,8 +60,8 @@ ingredients:
         unit: "teaspoon"
         name: "turmeric"
       - quantity: ""
-        unit: "pinch"
-        name: "Salt and freshly ground black pepper to taste"
+        unit: "Pinch"
+        name: "of salt and freshly ground black pepper to taste"
       - quantity: "3"
         unit: "tablespoon"
         name: "olive oil, divided"
@@ -82,7 +82,7 @@ ingredients:
         unit: "cup"
         name: "preserved lemon peel, thinly sliced"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Fresh cilantro or parsley, chopped (for garnish)"  
         
 recipeNotes: [

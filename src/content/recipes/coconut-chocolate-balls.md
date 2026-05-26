@@ -52,7 +52,7 @@ ingredients:
         unit: "cup"
         name: "chocolate chips"
       - quantity: ""
-        unit: "pinch"
+        unit: ""
         name: "Shredded coconut for decoration (optional)"
 
 recipeNotes:
