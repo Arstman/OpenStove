@@ -5,9 +5,7 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 let savedRecipes: any = [];
-const cookieObject =
-  // @ts-expect-error Astro is a valid runtime global in .astro frontmatter
-  Astro.cookies.get('bookmarks');
+const cookieObject = Astro.cookies.get('bookmarks');
 
 const allRecipes: CollectionEntry<'recipes'>[] = await getCollection('recipes');
 
