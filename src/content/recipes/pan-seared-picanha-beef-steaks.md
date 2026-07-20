@@ -61,6 +61,4 @@ recipeNotes:
   ]
 
 tags: ['beef', 'pan-sear', 'steak']
-
-slug: pan-seared-picanha-beef-steaks
 ---

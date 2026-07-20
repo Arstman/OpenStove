@@ -81,6 +81,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'beef', 'potatoes']
-
-slug: beef-tongue-salad
 ---

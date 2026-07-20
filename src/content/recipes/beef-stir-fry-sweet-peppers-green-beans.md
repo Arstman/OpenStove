@@ -97,6 +97,4 @@ recipeNotes:
   ]
 
 tags: ['stir-fry', 'beef', 'vegetables']
-
-slug: beef-stir-fry-sweet-peppers-green-beans
 ---

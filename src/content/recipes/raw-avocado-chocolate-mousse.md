@@ -60,6 +60,4 @@ recipeNotes:
   ]
 
 tags: ['dessert', 'vegan', 'gluten-free']
-
-slug: raw-avocado-chocolate-mousse
 ---

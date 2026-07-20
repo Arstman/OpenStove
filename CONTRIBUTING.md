@@ -67,8 +67,6 @@ recipeNotes:
   # Optional, if none, remove the recipeNotes block
 
 tags: ['tag1', 'tag2', 'tag3'] # Describe the dish with appropriate tags, max 3 tags
-
-slug: name-of-your-dish # A URL-friendly version of your recipe's title.
 ---
 ```
 
@@ -101,7 +99,7 @@ Please note that if you want to keep the field blank, keep the `""`. Also, pleas
 ### Adding Your Recipe
 
 - Place your recipe markdown file in the correct category folder within the repository, which is `/src/content/recipes/`.
-- Adhere to the file naming conventions, such as `dish-name.md` for clarity and organization.
+- Adhere to the file naming conventions, such as `dish-name.md` for clarity and organization. The filename (without `.md`) is the recipe URL slug — do not add a separate `slug:` field in frontmatter.
 
 ### Creating a Pull Request
 

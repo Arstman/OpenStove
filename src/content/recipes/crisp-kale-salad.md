@@ -59,6 +59,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'kale', 'healthy']
-
-slug: crisp-kale-salad
 ---

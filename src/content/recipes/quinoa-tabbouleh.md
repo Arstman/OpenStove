@@ -76,6 +76,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'quinoa', 'gluten-free']
-
-slug: quinoa-tabbouleh
 ---

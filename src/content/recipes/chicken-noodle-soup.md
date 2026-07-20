@@ -75,6 +75,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'soup', 'noodles']
-
-slug: homemade-chicken-noodle-soup
 ---

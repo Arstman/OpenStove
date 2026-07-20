@@ -59,6 +59,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'spinach', 'healthy']
-
-slug: fresh-spinach-salad-with-eggs-and-cranberries
 ---

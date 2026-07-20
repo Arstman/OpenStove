@@ -116,6 +116,4 @@ recipeNotes:
   ]
 
 tags: ['soup', 'beef', 'georgian']
-
-slug: kharcho-beef-soup
 ---

@@ -90,6 +90,4 @@ recipeNotes:
   ]
 
 tags: ['potatoes', 'chanterelles', 'baked']
-
-slug: baked-potatoes-garlic-herbs-chanterelles
 ---

@@ -75,6 +75,4 @@ recipeNotes:
   ]
 
 tags: ['soup', 'pumpkin', 'cream']
-
-slug: homemade-creamy-pumpkin-soup
 ---

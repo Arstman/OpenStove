@@ -89,6 +89,4 @@ recipeNotes:
   ]
 
 tags: ['soup', 'mushroom', 'spinach']
-
-slug: creamy-mushroom-spinach-soup
 ---

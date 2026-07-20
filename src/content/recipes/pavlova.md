@@ -83,6 +83,4 @@ recipeNotes:
   ]
 
 tags: ['australian', 'dessert', 'meringue']
-
-slug: pavlova
 ---

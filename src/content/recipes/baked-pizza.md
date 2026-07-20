@@ -81,6 +81,4 @@ recipeNotes:
   ]
 
 tags: ['pizza', 'baked', 'salami']
-
-slug: baked-pizza-with-tomatoes-cheese-olives-salami-fried-egg
 ---

@@ -70,6 +70,4 @@ recipeNotes:
   ]
 
 tags: ['cake', 'almonds', 'dessert']
-
-slug: homemade-pound-cake-with-almonds
 ---

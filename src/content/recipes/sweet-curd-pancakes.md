@@ -77,6 +77,4 @@ recipeNotes:
   ]
 
 tags: ['pancakes', 'breakfast', 'dessert']
-
-slug: sweet-curd-pancakes
 ---

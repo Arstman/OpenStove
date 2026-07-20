@@ -63,6 +63,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'pan-roast', 'thyme']
-
-slug: pan-roasted-chicken-legs-with-thyme
 ---

@@ -74,6 +74,4 @@ recipeNotes:
   ]
 
 tags: ['shakshuka', 'eggs', 'breakfast']
-
-slug: green-shakshuka
 ---

@@ -101,6 +101,4 @@ recipeNotes:
   ]
 
 tags: ['chili', 'stew', 'mexican']
-
-slug: chili-con-carne
 ---

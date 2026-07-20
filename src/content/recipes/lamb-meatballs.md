@@ -70,6 +70,4 @@ recipeNotes:
   ]
 
 tags: ['lamb', 'meatballs', 'yogurt']
-
-slug: lamb-meatballs
 ---

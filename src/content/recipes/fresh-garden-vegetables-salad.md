@@ -67,6 +67,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'vegetables', 'fresh']
-
-slug: fresh-garden-vegetables-salad-mix
 ---

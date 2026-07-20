@@ -56,6 +56,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'orange', 'mozzarella']
-
-slug: arugula-orange-mozzarella-salad
 ---

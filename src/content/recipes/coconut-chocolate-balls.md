@@ -65,6 +65,4 @@ recipeNotes:
   ]
 
 tags: ['dessert', 'coconut', 'chocolate']
-
-slug: coconut-chocolate-balls-candy-dessert
 ---

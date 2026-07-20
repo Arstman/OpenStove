@@ -68,6 +68,4 @@ recipeNotes:
   ]
 
 tags: ['cookies', 'almond', 'dessert']
-
-slug: homemade-almond-cookies
 ---

@@ -51,6 +51,4 @@ recipeNotes:
   ]
 
 tags: ['sandwich', 'chocolate', 'snack']
-
-slug: chocolate-banana-sandwich
 ---

@@ -59,6 +59,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'spinach', 'avocado']
-
-slug: spinach-salad-with-avocado-and-peas
 ---

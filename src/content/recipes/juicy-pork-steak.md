@@ -74,6 +74,4 @@ recipeNotes:
   ]
 
 tags: ['pork', 'steak', 'pan-cooked']
-
-slug: juicy-pork-steak-with-rosemary-and-tomatoes
 ---

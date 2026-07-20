@@ -74,6 +74,4 @@ recipeNotes:
   - 'Gluten-Free: To make this soup gluten-free, use gluten-free pasta.'
 
 tags: ['soup', 'minestrone', 'italian']
-
-slug: classic-minestrone-soup
 ---

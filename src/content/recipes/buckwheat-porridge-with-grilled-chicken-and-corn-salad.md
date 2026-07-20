@@ -79,6 +79,4 @@ recipeNotes:
   ]
 
 tags: ['buckwheat', 'chicken', 'salad']
-
-slug: buckwheat-porridge-with-grilled-chicken-and-corn-salad
 ---

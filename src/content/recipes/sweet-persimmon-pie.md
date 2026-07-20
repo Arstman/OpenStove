@@ -68,6 +68,4 @@ recipeNotes:
   ]
 
 tags: ['pie', 'persimmon', 'dessert']
-
-slug: sweet-persimmon-pie
 ---

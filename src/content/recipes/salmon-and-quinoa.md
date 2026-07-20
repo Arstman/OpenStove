@@ -59,6 +59,4 @@ recipeNotes:
   ]
 
 tags: ['salmon', 'quinoa', 'lentils']
-
-slug: salmon-and-quinoa
 ---

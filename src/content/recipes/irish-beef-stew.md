@@ -81,6 +81,4 @@ recipeNotes:
   ]
 
 tags: ['beef', 'stew', 'irish']
-
-slug: irish-beef-stew
 ---

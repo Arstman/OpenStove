@@ -64,6 +64,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'aioli', 'yams']
-
-slug: garlic-aioli-chicken-wings-with-glazed-yams
 ---

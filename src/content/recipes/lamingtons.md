@@ -83,6 +83,4 @@ recipeNotes:
   ]
 
 tags: ['australian', 'dessert', 'cake']
-
-slug: lamingtons
 ---

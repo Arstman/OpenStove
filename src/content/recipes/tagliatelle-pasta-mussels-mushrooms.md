@@ -89,6 +89,4 @@ recipeNotes:
   ]
 
 tags: ['italian', 'pasta', 'mussels']
-
-slug: tagliatelle-pasta-mussels-mushrooms
 ---

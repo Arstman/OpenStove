@@ -84,6 +84,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'vegetarian', 'healthy']
-
-slug: vitamin-salad
 ---

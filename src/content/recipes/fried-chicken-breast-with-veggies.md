@@ -66,6 +66,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'vegetables', 'stir-fry']
-
-slug: fried-chicken-breast-with-veggies
 ---

@@ -74,6 +74,4 @@ ingredients:
 recipeNotes: ['', '', '', '', '']
 
 tags: ['', '', '']
-
-slug:
 ---

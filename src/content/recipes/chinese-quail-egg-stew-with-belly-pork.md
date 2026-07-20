@@ -90,6 +90,4 @@ recipeNotes:
   ]
 
 tags: ['chinese', 'stew', 'belly pork']
-
-slug: chinese-quail-egg-stew-with-belly-pork
 ---

@@ -66,6 +66,4 @@ recipeNotes:
   ]
 
 tags: ['pasta', 'pesto', 'cauliflower']
-
-slug: pasta-with-pesto
 ---

@@ -75,6 +75,4 @@ recipeNotes:
   ]
 
 tags: ['caprese', 'salad', 'lettuce']
-
-slug: caprese-salad
 ---

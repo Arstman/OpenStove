@@ -73,6 +73,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'potato', 'salad']
-
-slug: chicken-potato-salad-mayonnaise
 ---

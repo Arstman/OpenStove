@@ -63,6 +63,4 @@ recipeNotes:
   ]
 
 tags: ['russian', 'salad', 'caviar']
-
-slug: russian-olivier-salad-with-salmon-caviar
 ---

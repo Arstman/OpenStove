@@ -64,6 +64,4 @@ recipeNotes:
   ]
 
 tags: ['tostada', 'aioli', 'black beans']
-
-slug: aioli-and-black-bean-tostada
 ---

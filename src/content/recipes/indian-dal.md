@@ -92,6 +92,4 @@ recipeNotes:
   ]
 
 tags: ['indian', 'curry', 'dal']
-
-slug: indian-dal
 ---

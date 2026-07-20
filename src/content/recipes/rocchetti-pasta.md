@@ -69,6 +69,4 @@ recipeNotes:
   ]
 
 tags: ['pasta', 'vegetarian', 'rocchetti']
-
-slug: rocchetti-pasta
 ---

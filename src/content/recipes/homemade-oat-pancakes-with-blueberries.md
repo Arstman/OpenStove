@@ -78,6 +78,4 @@ recipeNotes:
   ]
 
 tags: ['pancakes', 'oats', 'blueberries']
-
-slug: homemade-oat-pancakes-with-blueberries
 ---

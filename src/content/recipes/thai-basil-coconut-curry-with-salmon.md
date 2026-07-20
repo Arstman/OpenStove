@@ -63,6 +63,4 @@ recipeNotes:
   ]
 
 tags: ['curry', 'thai', 'salmon']
-
-slug: thai-basil-coconut-curry-with-salmon
 ---

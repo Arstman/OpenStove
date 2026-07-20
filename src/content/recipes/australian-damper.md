@@ -58,6 +58,4 @@ recipeNotes:
   ]
 
 tags: ['australian', 'bread', 'camping']
-
-slug: australian-damper
 ---

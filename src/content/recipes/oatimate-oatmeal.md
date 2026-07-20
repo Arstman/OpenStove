@@ -65,6 +65,4 @@ recipeNotes:
   ]
 
 tags: ['breakfast', 'meal-prep']
-
-slug: oatimate-oatmeal
 ---

@@ -51,6 +51,4 @@ recipeNotes:
   ]
 
 tags: ['sandwich', 'peanut butter', 'snack']
-
-slug: peanut-butter-banana-sandwich
 ---

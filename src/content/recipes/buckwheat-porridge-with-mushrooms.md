@@ -63,6 +63,4 @@ recipeNotes:
   ]
 
 tags: ['buckwheat', 'porridge', 'mushrooms']
-
-slug: buckwheat-porridge-with-mushrooms
 ---

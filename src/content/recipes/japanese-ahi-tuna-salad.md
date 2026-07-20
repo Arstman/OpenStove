@@ -84,6 +84,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'japanese', 'tuna']
-
-slug: japanese-ahi-tuna-salad
 ---

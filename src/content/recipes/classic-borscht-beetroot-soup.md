@@ -85,6 +85,4 @@ recipeNotes:
   ]
 
 tags: ['soup', 'borscht', 'ukrainian']
-
-slug: classic-borscht-beetroot-soup
 ---

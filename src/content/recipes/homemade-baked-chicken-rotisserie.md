@@ -74,6 +74,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'rotisserie', 'roasted']
-
-slug: homemade-baked-chicken-rotisserie
 ---

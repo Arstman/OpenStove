@@ -79,6 +79,4 @@ recipeNotes:
   ]
 
 tags: ['dessert', 'french', 'tart']
-
-slug: traditional-french-lemon-tart
 ---

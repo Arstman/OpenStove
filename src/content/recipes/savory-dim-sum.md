@@ -56,6 +56,4 @@ recipeNotes:
   ]
 
 tags: ['dim-sum', 'chinese', 'steamed']
-
-slug: savory-dim-sum
 ---

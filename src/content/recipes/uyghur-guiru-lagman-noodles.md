@@ -82,6 +82,4 @@ recipeNotes:
   ]
 
 tags: ['uyghur', 'noodles', 'vegetarian']
-
-slug: uyghur-guiru-lagman-noodles
 ---

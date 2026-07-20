@@ -60,6 +60,4 @@ recipeNotes:
   ]
 
 tags: ['chickpeas', 'spicy', 'fried']
-
-slug: fried-spicy-chickpeas
 ---

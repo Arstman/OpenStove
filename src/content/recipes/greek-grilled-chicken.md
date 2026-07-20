@@ -57,6 +57,4 @@ recipeNotes:
   ]
 
 tags: ['greek', 'chicken', 'beans']
-
-slug: greek-grilled-chicken
 ---

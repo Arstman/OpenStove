@@ -51,6 +51,4 @@ recipeNotes:
   ]
 
 tags: ['hasselback', 'swedish', 'baked']
-
-slug: hasselback-potatoes
 ---

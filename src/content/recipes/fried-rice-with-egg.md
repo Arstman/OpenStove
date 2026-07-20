@@ -77,6 +77,4 @@ recipeNotes:
   ]
 
 tags: ['rice', 'egg', 'asian']
-
-slug: fried-rice-with-egg
 ---

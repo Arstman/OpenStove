@@ -69,6 +69,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'sweet-and-sour', 'chinese']
-
-slug: sweet-and-sour-chicken-balls
 ---

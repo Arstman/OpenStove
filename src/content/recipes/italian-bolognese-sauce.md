@@ -83,6 +83,4 @@ recipeNotes:
   ]
 
 tags: ['italian', 'bolognese', 'thyme']
-
-slug: italian-bolognese-sauce-with-thyme
 ---

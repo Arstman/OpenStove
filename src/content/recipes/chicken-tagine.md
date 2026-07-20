@@ -96,6 +96,4 @@ recipeNotes:
   ]
 
 tags: ['main', 'chicken', 'moroccan']
-
-slug: chicken-tagine
 ---

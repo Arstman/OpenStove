@@ -51,6 +51,4 @@ recipeNotes:
   ]
 
 tags: ['duck', 'fillet', 'pan-sear']
-
-slug: pan-seared-duck-breast-fillet
 ---

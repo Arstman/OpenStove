@@ -76,6 +76,4 @@ recipeNotes:
   ]
 
 tags: ['german', 'soup', 'lentils']
-
-slug: german-lentil-soup-carrots-red-chili
 ---

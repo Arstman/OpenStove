@@ -58,6 +58,4 @@ recipeNotes:
   ]
 
 tags: ['beans', 'asparagus', 'quinoa']
-
-slug: quinoa-and-pinto-bean-bowl
 ---

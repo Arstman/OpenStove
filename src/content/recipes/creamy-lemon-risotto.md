@@ -80,6 +80,4 @@ recipeNotes:
   ]
 
 tags: ['risotto', 'barley', 'broccoli']
-
-slug: creamy-lemon-risotto
 ---

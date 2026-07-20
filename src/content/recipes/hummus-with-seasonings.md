@@ -76,6 +76,4 @@ recipeNotes:
   ]
 
 tags: ['hummus', 'dip', 'snack']
-
-slug: hummus-with-seasonings
 ---

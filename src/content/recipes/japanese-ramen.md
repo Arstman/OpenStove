@@ -113,6 +113,4 @@ recipeNotes:
   ]
 
 tags: ['japanese', 'ramen', 'noodles']
-
-slug: japanese-ramen
 ---

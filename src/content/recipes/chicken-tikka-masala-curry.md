@@ -109,6 +109,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'curry', 'indian']
-
-slug: chicken-tikka-masala-curry
 ---

@@ -98,6 +98,4 @@ recipeNotes:
   ]
 
 tags: ['stir-fry', 'green beans', 'asian']
-
-slug: green-beans-chicken-meatballs-fried
 ---

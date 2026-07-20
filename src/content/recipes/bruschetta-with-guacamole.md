@@ -72,6 +72,4 @@ recipeNotes:
   ]
 
 tags: ['bruschetta', 'italian', 'vegetarian']
-
-slug: bruschetta-with-guacamole
 ---

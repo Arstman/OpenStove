@@ -56,6 +56,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'panzanella', 'tomatoes']
-
-slug: heirloom-tomato
 ---

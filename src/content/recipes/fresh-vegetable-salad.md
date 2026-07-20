@@ -66,6 +66,4 @@ recipeNotes:
   ]
 
 tags: ['salad', 'vegetables', 'healthy']
-
-slug: fresh-vegetable-salad
 ---

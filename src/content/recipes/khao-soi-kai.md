@@ -109,6 +109,4 @@ recipeNotes:
   ]
 
 tags: ['thai', 'chicken', 'noodle']
-
-slug: 'khao-soi-kai'
 ---

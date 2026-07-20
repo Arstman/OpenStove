@@ -68,6 +68,4 @@ recipeNotes:
   ]
 
 tags: ['fried', 'chicken liver', 'herbs']
-
-slug: fried-chicken-liver-onions-herbs
 ---

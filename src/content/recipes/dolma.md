@@ -90,6 +90,4 @@ recipeNotes:
   ]
 
 tags: ['dolma', 'stuffed', 'middle-eastern']
-
-slug: dolma
 ---

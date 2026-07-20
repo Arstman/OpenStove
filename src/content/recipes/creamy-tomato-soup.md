@@ -82,6 +82,4 @@ recipeNotes:
   ]
 
 tags: ['soup', 'tomato', 'vegetarian']
-
-slug: creamy-tomato-soup
 ---

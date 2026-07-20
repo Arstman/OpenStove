@@ -95,6 +95,4 @@ recipeNotes:
   ]
 
 tags: ['chicken', 'ragout', 'vegetables']
-
-slug: chicken-ragout-fried-drumsticks
 ---

@@ -75,6 +75,4 @@ recipeNotes:
   ]
 
 tags: ['eggs benedict', 'salmon', 'breakfast']
-
-slug: eggs-benedict-toast-salmon
 ---

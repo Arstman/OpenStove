@@ -86,6 +86,4 @@ recipeNotes:
   ]
 
 tags: ['swedish', 'meatballs', 'cream-sauce']
-
-slug: swedish-meatballs-cream-sauce
 ---

@@ -51,6 +51,4 @@ recipeNotes:
   ]
 
 tags: ['potatoes', 'side dish', 'dill']
-
-slug: boiled-new-potatoes-dill-butter
 ---

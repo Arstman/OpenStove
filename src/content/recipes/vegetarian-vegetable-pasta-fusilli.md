@@ -72,6 +72,4 @@ recipeNotes:
   ]
 
 tags: ['pasta', 'vegetarian', 'vegetables']
-
-slug: vegetarian-vegetable-pasta-fusilli
 ---

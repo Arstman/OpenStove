@@ -62,6 +62,4 @@ recipeNotes:
   ]
 
 tags: ['omelette', 'broccoli', 'breakfast']
-
-slug: baked-omelette-with-broccoli
 ---

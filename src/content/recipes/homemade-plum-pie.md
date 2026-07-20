@@ -84,6 +84,4 @@ recipeNotes:
   ]
 
 tags: ['pie', 'plum', 'dessert']
-
-slug: homemade-plum-pie
 ---
