@@ -19,7 +19,7 @@ const servings = recipe.data.servings || 1;
         <p class="mb-1 text-base">Serving size</p>
         {/* Input Number */}
         <div
-          class="max-w-40 rounded-lg border border-stone-300 bg-stone-50 dark:border-stone-600 dark:bg-stone-700/60 print:max-w-none print:border-0 print:bg-transparent"
+          class="corner-squircle max-w-40 rounded-4xl border border-stone-300 bg-stone-50 dark:border-stone-600 dark:bg-stone-700/60 print:max-w-none print:border-0 print:bg-transparent"
           data-hs-input-number
         >
           <div class="flex w-full items-center justify-between gap-x-1">
@@ -35,7 +35,7 @@ const servings = recipe.data.servings || 1;
             <div class="-gap-y-px flex items-center divide-x divide-stone-200 border-s border-stone-200 dark:divide-stone-700 dark:border-stone-700 print:hidden">
               <button
                 type="button"
-                class="focus-visible:ring-secondary inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-lg hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
+                class="focus-visible:ring-secondary last:corner-squircle inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-4xl hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
                 data-hs-input-number-decrement
               >
                 <svg
@@ -55,7 +55,7 @@ const servings = recipe.data.servings || 1;
               </button>
               <button
                 type="button"
-                class="focus-visible:ring-secondary inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-lg hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
+                class="focus-visible:ring-secondary last:corner-squircle inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-4xl hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
                 data-hs-input-number-increment
               >
                 <svg

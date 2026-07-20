@@ -49,11 +49,11 @@ const recipeImage = resolveRecipeImage(entry.data.image);
 >
   <section class="recipe-print-root mt-10 pt-6 sm:pt-8 lg:pt-12">
     {/* Image Start */}
-    <div class="mx-auto min-w-full rounded-xl bg-cover">
+    <div class="mx-auto min-w-full bg-cover">
       <RecipeImage
         image={entry.data.image}
         imageAlt={entry.data.imageAlt}
-        class="recipe-hero-image h-80 w-full rounded-xl object-cover"
+        class="recipe-hero-image corner-squircle h-80 w-full rounded-[50px] object-cover"
         draggable="false"
         loading="eager"
       />
