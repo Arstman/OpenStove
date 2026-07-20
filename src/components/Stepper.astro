@@ -13,7 +13,7 @@ interface Props {
 
   <ul class="relative flex flex-row gap-x-2">
     {
-      recipe.data.steps?.slice(0, -1)?.map((step, index) => (
+      recipe.data.steps?.slice(0, -1)?.map((_, index) => (
         <li
           class="group flex flex-1 shrink basis-0 items-center gap-x-2"
           data-hs-stepper-nav-item={`{"index": ${index + 1}}`}
