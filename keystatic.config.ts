@@ -1,8 +1,6 @@
 import { config, fields, collection } from '@keystatic/core';
 
-const useGithub =
-  Boolean(process.env.KEYSTATIC_GITHUB_CLIENT_ID) &&
-  process.env.NODE_ENV === 'production';
+const useGithub = import.meta.env.PROD;
 
 export default config({
   storage: useGithub
