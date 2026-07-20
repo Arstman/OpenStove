@@ -235,24 +235,26 @@ const formConfigured = Boolean(
       >
       </p>
 
-      <a
-        id="form-result-link"
-        class="bg-secondary text-dark hover:bg-secondary-accent focus-visible:ring-secondary hidden w-fit items-center justify-center rounded-lg px-5 py-2.5 font-medium transition-colors focus-visible:ring-2 focus-visible:outline-hidden"
-        href="#"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View submission on GitHub
-      </a>
+      <div class="flex flex-wrap items-center gap-3">
+        <a
+          id="form-result-link"
+          class="bg-primary text-dark hover:bg-primary-accent-light focus-visible:ring-primary hidden w-fit items-center justify-center rounded-lg px-5 py-2.5 font-medium transition-colors focus-visible:ring-2 focus-visible:outline-hidden"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View submission on GitHub
+        </a>
 
-      <button
-        type="submit"
-        id="contribute-submit"
-        disabled={!formConfigured}
-        class="bg-secondary text-dark hover:bg-secondary-accent focus-visible:ring-secondary inline-flex items-center justify-center rounded-lg px-5 py-2.5 font-medium transition-colors focus-visible:ring-2 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50"
-      >
-        Submit for review
-      </button>
+        <button
+          type="submit"
+          id="contribute-submit"
+          disabled={!formConfigured}
+          class="bg-secondary text-dark hover:bg-secondary-accent focus-visible:ring-secondary inline-flex items-center justify-center rounded-lg px-5 py-2.5 font-medium transition-colors focus-visible:ring-2 focus-visible:outline-hidden disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          Submit for review
+        </button>
+      </div>
     </form>
   </section>
 </MainLayout>
