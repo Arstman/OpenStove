@@ -26,7 +26,7 @@ const currentPage = pathname.slice(1);
           d="M206.81 20.36V27.92H212.95V90.97H289.94V27.68H295.14V20.36H206.81ZM284.45 81.58H219.09V39.25C219.09 39.25 247.61 24.9 284.45 39.25V81.58ZM212.8 112.22H217.29L221.78 95.34H212.8V112.22ZM286.25 112.22H290.73V95.34H281.76L286.25 112.22Z"
           fill="currentColor"></path>
         <path
-          class="fill-current text-[#f3f3f3] dark:text-stone-800"
+          class="fill-current text-stone-100 dark:text-stone-800"
           d="M219.09 39.25V81.58H284.45V39.25C247.61 24.9 219.09 39.25 219.09 39.25ZM264.02 64.9C264.02 64.9 270.93 68.89 274.38 57.82C274.38 57.82 278.54 71.46 271.9 76.86H229.84C229.84 76.86 226.77 69.54 228.31 61.63C228.31 61.63 232.92 66.47 235.28 66.83C235.28 66.83 234.1 56.79 240.12 50.18C240.12 50.18 244.55 59.95 247.82 61.01C251.1 62.07 252.6 43.03 252.6 43.03C252.6 43.03 264.28 49.58 264.02 64.9Z"
           fill="currentColor"></path>
         <path
@@ -160,8 +160,8 @@ const currentPage = pathname.slice(1);
             href="/"
             data-astro-prefetch
             class={currentPage === ''
-              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-orange-500 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
-              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-orange-500 2xl:text-lg dark:border-gray-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
+              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-secondary 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
+              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-secondary 2xl:text-lg dark:border-stone-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
           >
             Home
           </a>
@@ -171,8 +171,8 @@ const currentPage = pathname.slice(1);
             href="/recipes"
             data-astro-prefetch
             class={currentPage.startsWith('recipes')
-              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-orange-500 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
-              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-orange-500 2xl:text-lg dark:border-gray-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
+              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-secondary 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
+              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-secondary 2xl:text-lg dark:border-stone-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
           >
             Recipes
           </a>
@@ -182,8 +182,8 @@ const currentPage = pathname.slice(1);
             href="/contribute"
             data-astro-prefetch
             class={currentPage.startsWith('contribute')
-              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-orange-500 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
-              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-orange-500 2xl:text-lg dark:border-gray-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
+              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-secondary 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
+              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-secondary 2xl:text-lg dark:border-stone-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
           >
             Contribute
           </a>
@@ -193,8 +193,8 @@ const currentPage = pathname.slice(1);
             href="/about"
             data-astro-prefetch
             class={currentPage.startsWith('about')
-              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-orange-500 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
-              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-orange-500 2xl:text-lg dark:border-gray-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
+              ? 'block rounded-sm bg-primary-accent-dark px-3 py-2 text-dark transition-colors duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:bg-transparent md:p-0 md:text-secondary 2xl:text-lg dark:bg-stone-900 dark:text-primary-accent-dark md:dark:bg-transparent'
+              : 'block rounded-sm px-3 py-2 text-dark transition-colors duration-300 hover:bg-orange-100 hover:text-primary-accent-dark focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-secondary md:p-0 md:hover:bg-transparent md:hover:text-secondary 2xl:text-lg dark:border-stone-700 dark:text-stone-100 dark:hover:bg-dark dark:hover:text-primary-accent-dark md:dark:hover:bg-transparent md:dark:hover:text-primary-accent-dark'}
           >
             About
           </a>

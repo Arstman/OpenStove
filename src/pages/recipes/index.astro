@@ -46,7 +46,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
   {
     currentPage === 1 && (
       <div class="mt-10 py-6 sm:py-8 lg:py-12">
-        <div class="corner-squircle from-brand-gradient-d to-brand-gradient-c rounded-[100px] bg-linear-to-br px-4 py-6">
+        <div class="corner-squircle from-brand-gold to-brand-warm rounded-[100px] bg-linear-to-br px-4 py-6">
           <section class="flex items-center justify-center gap-6">
             <div class="flex w-10/12 justify-center text-center sm:py-4 md:py-12 lg:w-6/12 lg:py-0 lg:text-left">
               <h1 class="text-dark text-2xl font-bold tracking-tight text-balance md:text-3xl lg:text-4xl xl:text-5xl">
@@ -72,7 +72,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
     class={`flex flex-col ${currentPage === 1 ? '' : 'mt-20'} gap-2.5 sm:flex-row sm:justify-center lg:justify-end`}
   >
     <a
-      class="group bg-secondary-accent hover:bg-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium text-orange-900 outline-hidden transition duration-300 focus-visible:-translate-y-1 2xl:text-lg"
+      class="group bg-secondary-accent text-on-brand hover:bg-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium outline-hidden transition duration-300 focus-visible:-translate-y-1 2xl:text-lg"
       href="/contribute"
       data-astro-prefetch
       >Add a Recipe
@@ -90,7 +90,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
       </svg>
     </a>
     <a
-      class="group bg-primary hover:shadow-primary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium text-[#422006] outline-hidden transition duration-300 hover:shadow-2xl focus-visible:-translate-y-1 2xl:text-lg"
+      class="group bg-primary text-on-brand hover:shadow-primary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium outline-hidden transition duration-300 hover:shadow-2xl focus-visible:-translate-y-1 2xl:text-lg"
       href="/recipes/saved"
     >
       Saved Recipes
@@ -118,8 +118,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
     <Pagination
       currentPage={currentPage}
       totalPages={totalPages}
-      disablePrevious={currentPage === 1}
-      disableNext={currentPage === totalPages}
+      basePath="/recipes"
     />
   </div>
 
@@ -146,7 +145,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
                     </p>
                     <div class="mt-8 text-center">
                       <a
-                        class="bg-secondary-accent hover:bg-secondary hover:shadow-secondary focus-visible:ring-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl border border-transparent px-4 py-3 text-center text-sm font-medium text-orange-800 transition duration-300 hover:shadow-2xl focus:outline-hidden focus-visible:-translate-y-1 focus-visible:ring-2 focus-visible:outline-hidden 2xl:text-base"
+                        class="bg-secondary-accent text-on-brand hover:bg-secondary hover:shadow-secondary focus-visible:ring-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl border border-transparent px-4 py-3 text-center text-sm font-medium transition duration-300 hover:shadow-2xl focus:outline-hidden focus-visible:-translate-y-1 focus-visible:ring-2 focus-visible:outline-hidden 2xl:text-base"
                         href="/contribute"
                         data-astro-prefetch
                       >

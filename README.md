@@ -3,15 +3,9 @@
 </div>
 <p>&nbsp;</p>
 
-> Welcome to **OpenStove – a curated collection of community-crafted recipes**. OpenStove is a digital gathering space where culinary enthusiasts come together to discover, share, and contribute recipes. No ads, no fees – just a love for food and community.
+**OpenStove** is a curated collection of community-crafted recipes – no ads, no fees, just a love for food and shared knowledge. Browse it live at [openstove.org](https://openstove.org).
 
-## What is OpenStove?
-
-OpenStove is built on the belief that the best cooking experiences come from shared knowledge. We provide a platform free from distracting ads where you have direct access to a diverse collection of dishes curated and cherished by food lovers from all over the world.
-
-The application code and recipe text live in one public repository. Recipes are Markdown files managed through Astro content collections. Recipe photographs are stored separately in Vercel Blob so licensed image files are not included in the public Git history.
-
-Production: [openstove.org](https://openstove.org)
+Application code and recipe text live in this public repository. Recipes are Markdown files managed through Astro content collections, while recipe photographs are stored separately in Vercel Blob so licensed image files stay out of the public Git history.
 
 ## Features
 
@@ -51,73 +45,57 @@ scripts/                 Maintainer utilities
 vercel.json              Production headers and CSP
 ```
 
-## Installation
-
-Clone the repository, navigate to its root directory, and install the dependencies defined in `package.json`:
+## Getting started
 
 ```bash
 git clone https://github.com/mearashadowfax/OpenStove.git
 cd OpenStove
 pnpm install
-```
-
-Create a local environment file and start the development server:
-
-```bash
 cp .env.example .env
 pnpm dev
 ```
 
-## Development commands
-
-With dependencies installed, use these pnpm scripts to manage the development lifecycle:
+Available scripts:
 
 ```bash
 pnpm dev            # Start the local server with hot reloading
 pnpm build          # Type-check and create the production server build
 pnpm preview        # Serve the production build locally
+pnpm test           # Run the test suite
 pnpm format:check   # Check formatting
 pnpm format:fix     # Apply formatting
 ```
 
-For detailed help with Astro CLI commands, see [Astro's CLI documentation](https://docs.astro.build/en/reference/cli-reference/).
+For other Astro CLI commands, see [Astro's CLI documentation](https://docs.astro.build/en/reference/cli-reference/).
 
-Without `PUBLIC_IMAGE_BASE_URL`, local recipe pages intentionally display the fallback image.
+## Recipes
 
-## Recipe content
-
-Recipes live in [`src/content/recipes`](src/content/recipes) and are validated by [`src/content.config.ts`](src/content.config.ts). The Markdown filename is the recipe ID and URL path:
+Recipes live in [`src/content/recipes`](src/content/recipes) and are validated by [`src/content.config.ts`](src/content.config.ts). The Markdown filename is the recipe ID and URL path – do not add a separate `slug` field to recipe frontmatter:
 
 ```text
 src/content/recipes/creamy-tomato-soup.md
 → /recipes/creamy-tomato-soup
 ```
 
-Do not add a separate `slug` field to recipe frontmatter.
+### Images
 
-## Recipe images
-
-Recipe photographs are publicly readable from Vercel Blob because browsers must be able to display them, but their source files are kept out of this public Git repository for licensing reasons.
-
-Frontmatter stores only the Blob filename:
+Recipe photographs are publicly readable from Vercel Blob, but their source files are kept out of this repository for licensing reasons. Frontmatter stores only the Blob filename:
 
 ```yaml
 image: 'tomato-soup.avif'
 imageAlt: 'A bowl of creamy tomato soup'
 ```
 
-The application combines the filename with `PUBLIC_IMAGE_BASE_URL`. Missing or unavailable images fall back to the repository's placeholder.
+The application combines the filename with `PUBLIC_IMAGE_BASE_URL`. Without that variable (e.g. in a fresh local setup), or when an image is unavailable, recipe pages display the repository's fallback image.
 
-### Uploading photographs
-
-Keep original photographs in a private local or backed-up directory. Upload AVIF files with:
+To upload photographs, keep the originals in a private local or backed-up directory and run:
 
 ```bash
 BLOB_READ_WRITE_TOKEN=vercel_blob_... \
 pnpm upload:images --dir /path/to/private-recipe-images
 ```
 
-The script uploads files under the `recipes/` Blob prefix without random suffixes and prints the required `PUBLIC_IMAGE_BASE_URL`.
+The script uploads AVIF files under the `recipes/` Blob prefix without random suffixes and prints the required `PUBLIC_IMAGE_BASE_URL`.
 
 Never commit recipe photographs or Blob write tokens to this repository.
 
@@ -139,23 +117,14 @@ Cloudflare Turnstile is supported through `PUBLIC_TURNSTILE_SITE_KEY` and `TURNS
 
 ## Keystatic CMS
 
-Maintainers can edit recipe Markdown through Keystatic.
+Maintainers can edit recipe Markdown through Keystatic:
 
-### Local mode
-
-Run `pnpm dev`, then open:
-
-[http://127.0.0.1:4321/keystatic](http://127.0.0.1:4321/keystatic)
-
-Local mode reads and writes the working tree directly.
-
-### Production mode
-
-Production uses GitHub authentication. Only users with write access to the OpenStove repository can make changes.
+- **Local**: run `pnpm dev` and open [http://127.0.0.1:4321/keystatic](http://127.0.0.1:4321/keystatic). Local mode reads and writes the working tree directly.
+- **Production**: uses GitHub authentication; only users with write access to the OpenStove repository can make changes.
 
 ## Production deployment
 
-1. Import this public repository into Vercel.
+1. Import this repository into Vercel.
 2. Connect a public-read Vercel Blob store.
 3. Upload recipe AVIFs and set `PUBLIC_IMAGE_BASE_URL`.
 4. Configure the contribution and Keystatic environment variables.
@@ -166,12 +135,4 @@ See [`.env.example`](.env.example) for the complete environment variable list.
 
 ## License
 
-OpenStove **code and recipe text** are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-- **Attribute** – Provide proper credit, link to the license, and note any changes.
-- **NonCommercial** – Material cannot be used for commercial purposes.
-- **ShareAlike** – If you remix, transform, or build upon the material, distribute your contributions under the same license as the original.
-
-Recipe **photographs** are not included in this repository and are licensed separately.
-
-[View Full License](https://github.com/mearashadowfax/OpenStove/blob/main/LICENSE)
+OpenStove code and recipe text are licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) – see the [full license](https://github.com/mearashadowfax/OpenStove/blob/main/LICENSE) for details. Recipe photographs are not included in this repository and are licensed separately.

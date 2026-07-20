@@ -39,7 +39,7 @@ interface Props {
     <div class="space-x-2.5">
       {
         recipe.data.tags?.map((tag: string) => (
-          <span class="corner-squircle inline-flex items-center gap-x-1.5 rounded-4xl bg-orange-400/30 px-3 py-1.5 text-xs font-medium text-orange-800 transition-colors duration-300 group-hover:bg-orange-500/30 2xl:text-sm dark:bg-stone-700/60 dark:text-stone-300 dark:group-hover:bg-stone-600">
+          <span class="text-on-brand corner-squircle bg-secondary/30 group-hover:bg-secondary/40 inline-flex items-center gap-x-1.5 rounded-4xl px-3 py-1.5 text-xs font-medium transition-colors duration-300 2xl:text-sm dark:bg-stone-700/60 dark:text-stone-300 dark:group-hover:bg-stone-600">
             {capitalize(tag)}
           </span>
         ))
