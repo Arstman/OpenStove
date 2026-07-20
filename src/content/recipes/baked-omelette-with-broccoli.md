@@ -5,7 +5,7 @@ description: 'A simple and nutritious baked omelette loaded with tender broccoli
 author: 'mearashadowfax'
 pubDate: 2024-09-27
 
-image: '/images/baked-omelette-with-broccoli.avif'
+image: 'baked-omelette-with-broccoli.avif'
 imageAlt: 'Slice of baked omelette with broccoli served on a plate'
 
 cookingTime: 25

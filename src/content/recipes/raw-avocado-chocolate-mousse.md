@@ -5,7 +5,7 @@ description: "Indulge in a decadent yet healthy dessert with this raw avocado ch
 author: 'mearashadowfax'
 pubDate: 2024-01-18
 
-image: '/images/raw-avocado-chocolate-mousse-with-hazelnuts.avif'
+image: 'raw-avocado-chocolate-mousse-with-hazelnuts.avif'
 imageAlt: 'A glass of creamy avocado chocolate mousse topped with crushed hazelnuts'
 
 cookingTime: 15

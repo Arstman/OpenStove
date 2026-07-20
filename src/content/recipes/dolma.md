@@ -5,7 +5,7 @@ description: 'A classic Middle Eastern dish featuring tender grape leaves stuffe
 author: 'mearashadowfax'
 pubDate: 2024-02-06
 
-image: '/images/dolma-stuffed-grape-leaves.avif'
+image: 'dolma-stuffed-grape-leaves.avif'
 imageAlt: 'Stuffed grape leaves with ground meat'
 
 cookingTime: 90

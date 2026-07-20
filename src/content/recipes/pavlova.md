@@ -4,7 +4,7 @@ description: "Australia's iconic meringue-based dessert with a crisp exterior an
 
 pubDate: 2025-05-24
 
-image: '/images/pavlova.avif'
+image: 'pavlova.avif'
 imageAlt: 'Round pavlova with white meringue base topped with whipped cream, strawberries, kiwi, and passion fruit'
 
 cookingTime: 90

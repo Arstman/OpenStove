@@ -5,7 +5,7 @@ description: 'Satisfy your sweet tooth with these irresistible coconut chocolate
 author: 'mearashadowfax'
 pubDate: 2024-02-20
 
-image: '/images/coconut-chocolate-balls.avif'
+image: 'coconut-chocolate-balls.avif'
 imageAlt: 'A plate of coconut chocolate balls coated in chocolate and shredded coconut'
 
 cookingTime: 45

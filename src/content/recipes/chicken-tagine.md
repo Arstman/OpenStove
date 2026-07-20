@@ -4,7 +4,7 @@ description: 'Experience the rich flavors of Moroccan cuisine with this aromatic
 
 pubDate: 2024-01-08
 
-image: '/images/chicken-tagine.avif'
+image: 'chicken-tagine.avif'
 imageAlt: 'Colorful and fragrant Chicken Tagine with Kalamata olives, cracked green olives, and slices of preserved lemons'
 
 cookingTime: 60

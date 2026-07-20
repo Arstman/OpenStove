@@ -4,7 +4,7 @@ description: 'This rocchetti pasta dish combines the earthy tastes of Brussels s
 
 pubDate: 2024-01-16
 
-image: '/images/rocchetti-pasta-vegetables.avif'
+image: 'rocchetti-pasta-vegetables.avif'
 imageAlt: 'Bowl of rocchetti pasta mixed with colorful vegetables, including Brussels sprouts, tomato, eggplant, and a sprinkle of paprika'
 
 cookingTime: 45

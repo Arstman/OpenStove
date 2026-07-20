@@ -4,7 +4,7 @@ description: 'A savory and comforting Uyghur dish featuring hand-pulled noodles,
 
 pubDate: 2024-02-18
 
-image: '/images/uyghur-lagman-noodles.avif'
+image: 'uyghur-lagman-noodles.avif'
 imageAlt: 'A bowl of Uyghur Guiru Lagman Noodles topped with ear mushrooms and green onions'
 
 cookingTime: 45

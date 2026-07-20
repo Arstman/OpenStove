@@ -4,7 +4,7 @@ description: 'Tender and flavorful lamb meatballs served with roasted potatoes a
 
 pubDate: 2024-01-06
 
-image: '/images/lamb-meatballs-with-cranberries-yogurt-and-mint.avif'
+image: 'lamb-meatballs-with-cranberries-yogurt-and-mint.avif'
 imageAlt: 'Plate of lamb meatballs with potatoes, cranberries, yogurt, and mint'
 
 cookingTime: 60

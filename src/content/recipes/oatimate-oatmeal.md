@@ -5,7 +5,7 @@ description: 'The ultimate oatmeal meal prep recipe.'
 author: 'BHolmesDev'
 pubDate: 2024-04-27
 
-image: '/images/oatimate-oatmeal.avif'
+image: 'oatimate-oatmeal.avif'
 imageAlt: 'Downward view of oatmeal in a large gray pot. Apples, pecans, cherries, and oats are visible. Oats are clumped and dense'
 
 cookingTime: 45

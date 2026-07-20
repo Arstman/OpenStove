@@ -4,7 +4,7 @@ description: 'Savor the rich, tangy flavors of chicken wings marinated in garlic
 
 pubDate: 2024-01-11
 
-image: '/images/garlic-aioli-chicken-wings.avif'
+image: 'garlic-aioli-chicken-wings.avif'
 imageAlt: 'Plate of garlic aioli chicken wings with glazed yams'
 
 cookingTime: 60

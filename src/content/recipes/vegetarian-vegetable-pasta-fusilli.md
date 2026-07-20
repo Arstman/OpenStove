@@ -5,7 +5,7 @@ description: 'Enjoy a flavorful vegetarian delight with this vegetable pasta fus
 author: 'mearashadowfax'
 pubDate: 2024-02-22
 
-image: '/images/vegetarian-vegetable-pasta-fusilli.avif'
+image: 'vegetarian-vegetable-pasta-fusilli.avif'
 imageAlt: 'A plate of vegetarian vegetable pasta fusilli topped with fresh herbs'
 
 cookingTime: 25

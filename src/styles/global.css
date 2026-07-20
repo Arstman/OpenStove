@@ -44,3 +44,89 @@
 }
 
 @custom-variant search-cancel (&::-webkit-search-cancel-button);
+
+@media print {
+  @page {
+    margin: 14mm 16mm;
+  }
+
+  header,
+  footer,
+  nav,
+  .no-print,
+  #navbar-alignment,
+  [data-hs-theme-click-value],
+  .hs-collapse-toggle {
+    display: none !important;
+  }
+
+  /* Ink-friendly palette, even when dark mode is active on screen */
+  *,
+  ::before,
+  ::after {
+    background-color: transparent !important;
+    color: #1c1917 !important;
+    border-color: #d6d3d1 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    background: white !important;
+    overflow: visible !important;
+  }
+
+  main,
+  .recipe-print-root {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  section {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+
+  .recipe-print-root h1 {
+    font-size: 2.25rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .recipe-hero-image {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    break-inside: avoid;
+  }
+
+  /* Always print the full list of steps, never the interactive stepper */
+  #segment-1 {
+    display: none !important;
+  }
+
+  #segment-2 {
+    display: block !important;
+  }
+
+  /* Compact ingredient rows */
+  li.count {
+    padding: 0.25rem 0 !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  h1,
+  h2,
+  li,
+  img {
+    break-inside: avoid;
+  }
+}

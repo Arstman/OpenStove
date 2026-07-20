@@ -5,7 +5,7 @@ description: 'Juicy chicken legs infused with the aromatic flavor of thyme, cook
 author: 'mearashadowfax'
 pubDate: 2024-02-08
 
-image: '/images/pan-roasted-chicken-legs.avif'
+image: 'pan-roasted-chicken-legs.avif'
 imageAlt: 'Pan-roasted chicken legs with fresh thyme'
 
 cookingTime: 35

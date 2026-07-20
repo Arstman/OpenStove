@@ -4,7 +4,7 @@ description: 'Enjoy the rich, iron-packed flavor of chicken livers fried with ca
 
 pubDate: 2024-01-10
 
-image: '/images/fried-chicken-liver.avif'
+image: 'fried-chicken-liver.avif'
 imageAlt: 'Skillet of fried chicken livers with caramelized onions and herbs'
 
 cookingTime: 30

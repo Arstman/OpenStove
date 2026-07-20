@@ -1,10 +1,10 @@
 ---
 title: 'Homemade Almond Cookies'
-description: 'Crispy, buttery almond cookies with a delicate nutty flavor — perfect for tea time or as a sweet snack.'
+description: 'Crispy, buttery almond cookies with a delicate nutty flavor – perfect for tea time or as a sweet snack.'
 
 pubDate: 2024-02-13
 
-image: '/images/homemade-almond-cookies.avif'
+image: 'homemade-almond-cookies.avif'
 imageAlt: 'A plate of homemade almond cookies with almonds in the background'
 
 cookingTime: 20

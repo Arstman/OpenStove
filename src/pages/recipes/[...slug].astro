@@ -6,9 +6,10 @@ import Tags from '@components/Tags.astro';
 import InputNumber from '@components/InputNumber.astro';
 import Bookmark from '@components/Bookmark.astro';
 import Clipboard from '@components/Clipboard.astro';
-import { Image } from 'astro:assets';
-import placeholder from '@images/placeholder.png';
+import RecipeImage from '@components/RecipeImage.astro';
+import PrintRecipe from '@components/PrintRecipe.astro';
 import { formatDate } from '@utils';
+import { resolveRecipeImage } from '@/lib/recipeImage';
 import { getEntry } from 'astro:content';
 
 const { slug } = Astro.params;
@@ -28,11 +29,7 @@ const recipeTitle = entry.data.title + ' | OpenStove';
 const recipeDescription =
   entry.data.description ||
   `Learn how to make ${entry.data.title} with this delicious recipe from OpenStove.`;
-const recipeImage = entry.data.image?.startsWith('http')
-  ? entry.data.image
-  : entry.data.image?.startsWith('/')
-    ? `${Astro.site}${entry.data.image}`
-    : `${Astro.site}/${entry.data.image}`;
+const recipeImage = resolveRecipeImage(entry.data.image);
 ---
 
 <MainLayout
@@ -50,15 +47,15 @@ const recipeImage = entry.data.image?.startsWith('http')
     steps: entry.data.steps,
   }}
 >
-  <section class="mt-10 pt-6 sm:pt-8 lg:pt-12">
+  <section class="recipe-print-root mt-10 pt-6 sm:pt-8 lg:pt-12">
     {/* Image Start */}
     <div class="mx-auto min-w-full rounded-xl bg-cover">
-      <Image
-        src={placeholder}
-        class="h-80 w-full rounded-xl object-cover"
-        alt="Image Description"
-        draggable={'false'}
-        loading={'eager'}
+      <RecipeImage
+        image={entry.data.image}
+        imageAlt={entry.data.imageAlt}
+        class="recipe-hero-image h-80 w-full rounded-xl object-cover"
+        draggable="false"
+        loading="eager"
       />
     </div>
 
@@ -89,7 +86,7 @@ const recipeImage = entry.data.image?.startsWith('http')
         </ul>
       </div>
 
-      {/* Time/Bookmark */}
+      {/* Time/Print/Bookmark */}
       <div class="flex items-center justify-end gap-x-1.5">
         <div class="inline-flex max-w-xs gap-x-2">
           <span
@@ -113,11 +110,12 @@ const recipeImage = entry.data.image?.startsWith('http')
         </div>
 
         <div
-          class="mx-3 block h-4 border-e border-stone-400 dark:border-stone-500"
+          class="no-print mx-3 block h-4 border-e border-stone-400 dark:border-stone-500"
         >
         </div>
 
-        <div class="inline-flex">
+        <div class="no-print inline-flex items-center gap-x-1">
+          <PrintRecipe />
           <Bookmark />
         </div>
       </div>
@@ -196,7 +194,7 @@ const recipeImage = entry.data.image?.startsWith('http')
       </div>
 
       {/* Sidebar */}
-      <div class="lg:col-span-1 lg:h-full lg:w-full">
+      <div class="lg:col-span-1 lg:h-full lg:w-full print:order-first">
         {/* Ingredients Section */}
         <section class="mx-auto max-w-(--breakpoint-lg) py-6 sm:py-8 lg:py-12">
           <h2
@@ -220,14 +218,15 @@ const recipeImage = entry.data.image?.startsWith('http')
       <Tags tags={entry.data.tags} />
     </div>
 
-    {/* Copy/Bookmark */}
-    <div class="flex items-center justify-end gap-x-1.5">
+    {/* Copy/Print/Bookmark */}
+    <div class="no-print flex items-center justify-end gap-x-1.5">
       <Clipboard />
       <div
         class="mx-3 block h-4 border-e border-stone-400 dark:border-stone-500"
       >
       </div>
-      <div class="inline-flex">
+      <div class="inline-flex items-center gap-x-1">
+        <PrintRecipe />
         <Bookmark />
       </div>
     </div>

@@ -4,7 +4,7 @@ description: 'Indulge in the wholesome goodness of buckwheat porridge paired wit
 
 pubDate: 2024-01-15
 
-image: '/images/buckwheat-porridge-chicken-corn-salad.avif'
+image: 'buckwheat-porridge-chicken-corn-salad.avif'
 imageAlt: 'Bowl of buckwheat porridge with slices of grilled chicken, corn salad, microgreens, and shredded daikon on top'
 
 cookingTime: 60

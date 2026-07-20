@@ -1,10 +1,10 @@
 ---
 title: 'Pasta with Pesto & Sun-Dried Tomato Sauce, Cauliflower, and Carrots'
-description: 'Enjoy a bowl of your favorite pasta tossed in a savory pesto and sun-dried tomato sauce, served with roasted cauliflower and colorful carrots — a satisfying and nutrient-rich meal.'
+description: 'Enjoy a bowl of your favorite pasta tossed in a savory pesto and sun-dried tomato sauce, served with roasted cauliflower and colorful carrots – a satisfying and nutrient-rich meal.'
 
 pubDate: 2024-01-11
 
-image: '/images/pasta-with-pesto-and-sun-dried-tomato-sauce.avif'
+image: 'pasta-with-pesto-and-sun-dried-tomato-sauce.avif'
 imageAlt: 'Plate of penne pasta with pesto and sun-dried tomato sauce, cauliflower, and carrots'
 
 cookingTime: 40

@@ -1,10 +1,10 @@
 ---
 title: 'Fresh Vegetable Salad'
-description: 'A crisp and refreshing salad made with a colorful mix of fresh vegetables — a perfect side dish or a light meal on its own.'
+description: 'A crisp and refreshing salad made with a colorful mix of fresh vegetables – a perfect side dish or a light meal on its own.'
 
 pubDate: 2024-01-11
 
-image: '/images/fresh-vegetable-salad.avif'
+image: 'fresh-vegetable-salad.avif'
 imageAlt: 'Bowl of fresh vegetable salad'
 
 cookingTime: 15

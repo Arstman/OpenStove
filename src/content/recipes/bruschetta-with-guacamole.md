@@ -4,7 +4,7 @@ description: 'Enjoy a delightful twist on the classic bruschetta with this veget
 
 pubDate: 2024-08-07
 
-image: '/images/bruschetta-with-guacamole.avif'
+image: 'bruschetta-with-guacamole.avif'
 imageAlt: 'Slice of bruschetta topped with guacamole, radish slices, crumbled white cheese, chickpeas, and sage leaves'
 
 cookingTime: 20

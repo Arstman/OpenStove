@@ -5,7 +5,7 @@ description: 'A refreshing salad combining peppery arugula, sweet orange segment
 author: 'mearashadowfax'
 pubDate: 2024-03-05
 
-image: '/images/arugula-orange-mozzarella-salad.avif'
+image: 'arugula-orange-mozzarella-salad.avif'
 imageAlt: 'A plate of arugula, orange, and mozzarella salad topped with balsamic glaze'
 
 cookingTime: 10

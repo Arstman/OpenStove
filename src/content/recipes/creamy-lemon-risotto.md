@@ -1,10 +1,10 @@
 ---
 title: 'Creamy Lemon Risotto Bowl with Barley, Spinach, and Broccoli'
-description: 'This creamy lemon risotto bowl is packed with nutritious fiber-rich barley, vibrant spinach, and crunchy broccoli — an indulgently nutritious meal with a refreshing citrus twist.'
+description: 'This creamy lemon risotto bowl is packed with nutritious fiber-rich barley, vibrant spinach, and crunchy broccoli – an indulgently nutritious meal with a refreshing citrus twist.'
 
 pubDate: 2024-01-11
 
-image: '/images/creamy-lemon-risotto.avif'
+image: 'creamy-lemon-risotto.avif'
 imageAlt: 'Bowl of creamy lemon risotto with barley, spinach, and broccoli'
 
 cookingTime: 60

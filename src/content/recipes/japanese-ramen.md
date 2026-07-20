@@ -5,7 +5,7 @@ description: 'Authentic ramen with rich broth, tender pork, and chewy noodles. A
 author: 'mearashadowfax'
 pubDate: 2024-01-25
 
-image: '/images/miso-ramen.avif'
+image: 'miso-ramen.avif'
 imageAlt: 'A bowl of miso ramen'
 
 cookingTime: 55

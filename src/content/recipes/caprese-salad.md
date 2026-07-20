@@ -4,7 +4,7 @@ description: 'A gourmet twist on the classic Caprese salad featuring ripe tomato
 
 pubDate: 2024-02-04
 
-image: '/images/caprese-salad.avif'
+image: 'caprese-salad.avif'
 imageAlt: 'Gourmet tomato mozzarella Caprese salad with lettuce salad'
 
 cookingTime: 15

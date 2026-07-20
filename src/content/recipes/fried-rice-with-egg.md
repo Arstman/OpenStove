@@ -4,7 +4,7 @@ description: 'This classic Fried Rice with Egg recipe is a simple and satisfying
 
 pubDate: 2024-01-04
 
-image: '/images/fried-rice-with-egg.avif'
+image: 'fried-rice-with-egg.avif'
 imageAlt: 'A plate of savory fried rice with egg, peas, carrots, and green onions'
 
 cookingTime: 20

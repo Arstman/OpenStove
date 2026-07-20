@@ -1,10 +1,10 @@
 ---
 title: 'Aioli and Black Bean Tostada with Bell Pepper and Cabbage'
-description: 'Crunchy tostadas loaded with creamy aioli, seasoned black beans, crisp bell pepper, and shredded cabbage — a colorful, satisfying dish filled with diverse textures and flavors.'
+description: 'Crunchy tostadas loaded with creamy aioli, seasoned black beans, crisp bell pepper, and shredded cabbage – a colorful, satisfying dish filled with diverse textures and flavors.'
 
 pubDate: 2024-01-11
 
-image: '/images/aioli-and-black-bean-tostada.avif'
+image: 'aioli-and-black-bean-tostada.avif'
 imageAlt: 'Plate of aioli and black bean tostada with bell pepper and cabbage'
 
 cookingTime: 30

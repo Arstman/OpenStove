@@ -1,0 +1,43 @@
+---
+import { resolveRecipeImage } from '@/lib/recipeImage';
+
+interface Props {
+  image: string;
+  imageAlt: string;
+  class?: string;
+  loading?: 'eager' | 'lazy';
+  draggable?: boolean | 'true' | 'false';
+}
+
+const {
+  image,
+  imageAlt,
+  class: className = '',
+  loading = 'lazy',
+  draggable = 'false',
+} = Astro.props;
+
+const src = resolveRecipeImage(image);
+---
+
+<img
+  class={`recipe-img ${className}`}
+  src={src}
+  alt={imageAlt || 'Recipe image'}
+  loading={loading}
+  draggable={draggable}
+  data-fallback="/placeholder-recipe.png"
+/>
+
+<script>
+  document
+    .querySelectorAll<HTMLImageElement>('img.recipe-img[data-fallback]')
+    .forEach(img => {
+      img.addEventListener('error', () => {
+        const fallback = img.dataset.fallback;
+        if (fallback && img.src !== fallback) {
+          img.src = fallback;
+        }
+      });
+    });
+</script>

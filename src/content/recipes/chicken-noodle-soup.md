@@ -5,7 +5,7 @@ description: 'A comforting classic made with homemade chicken broth, tender chic
 author: 'mearashadowfax'
 pubDate: 2024-04-19
 
-image: '/images/chicken-noodle-soup.avif'
+image: 'chicken-noodle-soup.avif'
 imageAlt: 'A steaming bowl of chicken noodle soup with carrots, celery, and noodles'
 
 cookingTime: 40

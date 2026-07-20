@@ -53,12 +53,12 @@ import { Icon } from 'astro-icon/components';
             >
               OpenStove is more than just a recipe website; it's a place where
               cooking enthusiasts can come together to share their favorite
-              recipes without any annoying ads or fees — completely free.
+              recipes without any annoying ads or fees – completely free.
               <br /><br />
 
               Born from the belief that cooking should be distraction-free and
               without commercial intrusions, OpenStove thrives on the simplicity
-              of sharing recipes. No ads, no paywalls — just direct access to a
+              of sharing recipes. No ads, no paywalls – just direct access to a
               treasure trove of dishes curated and cherished by an ever-growing
               community of food lovers.
             </p>
@@ -115,7 +115,7 @@ import { Icon } from 'astro-icon/components';
             </h3>
             <p class="mt-2 text-pretty text-stone-700 md:text-lg 2xl:text-xl">
               Hit the bookmark icon, and your chosen recipes are saved as
-              cookies in your browser — no sign-up, all simplicity. Ready to
+              cookies in your browser – no sign-up, all simplicity. Ready to
               cook? Your 'Saved Recipes' tab gathers all your culinary
               selections in one spot, even across different sessions.
             </p>
@@ -166,9 +166,16 @@ import { Icon } from 'astro-icon/components';
           simple steps to add your special recipe to our collection and share
           your culinary flair with the world.
         </p>
-        <div class="mt-4 md:mt-8">
+        <div class="mt-4 flex flex-wrap gap-3 md:mt-8">
           <a
             class="bg-secondary-accent hover:bg-secondary hover:shadow-secondary focus-visible:ring-secondary inline-flex items-center justify-center gap-x-3 rounded-xl border border-transparent px-4 py-3 text-center text-sm font-medium text-orange-800 transition duration-300 hover:shadow-2xl focus:outline-hidden focus-visible:-translate-y-1 focus-visible:ring-2 focus-visible:outline-hidden 2xl:text-base"
+            href="/contribute"
+            data-astro-prefetch
+          >
+            Contribute online
+          </a>
+          <a
+            class="focus-visible:ring-secondary inline-flex items-center justify-center gap-x-3 rounded-xl border border-orange-300 bg-transparent px-4 py-3 text-center text-sm font-medium text-orange-800 transition duration-300 hover:bg-orange-100 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden 2xl:text-base dark:border-stone-600 dark:text-stone-200 dark:hover:bg-stone-800"
             href="https://github.com/mearashadowfax/OpenStove"
             target="_blank"
             rel="noopener noreferrer"
@@ -201,8 +208,13 @@ import { Icon } from 'astro-icon/components';
           </span>
           <div class="ms-5 sm:ms-8">
             <p>
-              Visit our GitHub repository, linked at the top of our website or
-              directly accessible through the given GitHub Repository Link.
+              Prefer the form? Use
+              <a
+                class="underline decoration-2 underline-offset-2"
+                href="/contribute">Contribute online</a
+              >
+              – no Git needed. Or visit our GitHub repository (linked in the nav)
+              to open a pull request.
             </p>
           </div>
         </div>
@@ -368,7 +380,7 @@ import { Icon } from 'astro-icon/components';
             <p
               class="text-lg leading-relaxed text-pretty text-stone-600 sm:text-xl 2xl:text-2xl dark:text-stone-400"
             >
-              OpenStove is your kitchen away from the kitchen — a place to
+              OpenStove is your kitchen away from the kitchen – a place to
               discover, save, and share what's cooking. So what are you waiting
               for? Come join in, click through our recipes, and let's whip up
               some delicious journeys together at OpenStove!

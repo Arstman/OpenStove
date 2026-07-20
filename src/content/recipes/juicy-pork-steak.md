@@ -4,7 +4,7 @@ description: 'Savor the succulence of tender pork steak infused with aromatic ro
 
 pubDate: 2024-01-30
 
-image: '/images/juicy-pork-steak-with-rosemary-tomatoes.avif'
+image: 'juicy-pork-steak-with-rosemary-tomatoes.avif'
 imageAlt: 'A sizzling pork steak with rosemary and tomatoes in a pan'
 
 cookingTime: 30

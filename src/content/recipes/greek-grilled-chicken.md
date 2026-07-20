@@ -4,7 +4,7 @@ description: 'Marinated in flavorful Greek seasonings, this grilled chicken is s
 
 pubDate: 2024-01-08
 
-image: '/images/greek-grilled-chicken-with-green-beans.avif'
+image: 'greek-grilled-chicken-with-green-beans.avif'
 imageAlt: 'Greek grilled chicken with green beans on a plate'
 
 cookingTime: 45

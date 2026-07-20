@@ -4,7 +4,7 @@ description: 'Warm and comforting, this creamy pumpkin soup is a fall favorite, 
 
 pubDate: 2024-01-11
 
-image: '/images/pumpkin-cream-soup.avif'
+image: 'pumpkin-cream-soup.avif'
 imageAlt: 'Bowl of homemade creamy pumpkin soup garnished with cream and herbs'
 
 cookingTime: 45

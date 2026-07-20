@@ -4,7 +4,7 @@ description: 'A vibrant and refreshing salad, combining juicy red heirloom tomat
 
 pubDate: 2024-01-10
 
-image: '/images/heirloom-tomato-and-green-leaf-panzanella-salad.avif'
+image: 'heirloom-tomato-and-green-leaf-panzanella-salad.avif'
 imageAlt: 'Heirloom tomato and green leaf panzanella salad'
 
 cookingTime: 30

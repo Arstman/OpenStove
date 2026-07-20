@@ -12,7 +12,11 @@ const recipes = defineCollection({
     cookingTime: z.number(),
     servings: z.number().optional(),
     scalable: z.boolean().optional(),
-    image: z.string(),
+    image: z
+      .string()
+      .describe(
+        'CDN filename (e.g. tomato-soup.avif), full HTTPS URL, or empty for placeholder'
+      ),
     imageAlt: z.string(),
     author: z.string().default('anonymous'),
     tags: z.array(z.string()).optional(),

@@ -4,7 +4,7 @@ description: 'A refreshing salad bursting with the flavors of fresh garden veget
 
 pubDate: 2024-03-24
 
-image: '/images/fresh-garden-vegetables-salad.avif'
+image: 'fresh-garden-vegetables-salad.avif'
 imageAlt: 'A colorful bowl of fresh garden vegetables salad mix topped with dill'
 
 cookingTime: 15

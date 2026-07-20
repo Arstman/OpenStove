@@ -4,7 +4,7 @@ description: 'Enjoy a classic combination of creamy peanut butter and ripe banan
 
 pubDate: 2024-02-17
 
-image: '/images/peanut-butter-banana-sandwich.avif'
+image: 'peanut-butter-banana-sandwich.avif'
 imageAlt: 'A peanut butter banana sandwich with chia seeds on a wooden cutting board'
 
 cookingTime: 5

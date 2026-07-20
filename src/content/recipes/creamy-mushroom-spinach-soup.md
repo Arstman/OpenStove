@@ -5,7 +5,7 @@ description: 'A comforting and creamy soup loaded with earthy mushrooms and nutr
 author: 'mearashadowfax'
 pubDate: 2024-02-01
 
-image: '/images/creamy-mushroom-spinach-soup.avif'
+image: 'creamy-mushroom-spinach-soup.avif'
 imageAlt: 'A bowl of creamy mushroom and spinach soup garnished with fresh parsley'
 
 cookingTime: 35

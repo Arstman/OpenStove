@@ -5,7 +5,7 @@ description: 'A delicious and flavorful dish combining tender chicken meatballs,
 author: 'mearashadowfax'
 pubDate: 2024-04-03
 
-image: '/images/green-beans-chicken-meatballs-fried.avif'
+image: 'green-beans-chicken-meatballs-fried.avif'
 imageAlt: 'A plate of Asian-style green beans fried with chicken meatballs and garlic, garnished with sesame seeds'
 
 cookingTime: 45

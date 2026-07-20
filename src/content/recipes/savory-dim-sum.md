@@ -4,7 +4,7 @@ description: 'Indulge in the rich flavors of Chinese cuisine with these savory d
 
 pubDate: 2024-01-11
 
-image: '/images/dimsum.avif'
+image: 'dimsum.avif'
 imageAlt: 'Plate of savory dim sum'
 
 cookingTime: 60
@@ -49,7 +49,7 @@ ingredients:
 
 recipeNotes:
   [
-    'Feel free to get creative with your fillings—add different meats, seafood, or vegetables as per your preference.',
+    'Feel free to get creative with your fillings–add different meats, seafood, or vegetables as per your preference.',
     'Dumpling Wrappers: These can usually be found in the freezer aisle of any Asian grocery store. Make sure to leave them out at room temperature for a bit before trying to separate them.',
     'Freezing: You can make these in bulk and freeze them. Just place them in a single layer on a baking sheet and freeze until solid before transferring them to a bag or container. You can cook them straight from the freezer, adding a few extra minutes to the cooking time.',
     'Gluten-Free: For a gluten-free version, make sure you are using gluten-free dumpling wrappers and soy sauce.',

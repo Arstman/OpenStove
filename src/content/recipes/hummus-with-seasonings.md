@@ -4,7 +4,7 @@ description: 'A creamy hummus infused with aromatic spices like chili flakes and
 
 pubDate: 2024-02-07
 
-image: '/images/hummus-with-seasonings.avif'
+image: 'hummus-with-seasonings.avif'
 imageAlt: 'Creamy hummus garnished with chili flakes and nutmeg powder'
 
 cookingTime: 15

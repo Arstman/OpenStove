@@ -5,7 +5,7 @@ description: 'Experience the bold and aromatic flavors of India with this spicy 
 author: 'mearashadowfax'
 pubDate: 2024-02-03
 
-image: '/images/indian-dal-spicy-curry-bowl.avif'
+image: 'indian-dal-spicy-curry-bowl.avif'
 imageAlt: 'Indian Dal Spicy Curry Bowl'
 
 cookingTime: 45

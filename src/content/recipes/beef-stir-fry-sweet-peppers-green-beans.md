@@ -5,7 +5,7 @@ description: 'A savory and colorful dish featuring tender beef strips stir-fried
 author: 'mearashadowfax'
 pubDate: 2024-02-23
 
-image: '/images/beef-stir-fry-sweet-peppers.avif'
+image: 'beef-stir-fry-sweet-peppers.avif'
 imageAlt: 'Beef stir-fry with sweet peppers and green beans'
 
 cookingTime: 40

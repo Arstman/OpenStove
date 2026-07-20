@@ -1,10 +1,10 @@
 ---
 title: 'Homemade Oat Pancakes with Blueberries'
-description: 'Start your day with these wholesome oat pancakes, bursting with the fresh sweetness of blueberries — a healthy twist on a breakfast classic.'
+description: 'Start your day with these wholesome oat pancakes, bursting with the fresh sweetness of blueberries – a healthy twist on a breakfast classic.'
 
 pubDate: 2024-01-11
 
-image: '/images/homemade-oat-pancakes-with-blueberries.avif'
+image: 'homemade-oat-pancakes-with-blueberries.avif'
 imageAlt: 'A stack of homemade oat pancakes topped with blueberries and syrup'
 
 cookingTime: 20

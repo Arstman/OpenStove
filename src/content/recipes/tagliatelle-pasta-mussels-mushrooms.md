@@ -5,7 +5,7 @@ description: 'A delightful Italian-inspired dish featuring tender mussels and sa
 author: 'mearashadowfax'
 pubDate: 2024-02-01
 
-image: '/images/tagliatelle-mussels-mushrooms.avif'
+image: 'tagliatelle-mussels-mushrooms.avif'
 imageAlt: 'A plate of tagliatelle pasta with mussels and mushrooms in a garlic white wine sauce'
 
 cookingTime: 40

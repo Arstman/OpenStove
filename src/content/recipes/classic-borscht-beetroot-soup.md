@@ -4,7 +4,7 @@ description: 'Savor the deep flavors and hearty warmth of a classic Ukrainian so
 
 pubDate: 2024-01-13
 
-image: '/images/classic-borscht.avif'
+image: 'classic-borscht.avif'
 imageAlt: 'Bowl of classic borscht garnished with sour cream and dill'
 
 cookingTime: 90

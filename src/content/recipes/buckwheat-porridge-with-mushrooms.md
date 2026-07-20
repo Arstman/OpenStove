@@ -5,7 +5,7 @@ description: 'A comforting and nutritious bowl of porridge made with buckwheat g
 author: 'mearashadowfax'
 pubDate: 2024-03-03
 
-image: '/images/buckwheat-porridge-with-mushrooms.avif'
+image: 'buckwheat-porridge-with-mushrooms.avif'
 imageAlt: 'Bowl of buckwheat porridge topped with sautéed mushrooms'
 
 cookingTime: 30

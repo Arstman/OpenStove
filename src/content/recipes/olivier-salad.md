@@ -4,7 +4,7 @@ description: 'A traditional Russian salad featuring a medley of diced vegetables
 
 pubDate: 2024-02-09
 
-image: '/images/olivier-salad-with-salmon-caviar.avif'
+image: 'olivier-salad-with-salmon-caviar.avif'
 imageAlt: 'Russian Olivier salad with salmon caviar'
 
 cookingTime: 45

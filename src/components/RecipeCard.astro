@@ -1,8 +1,7 @@
 ---
-import { Image } from 'astro:assets';
-import placeholder from '../images/placeholder.png';
 import type { CollectionEntry } from 'astro:content';
 import { capitalize } from '../utils';
+import RecipeImage from './RecipeImage.astro';
 
 const { recipe } = Astro.props;
 
@@ -12,16 +11,16 @@ interface Props {
 ---
 
 <a
-  class="group focus-visible:ring-secondary flex h-full flex-col rounded-xl border border-orange-200 p-5 transition-all duration-300 hover:border-transparent hover:bg-orange-100 hover:shadow-lg focus-visible:ring-2 focus-visible:outline-hidden dark:border-stone-700/40 dark:hover:border-transparent dark:hover:bg-stone-100/[.05] dark:hover:shadow-black/[.4]"
+  class="group focus-visible:ring-secondary flex h-full flex-col rounded-xl border border-orange-200 p-5 transition-all duration-300 hover:border-transparent hover:bg-orange-100 hover:shadow-lg focus-visible:ring-2 focus-visible:outline-hidden dark:border-stone-700/40 dark:hover:border-transparent dark:hover:bg-stone-100/5 dark:hover:shadow-black/40"
   href={'/recipes/' + recipe.id}
   data-astro-prefetch
 >
   <div class="aspect-w-16 aspect-h-11 overflow-clip rounded-xl">
-    <Image
+    <RecipeImage
       class="aspect-3/2 w-full rounded-xl object-cover transition duration-500 group-hover:scale-110"
-      src={placeholder}
-      alt="Image Description"
-      draggable={'false'}
+      image={recipe.data.image}
+      imageAlt={recipe.data.imageAlt}
+      draggable="false"
     />
   </div>
   <div class="my-6">

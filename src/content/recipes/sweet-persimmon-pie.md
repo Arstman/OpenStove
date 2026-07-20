@@ -4,7 +4,7 @@ description: 'A delightful dessert featuring the unique flavor of ripe persimmon
 
 pubDate: 2024-03-16
 
-image: '/images/persimmon-pie.avif'
+image: 'persimmon-pie.avif'
 imageAlt: 'Slice of sweet persimmon pie'
 
 cookingTime: 60

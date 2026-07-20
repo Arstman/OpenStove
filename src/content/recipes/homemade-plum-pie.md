@@ -5,7 +5,7 @@ description: 'Indulge in the comforting flavors of this homemade plum pie, burst
 author: 'mearashadowfax'
 pubDate: 2024-02-04
 
-image: '/images/homemade-plum-cake-pie.avif'
+image: 'homemade-plum-cake-pie.avif'
 imageAlt: 'A homemade plum pie topped with sliced plums and dusted with powdered sugar'
 
 cookingTime: 60

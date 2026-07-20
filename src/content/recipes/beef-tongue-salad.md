@@ -4,7 +4,7 @@ description: 'A hearty and flavorful salad featuring tender beef tongue, creamy 
 
 pubDate: 2024-03-10
 
-image: '/images/beef-tongue-salad.avif'
+image: 'beef-tongue-salad.avif'
 imageAlt: 'A plate of beef tongue salad with potato, spinach, and mushrooms'
 
 cookingTime: 90

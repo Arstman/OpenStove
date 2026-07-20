@@ -5,7 +5,7 @@ description: 'Crispy fried chickpeas tossed in spicy seasonings for a flavorful 
 author: 'mearashadowfax'
 pubDate: 2024-03-16
 
-image: '/images/spicy-chickpeas-fried.avif'
+image: 'spicy-chickpeas-fried.avif'
 imageAlt: 'Bowl of fried spicy chickpeas'
 
 cookingTime: 20

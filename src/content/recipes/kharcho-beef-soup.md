@@ -5,7 +5,7 @@ description: 'A hearty and flavorful Georgian soup featuring tender beef, fluffy
 author: 'mearashadowfax'
 pubDate: 2024-04-21
 
-image: '/images/kharcho-soup.avif'
+image: 'kharcho-soup.avif'
 imageAlt: 'A bowl of kharcho soup with red broth, chunks of beef, rice, and fresh herbs'
 
 cookingTime: 60

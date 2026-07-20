@@ -4,7 +4,7 @@ description: 'Creamy coconut milk, fragrant basil, and spicy Thai curry paste pa
 
 pubDate: 2024-01-23
 
-image: '/images/thai-basil-coconut-curry-salmon.avif'
+image: 'thai-basil-coconut-curry-salmon.avif'
 imageAlt: 'Bowl of Thai basil coconut curry with salmon'
 
 cookingTime: 45

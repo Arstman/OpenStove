@@ -5,7 +5,7 @@ description: 'A rich and flavorful Indian curry featuring tender chicken tikka p
 author: 'mearashadowfax'
 pubDate: 2024-02-26
 
-image: '/images/chicken-tikka-masala.avif'
+image: 'chicken-tikka-masala.avif'
 imageAlt: 'A bowl of chicken tikka masala curry garnished with fresh cilantro'
 
 cookingTime: 60

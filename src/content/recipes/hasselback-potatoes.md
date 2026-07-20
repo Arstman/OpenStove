@@ -4,7 +4,7 @@ description: 'A classic Swedish side dish, Hasselback potatoes are sliced into t
 
 pubDate: 2024-01-05
 
-image: '/images/hasselback-potatoes.avif'
+image: 'hasselback-potatoes.avif'
 imageAlt: 'Plate of Hasselback potatoes'
 
 cookingTime: 60

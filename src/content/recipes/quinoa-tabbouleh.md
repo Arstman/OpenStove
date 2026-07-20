@@ -5,7 +5,7 @@ description: 'A refreshing and nutritious twist on traditional tabbouleh, using 
 author: 'mearashadowfax'
 pubDate: 2024-01-21
 
-image: '/images/quinoa-tabbouleh.avif'
+image: 'quinoa-tabbouleh.avif'
 imageAlt: 'A bowl of fresh quinoa tabbouleh'
 
 cookingTime: 30

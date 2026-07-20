@@ -4,7 +4,7 @@ description: 'A hearty lentil soup featuring tender carrots and a hint of spice 
 
 pubDate: 2024-02-01
 
-image: '/images/german-lentil-soup.avif'
+image: 'german-lentil-soup.avif'
 imageAlt: 'A bowl of German lentil soup with carrots and red chili pepper garnished with fresh parsley'
 
 cookingTime: 45

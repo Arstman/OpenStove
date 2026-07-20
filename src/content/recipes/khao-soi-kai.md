@@ -4,7 +4,7 @@ description: 'Khao Soi Kai is a traditional Northern Thai dish featuring tender 
 
 pubDate: 2024-03-30
 
-image: '/images/khao-soi-kai-thai-noodle-soup.avif'
+image: 'khao-soi-kai-thai-noodle-soup.avif'
 imageAlt: 'Bowl of Khao Soi Kai Thai noodle soup with chicken'
 
 cookingTime: 60

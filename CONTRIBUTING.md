@@ -2,9 +2,13 @@
 
 Thank you for your interest in contributing to OpenStove! We value your contributions and aim to make the process seamless and understandable, whether you're submitting new recipes or suggesting improvements.
 
-## Getting Started
+## Easy path: online form
 
-To contribute to OpenStove, please make sure you have:
+No Git required – use the [Contribute form](https://openstove.org/contribute) on the site. Submissions open a GitHub issue with generated Markdown for maintainers to review.
+
+## GitHub pull request path
+
+To contribute via Git, please make sure you have:
 
 - A GitHub account. [Sign up here](https://github.com/signup) if you haven't yet.
 - Forked the OpenStove repository to your own account. Here's the [link to our repository](https://github.com/mearashadowfax/OpenStove).
@@ -24,7 +28,7 @@ description: 'A short description of the dish. Aim for one or two sentences that
 author: 'Your Name, GitHub Username or Alias' # Optional, if not provided, remove the block, will be set to default "anonymous".
 pubDate: YYYY-MM-DD # Publication date when you are writing the recipe.
 
-image: '' # Optional: URL of an image or relative path to an image within the repository.
+image: '' # Optional: CDN filename (e.g. tomato-soup.avif) or HTTPS URL you have rights to. Do NOT commit photo binaries to this repo.
 imageAlt: '' # Optional: A brief description of the image for accessibility.
 
 cookingTime: # Cooking time in minutes.
@@ -82,7 +86,13 @@ slug: name-of-your-dish # A URL-friendly version of your recipe's title.
 - Write ingredients for the **entire recipe**
 - Users see "Serves X people" instead of scaling controls
 
-Be sure to adhere to the placeholder structure, replacing the fields with the relevant details of your recipe. If an image is not provided, leave the image field empty. We will find an appropriate image for your recipe.
+Be sure to adhere to the placeholder structure, replacing the fields with the relevant details of your recipe. If an image is not provided, leave the image field empty. Maintainers host licensed photos on a private CDN (not in this repository) and set the filename after review.
+
+### Images and licensing
+
+- Recipe **text** in this repository is covered by [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+- Recipe **photos are not part of the public git tree** (separate rights). Do not open PRs that add files under `public/images/` or commit `.avif` recipe photos.
+- You may optionally include an `image` HTTPS URL to a photo you own; otherwise leave `image` empty.
 
 Please note that if you want to keep the field blank, keep the `""`. Also, please check the [ready-to-go template](https://github.com/mearashadowfax/OpenStove/blob/main/Ready-to-go-Template.md?plain=1) with no placeholders.
 
@@ -117,6 +127,6 @@ OpenStove is dedicated to providing a welcoming and inclusive community. Please 
 
 ## Licensing
 
-By contributing to OpenStove, you agree to license your content under the same terms as the OpenStove project itself.
+By contributing recipe text to OpenStove, you agree to license that content under the same terms as the OpenStove project itself (CC BY-NC-SA 4.0). Photo rights remain separate unless you explicitly grant them.
 
 Thank you for contributing to OpenStove and helping to create a rich repository of diverse and delicious recipes!

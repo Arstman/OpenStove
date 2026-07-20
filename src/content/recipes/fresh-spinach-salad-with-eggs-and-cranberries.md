@@ -4,7 +4,7 @@ description: 'Dive into this vibrant spinach salad featuring boiled eggs, spicy 
 
 pubDate: 2024-01-12
 
-image: '/images/spinach-salad-with-eggs-cranberries.avif'
+image: 'spinach-salad-with-eggs-cranberries.avif'
 imageAlt: 'Bowl of fresh spinach salad with sliced eggs, chili pepper, and cranberries'
 
 cookingTime: 20

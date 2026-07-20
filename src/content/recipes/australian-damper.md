@@ -4,7 +4,7 @@ description: "Traditional Australian bush bread that's simple to make with just 
 
 pubDate: 2025-05-24
 
-image: '/images/damper.avif'
+image: 'damper.avif'
 imageAlt: 'Rustic round loaf of Australian damper bread with golden crust, sitting on a wooden board'
 
 cookingTime: 45

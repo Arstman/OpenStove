@@ -4,7 +4,7 @@ description: 'A robust and flavorful stew featuring ground beef, a medley of bea
 
 pubDate: 2024-06-30
 
-image: '/images/chili-con-carne.avif'
+image: 'chili-con-carne.avif'
 imageAlt: 'A bowl of chili con carne'
 
 cookingTime: 60

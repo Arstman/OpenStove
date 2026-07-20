@@ -4,7 +4,7 @@ description: 'Experience the fresh flavors of Japan with this traditional salad,
 
 pubDate: 2024-01-14
 
-image: '/images/japanese-ahi-tuna-salad.avif'
+image: 'japanese-ahi-tuna-salad.avif'
 imageAlt: 'Plateful of Japanese-style salad topped with sliced medium-rare ahi tuna and sesame seeds'
 
 cookingTime: 25

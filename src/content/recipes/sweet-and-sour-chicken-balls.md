@@ -4,7 +4,7 @@ description: 'Crispy, golden brown chicken encased in a tangy, sticky sweet and 
 
 pubDate: 2024-01-17
 
-image: '/images/sweet-and-sour-chicken-balls.avif'
+image: 'sweet-and-sour-chicken-balls.avif'
 imageAlt: 'Plate of sweet and sour chicken balls'
 
 cookingTime: 60

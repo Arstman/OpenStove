@@ -4,7 +4,7 @@ description: 'A traditional Irish stew made with tender beef, potatoes, carrots,
 
 pubDate: 2024-06-30
 
-image: '/images/irish-beef-stew.avif'
+image: 'irish-beef-stew.avif'
 imageAlt: 'A hearty bowl of Irish beef stew with chunks of beef, potatoes, and carrots'
 
 cookingTime: 120

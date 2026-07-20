@@ -4,7 +4,7 @@ description: 'Delicious Swedish meatballs smothered in a creamy sauce, perfect f
 
 pubDate: 2024-01-30
 
-image: '/images/swedish-meatballs-cream-sauce.avif'
+image: 'swedish-meatballs-cream-sauce.avif'
 imageAlt: 'Plate of Swedish meatballs with creamy sauce garnished with parsley'
 
 cookingTime: 40

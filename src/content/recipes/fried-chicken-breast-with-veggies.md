@@ -5,7 +5,7 @@ description: 'A simple, fast and healthy one-pan meal perfect for a single servi
 author: 'mearashadowfax'
 pubDate: 2024-01-07
 
-image: '/images/chicken-veggie-stir-fry.avif'
+image: 'chicken-veggie-stir-fry.avif'
 imageAlt: 'Crispy chicken breast stir-fried with bell peppers, broccoli, onions, and topped with green onion slices'
 
 cookingTime: 30

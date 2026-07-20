@@ -4,7 +4,7 @@ description: "Indulge in the rich flavor of duck with this pan-seared duck breas
 
 pubDate: 2024-02-29
 
-image: '/images/pan-seared-duck-breast.avif'
+image: 'pan-seared-duck-breast.avif'
 imageAlt: 'Pan-seared duck breast fillet served with a side of roasted vegetables'
 
 cookingTime: 20

@@ -6,7 +6,7 @@ description: 'This recipe delivers juicy, flavorful chicken with a crispy golden
 author: 'mearashadowfax'
 pubDate: 2024-04-11
 
-image: '/images/rotisserie-chicken.avif'
+image: 'rotisserie-chicken.avif'
 imageAlt: 'A whole roasted chicken with golden brown skin on a platter garnished with thyme sprigs'
 
 cookingTime: 100

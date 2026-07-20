@@ -4,7 +4,7 @@ description: 'A vibrant and nutritious salad packed with vitamins and flavor, fe
 
 pubDate: 2024-02-25
 
-image: '/images/vitamin-salad.avif'
+image: 'vitamin-salad.avif'
 imageAlt: 'Vitamin salad with fresh tomatoes, arugula, feta cheese, and peppers'
 
 cookingTime: 15

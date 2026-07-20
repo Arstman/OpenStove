@@ -5,7 +5,7 @@ description: 'Enjoy the exquisite flavors of pan-seared Picanha beef steaks, a d
 author: 'mearashadowfax'
 pubDate: 2024-01-28
 
-image: '/images/pan-seared-picanha-beef-steaks.avif'
+image: 'pan-seared-picanha-beef-steaks.avif'
 imageAlt: 'Pan-seared Picanha beef steaks sizzling in a skillet'
 
 cookingTime: 20

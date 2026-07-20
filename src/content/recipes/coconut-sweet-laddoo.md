@@ -1,10 +1,10 @@
 ---
 title: 'Coconut Sweet Laddoo (Nariyal Laddu)'
-description: 'Traditional Indian coconut balls sweetened with condensed milk and cardamom — a delightful treat for festivals and special occasions.'
+description: 'Traditional Indian coconut balls sweetened with condensed milk and cardamom – a delightful treat for festivals and special occasions.'
 
 pubDate: 2024-02-05
 
-image: '/images/coconut-sweet-laddoo.avif'
+image: 'coconut-sweet-laddoo.avif'
 imageAlt: 'A plate of homemade coconut sweet laddoos garnished with chopped nuts'
 
 cookingTime: 30

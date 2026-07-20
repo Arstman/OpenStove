@@ -4,7 +4,7 @@ description: 'Indulge in a delicious chicken and potato salad, generously coated
 
 pubDate: 2024-03-02
 
-image: '/images/chicken-potato-salad-mayonnaise.avif'
+image: 'chicken-potato-salad-mayonnaise.avif'
 imageAlt: 'A bowl of chicken potato salad with a creamy mayonnaise dressing'
 
 cookingTime: 45

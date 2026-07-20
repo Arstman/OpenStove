@@ -4,7 +4,7 @@ description: 'A comforting and hearty soup full of beans, pasta, and vegetables.
 
 pubDate: 2024-01-10
 
-image: '/images/minestrone.avif'
+image: 'minestrone.avif'
 imageAlt: 'Bowl of classic minestrone soup'
 
 cookingTime: 60

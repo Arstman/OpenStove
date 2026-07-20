@@ -1,10 +1,10 @@
 ---
 title: 'Crisp Kale Salad'
-description: 'A nutritious and flavorful salad made with kale, tossed with a zesty dressing and garnished with your favorite toppings — a great addition to any balanced meal.'
+description: 'A nutritious and flavorful salad made with kale, tossed with a zesty dressing and garnished with your favorite toppings – a great addition to any balanced meal.'
 
 pubDate: 2024-01-11
 
-image: '/images/kale-salad.avif'
+image: 'kale-salad.avif'
 imageAlt: 'Bowl of crisp kale salad'
 
 cookingTime: 15

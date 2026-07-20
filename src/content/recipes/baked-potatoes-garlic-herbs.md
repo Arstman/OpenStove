@@ -4,7 +4,7 @@ description: 'Savor the delightful combination of oven-baked potatoes infused wi
 
 pubDate: 2024-03-07
 
-image: '/images/baked-potatoes-chanterelles.avif'
+image: 'baked-potatoes-chanterelles.avif'
 imageAlt: 'Baked potatoes topped with fried chanterelle mushrooms, garlic, and herbs'
 
 cookingTime: 60

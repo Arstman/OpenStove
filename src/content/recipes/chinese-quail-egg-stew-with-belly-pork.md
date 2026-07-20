@@ -4,7 +4,7 @@ description: 'A hearty and flavorful Chinese stew featuring tender quail eggs an
 
 pubDate: 2024-02-16
 
-image: '/images/quail-egg-stew.avif'
+image: 'quail-egg-stew.avif'
 imageAlt: 'A bowl of Chinese quail egg stew with belly pork'
 
 cookingTime: 90

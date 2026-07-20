@@ -4,7 +4,7 @@ description: 'A hearty and flavorful chicken ragout served with crispy fried chi
 
 pubDate: 2024-02-18
 
-image: '/images/chicken-ragout-fried-drumsticks.avif'
+image: 'chicken-ragout-fried-drumsticks.avif'
 imageAlt: 'Chicken ragout with fried chicken drumsticks, onions, bell peppers, and greens'
 
 cookingTime: 60

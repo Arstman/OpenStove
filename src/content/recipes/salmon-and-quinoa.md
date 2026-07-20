@@ -4,7 +4,7 @@ description: 'This protein-packed dish comprises seared salmon, fluffy quinoa, f
 
 pubDate: 2024-01-11
 
-image: '/images/salmon-and-quinoa.avif'
+image: 'salmon-and-quinoa.avif'
 imageAlt: 'Plate of salmon and quinoa with cherry tomatoes and green lentils'
 
 cookingTime: 50

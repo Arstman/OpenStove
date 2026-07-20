@@ -5,7 +5,7 @@ description: 'A classic Italian Bolognese sauce enhanced with the subtle aroma o
 author: 'mearashadowfax'
 pubDate: 2024-02-11
 
-image: '/images/bolognese-sauce.avif'
+image: 'bolognese-sauce.avif'
 imageAlt: 'Homemade Italian Bolognese sauce with fresh thyme'
 
 cookingTime: 60

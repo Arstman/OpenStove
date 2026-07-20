@@ -4,7 +4,7 @@ description: 'A classic French dessert featuring a crisp pastry shell filled wit
 
 pubDate: 2024-01-22
 
-image: '/images/traditional-french-lemon-tart.avif'
+image: 'traditional-french-lemon-tart.avif'
 imageAlt: 'A classic French lemon tart garnished with lemon zest and mint'
 
 cookingTime: 90

@@ -1,11 +1,11 @@
 ---
 title: 'Creamy Tomato Soup'
-description: 'A velvety and comforting classic — this creamy tomato soup is simple to make and perfect for any season.'
+description: 'A velvety and comforting classic – this creamy tomato soup is simple to make and perfect for any season.'
 
 author: 'mearashadowfax'
 pubDate: 2024-01-17
 
-image: '/images/tomato-soup.avif'
+image: 'tomato-soup.avif'
 imageAlt: 'A bowl of creamy tomato soup with a swirl of cream and basil'
 
 cookingTime: 40

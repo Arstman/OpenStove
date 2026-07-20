@@ -37,17 +37,24 @@ import AccordionItem from './AccordionItem.astro';
         collapseId="hs-basic-with-title-and-arrow-stretched-collapse-two"
         heading="How can I contribute a recipe to OpenStove?"
       >
-        If you're passionate about your culinary creations and wish to share
-        them with the community, simply submit a pull request through our
+        The easiest way is our
+        <a
+          class="focus-visible:ring-secondary rounded-md font-medium whitespace-nowrap underline decoration-2 underline-offset-2 hover:text-stone-600 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden dark:hover:text-stone-400"
+          href="/contribute"
+        >
+          online contribution form
+        </a>
+        – no Git required. Prefer the open-source workflow? Submit a pull request
+        through our
         <a
           class="focus-visible:ring-secondary rounded-md font-medium whitespace-nowrap underline decoration-2 underline-offset-2 hover:text-stone-600 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden dark:hover:text-stone-400"
           href="https://github.com/mearashadowfax/OpenStove"
           target="_blank"
         >
           GitHub repository
-        </a>. Make sure to follow the recipe format guidelines with Astro's
-        collections and markdown files. Once reviewed, your recipe will be added
-        to OpenStove for everyone to savor.
+        </a>
+        following the Markdown recipe format. Maintainers review submissions and add
+        licensed photos separately (photos are not stored in the public repo).
       </AccordionItem>
 
       <AccordionItem
@@ -55,10 +62,16 @@ import AccordionItem from './AccordionItem.astro';
         collapseId="hs-basic-with-title-and-arrow-stretched-collapse-three"
         heading="Is coding knowledge required for contributing?"
       >
-        Basic knowledge of Git and Markdown formatting is helpful for submitting
-        recipes. However, we've made our guidelines clear and accessible to
-        guide you through the process. If you need help, our community is always
-        here to assist!
+        No. Use the
+        <a
+          class="focus-visible:ring-secondary rounded-md font-medium whitespace-nowrap underline decoration-2 underline-offset-2 hover:text-stone-600 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden dark:hover:text-stone-400"
+          href="/contribute"
+        >
+          contribute form
+        </a>
+        to share a recipe without touching code. Git and Markdown remain available
+        for contributors who prefer pull requests – our guidelines walk you through
+        that path too.
       </AccordionItem>
 
       <AccordionItem
@@ -80,7 +93,7 @@ import AccordionItem from './AccordionItem.astro';
         heading="What makes OpenStove different from other recipe websites?"
       >
         OpenStove is a no-nonsense, zero-ad recipe database that's powered by
-        the culinary community. It's all about the content — crisp, clear, and
+        the culinary community. It's all about the content – crisp, clear, and
         straight to the plate. Plus, our open-source approach means anyone can
         contribute and access recipes without any commercial gatekeeping.
       </AccordionItem>
@@ -91,7 +104,7 @@ import AccordionItem from './AccordionItem.astro';
         heading="Is OpenStove free to use?"
       >
         Yes, OpenStove is completely free and accessible to everybody. There are
-        no hidden fees or premium content — our goal is to make cooking
+        no hidden fees or premium content – our goal is to make cooking
         knowledge universally available.
       </AccordionItem>
     </div>

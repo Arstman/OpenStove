@@ -4,7 +4,7 @@ description: 'Satisfy your cravings with this delightful chocolate banana sandwi
 
 pubDate: 2024-02-06
 
-image: '/images/chocolate-banana-sandwich.avif'
+image: 'chocolate-banana-sandwich.avif'
 imageAlt: 'A chocolate banana sandwich with chia seeds on a white plate'
 
 cookingTime: 5

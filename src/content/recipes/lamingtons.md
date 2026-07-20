@@ -4,7 +4,7 @@ description: 'Classic Australian sponge cake squares coated in chocolate icing a
 
 pubDate: 2025-05-24
 
-image: '/images/lamingtons.avif'
+image: 'lamingtons.avif'
 imageAlt: 'Square pieces of lamington cake covered in chocolate icing and coconut on a white plate'
 
 cookingTime: 90

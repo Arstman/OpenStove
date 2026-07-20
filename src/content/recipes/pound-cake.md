@@ -5,7 +5,7 @@ description: 'A dense and buttery pound cake bursting with almond flavor. Perfec
 author: 'mearashadowfax'
 pubDate: 2024-04-24
 
-image: '/images/almond-pound-cake.avif'
+image: 'almond-pound-cake.avif'
 imageAlt: 'A close-up of a slice of pound cake with almonds on a plate'
 
 cookingTime: 75

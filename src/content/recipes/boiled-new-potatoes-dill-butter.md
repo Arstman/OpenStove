@@ -4,7 +4,7 @@ description: 'A classic and flavorful side dish featuring tender new potatoes to
 
 pubDate: 2024-02-01
 
-image: '/images/boiled-new-potatoes-dill-butter.avif'
+image: 'boiled-new-potatoes-dill-butter.avif'
 imageAlt: 'A plate of boiled new potatoes with dill and butter, garnished with fresh dill leaves'
 
 cookingTime: 20

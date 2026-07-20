@@ -1,11 +1,6 @@
-# Module scripts
-*.mjs
-
-# Prettier configuration
-.prettierrc
-
 # Build output
 dist/
+.vercel/
 
 # Generated types
 .astro/
@@ -24,6 +19,11 @@ pnpm-debug.log*
 # Environment variables
 .env
 .env.production
+.env.local
 
 # macOS-specific files
 .DS_Store
+
+# Recipe photos stay out of the public repo (licensing). Upload via scripts/upload-recipe-images.mjs
+public/images/
+src/images/*.avif

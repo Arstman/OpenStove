@@ -4,7 +4,7 @@ description: 'A refreshing and nutritious salad combining the goodness of spinac
 
 pubDate: 2024-02-18
 
-image: '/images/spinach-salad-with-avocado-peas.avif'
+image: 'spinach-salad-with-avocado-peas.avif'
 imageAlt: 'A bowl of spinach salad with slices of avocado and peas'
 
 cookingTime: 10

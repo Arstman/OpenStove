@@ -5,7 +5,7 @@ description: 'A delightful twist on the classic Eggs Benedict, featuring perfect
 author: 'mearashadowfax'
 pubDate: 2024-02-01
 
-image: '/images/portioned-eggs-benedict-toast-salmon.avif'
+image: 'portioned-eggs-benedict-toast-salmon.avif'
 imageAlt: 'Portioned eggs benedict toast with smoked salmon and hollandaise sauce, garnished with chives'
 
 cookingTime: 20
