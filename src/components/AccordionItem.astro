@@ -5,7 +5,10 @@
   id={Astro.props.id}
 >
   <button
+    type="button"
+    id={`${Astro.props.id}-trigger`}
     aria-controls={Astro.props.collapseId}
+    aria-expanded={Astro.props.isActive ? 'true' : 'false'}
     class="hs-accordion-toggle group text-dark focus-visible:ring-secondary inline-flex w-full items-center justify-between gap-x-3 rounded-lg pb-3 text-start font-bold transition duration-300 hover:text-stone-600 focus-visible:ring-2 focus-visible:outline-hidden md:text-lg 2xl:text-xl dark:text-stone-100 dark:hover:text-stone-400 dark:focus:outline-hidden"
   >
     {Astro.props.heading}
@@ -50,3 +53,19 @@
     </p>
   </div>
 </div>
+
+<script>
+  document.querySelectorAll('.hs-accordion-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      // Preline toggles the active class on the parent; sync aria-expanded after it runs
+      requestAnimationFrame(() => {
+        const accordion = button.closest('.hs-accordion');
+        if (!accordion) return;
+        button.setAttribute(
+          'aria-expanded',
+          accordion.classList.contains('active') ? 'true' : 'false'
+        );
+      });
+    });
+  });
+</script>

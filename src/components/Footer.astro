@@ -17,6 +17,42 @@ import { Icon } from 'astro-icon/components';
         Dive into a community-curated collection of recipes.
       </p>
     </div>
+
+    <nav aria-label="Footer" class="mt-6">
+      <ul
+        class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-medium 2xl:text-base"
+      >
+        <li>
+          <a
+            class="text-footer hover:text-dark focus-visible:ring-secondary underline-offset-2 transition duration-300 hover:underline focus:outline-hidden focus-visible:ring-2"
+            href="/recipes"
+            data-astro-prefetch>Recipes</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-footer hover:text-dark focus-visible:ring-secondary underline-offset-2 transition duration-300 hover:underline focus:outline-hidden focus-visible:ring-2"
+            href="/recipes/saved"
+            data-astro-prefetch>Saved</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-footer hover:text-dark focus-visible:ring-secondary underline-offset-2 transition duration-300 hover:underline focus:outline-hidden focus-visible:ring-2"
+            href="/contribute"
+            data-astro-prefetch>Contribute</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-footer hover:text-dark focus-visible:ring-secondary underline-offset-2 transition duration-300 hover:underline focus:outline-hidden focus-visible:ring-2"
+            href="/about"
+            data-astro-prefetch>About</a
+          >
+        </li>
+      </ul>
+    </nav>
+
     <hr class="my-4 border border-black/5" />
     <div class="mt-3 flex flex-col-reverse justify-between gap-2 md:flex-row">
       <p class="text-footer-light text-sm text-pretty 2xl:text-base">
@@ -27,7 +63,8 @@ import { Icon } from 'astro-icon/components';
         <a
           class="focus-visible:ring-secondary text-footer hover:text-dark font-medium underline underline-offset-2 transition duration-300 hover:decoration-dashed focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden"
           href="https://www.gulamoff.dev"
-          target="_blank">gulamoff</a
+          target="_blank"
+          rel="noopener noreferrer">gulamoff</a
         >
         {` `}
         for a wholesome cooking journey online.

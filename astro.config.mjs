@@ -21,7 +21,14 @@ export default defineConfig({
         {
           userAgent: '*',
           allow: '/',
-          disallow: ['/404', '/saved', '/contribute', '/keystatic', '/api'],
+          disallow: [
+            '/404',
+            '/recipes/saved',
+            '/recipes/search',
+            '/contribute',
+            '/keystatic',
+            '/api',
+          ],
           crawlDelay: 1,
         },
       ],

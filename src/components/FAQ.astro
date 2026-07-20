@@ -50,6 +50,7 @@ import AccordionItem from './AccordionItem.astro';
           class="focus-visible:ring-secondary rounded-md font-medium whitespace-nowrap underline decoration-2 underline-offset-2 hover:text-stone-600 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden dark:hover:text-stone-400"
           href="https://github.com/mearashadowfax/OpenStove"
           target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub repository
         </a>
@@ -79,12 +80,15 @@ import AccordionItem from './AccordionItem.astro';
         collapseId="hs-basic-with-title-and-arrow-stretched-collapse-four"
         heading="Can I save my favorite recipes?"
       >
-        Absolutely! You can bookmark your favorite recipes for quick access
-        during your future visits. Just click the bookmark icon on any recipe
-        page to save it. All your bookmarked recipes will be available under the
-        'Saved Recipes' section, which you can view anytime. Your favorites are
-        saved locally in your browser, so there's no need for an account or
-        sign-up.
+        Absolutely! Click the bookmark icon on any recipe page to save it. Your
+        bookmarked recipes appear on the
+        <a
+          class="focus-visible:ring-secondary rounded-md font-medium whitespace-nowrap underline decoration-2 underline-offset-2 hover:text-stone-600 focus:outline-hidden focus-visible:ring-2 focus-visible:outline-hidden dark:hover:text-stone-400"
+          href="/recipes/saved"
+        >
+          Saved Recipes
+        </a>
+        page. Favorites are stored in a cookie in this browser — no account needed.
       </AccordionItem>
 
       <AccordionItem

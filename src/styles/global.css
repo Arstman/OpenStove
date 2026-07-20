@@ -19,6 +19,14 @@
   --color-secondary-accent: oklch(80.68% 0.117 44.56);
   --color-footer: oklch(37.15% 0 0);
   --color-footer-light: oklch(44.23% 0 0);
+
+  /* Brand gradient stops for section banners */
+  --color-brand-gradient-a: #ff8008;
+  --color-brand-gradient-b: #ffc837;
+  --color-brand-gradient-c: #f37335;
+  --color-brand-gradient-d: #fdc830;
+  --color-brand-hero-from: #f37335;
+  --color-brand-hero-to: #f0b429;
 }
 
 /*
@@ -45,6 +53,25 @@
 }
 
 @custom-variant search-cancel (&::-webkit-search-cancel-button);
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .group:hover .group-hover\:translate-x-1,
+  .group:hover .group-hover\:-translate-x-1,
+  .group:hover .group-hover\:-translate-y-1,
+  .hover\:-translate-y-1:hover,
+  .hover\:scale-110:hover {
+    transform: none !important;
+  }
+}
 
 @media print {
   @page {

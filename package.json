@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "openstove",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -11,6 +11,7 @@
     "build": "astro check && astro build",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
+    "test": "vitest run",
     "preview": "astro preview",
     "astro": "astro",
     "upload:images": "node scripts/upload-recipe-images.mjs"
@@ -42,6 +43,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "prettier": "^3.9.5",
-    "prettier-plugin-tailwindcss": "^0.7.4"
+    "prettier-plugin-tailwindcss": "^0.7.4",
+    "vitest": "^3.2.4"
   }
 }

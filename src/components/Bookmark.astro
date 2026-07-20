@@ -2,6 +2,8 @@
   type="button"
   class="group text-dark focus-visible:ring-secondary corner-squircle inline-flex items-center rounded-4xl p-2.5 hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden dark:text-stone-100 dark:hover:bg-stone-700"
   data-bookmark-button="bookmark-button"
+  aria-label="Save recipe"
+  aria-pressed="false"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,6 +11,7 @@
     stroke-width="1.5"
     stroke="currentColor"
     class="h-6 w-6 fill-none"
+    aria-hidden="true"
   >
     <path
       class="text-dark group-hover:text-secondary dark:group-hover:text-primary dark:text-stone-100"
@@ -24,12 +27,14 @@
     bookMarkId: string;
     bookmarkButtons: NodeListOf<Element>;
     constructor(dataAttrValue: string) {
-      this.bookMarkId = window.location.pathname.slice(9);
+      const match = window.location.pathname.match(/^\/recipes\/(.+)/);
+      this.bookMarkId = match?.[1] ? decodeURIComponent(match[1]) : '';
       this.bookmarkButtons = document.querySelectorAll(
         `[data-bookmark-button="${dataAttrValue}"]`
       );
     }
     init(): void {
+      if (!this.bookMarkId) return;
       if (this.isStored()) {
         this.markAsStored();
       }
@@ -46,6 +51,8 @@
     markAsStored(): void {
       this.bookmarkButtons.forEach((button: Element) => {
         button.classList.add('bookmarked');
+        button.setAttribute('aria-pressed', 'true');
+        button.setAttribute('aria-label', 'Remove from saved');
         let svgElement = button.querySelector('svg');
         if (svgElement) {
           svgElement.setAttribute(
@@ -62,6 +69,8 @@
     unmarkAsStored(): void {
       this.bookmarkButtons.forEach((button: Element) => {
         button.classList.remove('bookmarked');
+        button.setAttribute('aria-pressed', 'false');
+        button.setAttribute('aria-label', 'Save recipe');
         let svgElement = button.querySelector('svg');
         if (svgElement) {
           svgElement.setAttribute('class', 'h-6 w-6 fill-none');
@@ -94,16 +103,13 @@
   let bookmark = new Bookmark('bookmark-button');
   bookmark.init();
 
-  // Cookie handling methods
-
   function setCookie(cname: string, cvalue: string, exdays: number = 180) {
     const d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
     const expires = 'expires=' + d.toUTCString();
-    const secureFlag = 'Secure';
-    const httpOnlyFlag = 'HttpOnly';
+    const secureFlag = location.protocol === 'https:' ? ';Secure' : '';
     const sameSitePolicy = 'SameSite=Lax';
-    document.cookie = `${cname}=${cvalue};${expires};path=/;${secureFlag};${httpOnlyFlag};${sameSitePolicy}`;
+    document.cookie = `${cname}=${cvalue};${expires};path=/${secureFlag};${sameSitePolicy}`;
   }
 
   function getCookie(cname: string) {

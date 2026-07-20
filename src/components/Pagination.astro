@@ -21,6 +21,9 @@ function createWindow(
 const windowSize = 1;
 const baseStyle =
   'flex min-h-[38px] min-w-[38px] items-center justify-center rounded-lg px-3 py-2 text-sm text-dark focus:outline-hidden disabled:pointer-events-none disabled:opacity-50';
+const navLinkStyle =
+  'inline-flex group min-h-[38px] min-w-[38px] items-center justify-center gap-x-1.5 rounded-lg px-2.5 py-2 text-sm text-dark hover:bg-orange-100 focus:bg-orange-100 focus:outline-hidden dark:text-stone-100 dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5';
+const disabledNavStyle = `${navLinkStyle} pointer-events-none opacity-50`;
 ---
 
 <nav
@@ -28,34 +31,55 @@ const baseStyle =
   aria-label="Pagination"
   class="mt-10 flex items-center justify-center gap-x-1 xl:justify-end"
 >
-  <a
-    href={'/recipes?page=' + (currentPage - 1)}
-    aria-label="Go to previous page"
-    class={disablePrevious
-      ? 'inline-flex group min-h-[38px] min-w-[38px] items-center justify-center gap-x-1.5 rounded-lg px-2.5 py-2 text-sm text-dark hover:bg-orange-100 focus:bg-orange-100 focus:outline-hidden dark:text-stone-100 dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5 pointer-events-none opacity-50'
-      : 'inline-flex group min-h-[38px] min-w-[38px] items-center justify-center gap-x-1.5 rounded-lg px-2.5 py-2 text-sm text-dark hover:bg-orange-100 focus:bg-orange-100 focus:outline-hidden dark:text-stone-100 dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}
-  >
-    <svg
-      class="h-3.5 w-3.5 shrink-0 transition ease-in-out group-hover:-translate-x-1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path d="m15 18-6-6 6-6"></path>
-    </svg>
-    <span class="hidden sm:inline-block">Previous</span>
-  </a>
+  {
+    disablePrevious ? (
+      <span class={disabledNavStyle} aria-disabled="true">
+        <svg
+          class="h-3.5 w-3.5 shrink-0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m15 18-6-6 6-6" />
+        </svg>
+        <span class="hidden sm:inline-block">Previous</span>
+      </span>
+    ) : (
+      <a
+        href={'/recipes?page=' + (currentPage - 1)}
+        aria-label="Go to previous page"
+        class={navLinkStyle}
+      >
+        <svg
+          class="h-3.5 w-3.5 shrink-0 transition ease-in-out group-hover:-translate-x-1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m15 18-6-6 6-6" />
+        </svg>
+        <span class="hidden sm:inline-block">Previous</span>
+      </a>
+    )
+  }
   <div class="flex items-center gap-x-1">
     <a
       href={'/recipes?page=1'}
       class={`${baseStyle} ${currentPage === 1 ? 'bg-orange-200 focus:bg-orange-200 dark:bg-stone-700 dark:text-stone-100 dark:focus:bg-gray-500' : 'hover:bg-orange-100 focus:bg-orange-100 dark:text-white dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}`}
-      aria-current="page"
+      aria-current={currentPage === 1 ? 'page' : undefined}
+      aria-label="Page 1"
     >
       1
     </a>
@@ -100,7 +124,8 @@ const baseStyle =
         <a
           href={'/recipes?page=' + page}
           class={`${baseStyle} ${currentPage === page ? 'bg-orange-200 focus:bg-orange-200 dark:bg-stone-700 dark:text-stone-100 dark:focus:bg-gray-500' : 'hover:bg-orange-100 focus:bg-orange-100 dark:text-white dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}`}
-          aria-current="page"
+          aria-current={currentPage === page ? 'page' : undefined}
+          aria-label={`Page ${page}`}
         >
           {page}
         </a>
@@ -143,35 +168,60 @@ const baseStyle =
       )
     }
 
-    <a
-      href={'/recipes?page=' + totalPages}
-      class={`${baseStyle} ${currentPage === totalPages ? 'bg-orange-200 focus:bg-orange-200 dark:bg-stone-700 dark:text-stone-100 dark:focus:bg-gray-500' : 'hover:bg-orange-100 focus:bg-orange-100 dark:text-white dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}`}
-      aria-current="page"
-    >
-      {totalPages}
-    </a>
+    {
+      totalPages > 1 && (
+        <a
+          href={'/recipes?page=' + totalPages}
+          class={`${baseStyle} ${currentPage === totalPages ? 'bg-orange-200 focus:bg-orange-200 dark:bg-stone-700 dark:text-stone-100 dark:focus:bg-gray-500' : 'hover:bg-orange-100 focus:bg-orange-100 dark:text-white dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}`}
+          aria-current={currentPage === totalPages ? 'page' : undefined}
+          aria-label={`Page ${totalPages}`}
+        >
+          {totalPages}
+        </a>
+      )
+    }
   </div>
-  <a
-    href={'/recipes?page=' + (currentPage + 1)}
-    aria-label="Go to next page"
-    class={disableNext
-      ? 'inline-flex group min-h-[38px] min-w-[38px] items-center justify-center gap-x-1.5 rounded-lg px-2.5 py-2 text-sm text-dark hover:bg-orange-100 focus:bg-orange-100 focus:outline-hidden dark:text-stone-100 dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5 pointer-events-none opacity-50'
-      : 'inline-flex group min-h-[38px] min-w-[38px] items-center justify-center gap-x-1.5 rounded-lg px-2.5 py-2 text-sm text-dark hover:bg-orange-100 focus:bg-orange-100 focus:outline-hidden dark:text-stone-100 dark:hover:bg-stone-100/5 dark:focus:bg-stone-100/5'}
-  >
-    <span class="hidden sm:inline-block">Next</span>
-    <svg
-      class="h-3.5 w-3.5 shrink-0 transition ease-in-out group-hover:translate-x-1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path d="m9 18 6-6-6-6"></path>
-    </svg>
-  </a>
+  {
+    disableNext ? (
+      <span class={disabledNavStyle} aria-disabled="true">
+        <span class="hidden sm:inline-block">Next</span>
+        <svg
+          class="h-3.5 w-3.5 shrink-0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m9 18 6-6-6-6" />
+        </svg>
+      </span>
+    ) : (
+      <a
+        href={'/recipes?page=' + (currentPage + 1)}
+        aria-label="Go to next page"
+        class={navLinkStyle}
+      >
+        <span class="hidden sm:inline-block">Next</span>
+        <svg
+          class="h-3.5 w-3.5 shrink-0 transition ease-in-out group-hover:translate-x-1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m9 18 6-6-6-6" />
+        </svg>
+      </a>
+    )
+  }
 </nav>

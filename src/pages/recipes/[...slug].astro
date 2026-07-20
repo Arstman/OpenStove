@@ -10,7 +10,17 @@ import RecipeImage from '@components/RecipeImage.astro';
 import PrintRecipe from '@components/PrintRecipe.astro';
 import { formatDate } from '@utils';
 import { resolveRecipeImage } from '@/lib/recipeImage';
-import { getEntry } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+
+export const prerender = true;
+
+export const getStaticPaths = (async () => {
+  const recipes = await getCollection('recipes');
+  return recipes.map(recipe => ({
+    params: { slug: recipe.id },
+  }));
+}) satisfies GetStaticPaths;
 
 const { slug } = Astro.params;
 
@@ -56,6 +66,9 @@ const recipeImage = resolveRecipeImage(entry.data.image);
         class="recipe-hero-image corner-squircle h-80 w-full rounded-[50px] object-cover"
         draggable="false"
         loading="eager"
+        width={1600}
+        height={900}
+        sizes="100vw"
       />
     </div>
 
@@ -65,6 +78,14 @@ const recipeImage = resolveRecipeImage(entry.data.image);
     >
       {entry.data.title}
     </h1>
+
+    {
+      entry.data.description && (
+        <p class="mx-auto mb-6 max-w-2xl text-center text-pretty text-stone-600 md:mb-8 md:text-lg 2xl:text-xl dark:text-stone-400">
+          {entry.data.description}
+        </p>
+      )
+    }
 
     {/* Top Bar Container */}
     <div

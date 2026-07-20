@@ -41,6 +41,15 @@ const pageTitle = title;
 const pageDescription = description;
 const pageImage = image;
 const pageType = type;
+
+const imageLower = pageImage.toLowerCase();
+const ogImageType = imageLower.endsWith('.avif')
+  ? 'image/avif'
+  : imageLower.endsWith('.webp')
+    ? 'image/webp'
+    : imageLower.endsWith('.jpg') || imageLower.endsWith('.jpeg')
+      ? 'image/jpeg'
+      : 'image/png';
 ---
 
 <!-- Canonical URL -->
@@ -55,7 +64,7 @@ const pageType = type;
   set:html={JSON.stringify(
     (() => {
       if (recipeData && type === 'article') {
-        const recipeSchema: Record<string, any> = {
+        const recipeSchema: Record<string, unknown> = {
           '@context': 'https://schema.org',
           '@type': 'Recipe',
           name: pageTitle.replace(' | OpenStove', ''),
@@ -81,7 +90,8 @@ const pageType = type;
           recipeSchema.datePublished = recipeData.pubDate.toISOString();
         }
         if (recipeData.cookingTime) {
-          recipeSchema.prepTime = `PT${recipeData.cookingTime}M`;
+          recipeSchema.cookTime = `PT${recipeData.cookingTime}M`;
+          recipeSchema.totalTime = `PT${recipeData.cookingTime}M`;
         }
         if (recipeData.servings) {
           recipeSchema.recipeYield = `${recipeData.servings} servings`;
@@ -151,7 +161,7 @@ const pageType = type;
 <meta property="og:image" content={pageImage} />
 <meta content="1200" property="og:image:width" />
 <meta content="600" property="og:image:height" />
-<meta content="image/png" property="og:image:type" />
+<meta content={ogImageType} property="og:image:type" />
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />

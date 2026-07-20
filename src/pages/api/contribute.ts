@@ -3,15 +3,54 @@ import { buildRecipeMarkdown } from '@/lib/contributeMarkdown';
 
 export const prerender = false;
 
+const FIELD_LIMITS = {
+  title: 200,
+  description: 1000,
+  author: 100,
+  ingredients: 10_000,
+  steps: 15_000,
+  notes: 5_000,
+  tags: 200,
+  imageUrl: 500,
+} as const;
+
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
+
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
+
+function checkRateLimit(ip: string): boolean {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip);
+
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return true;
+  }
+
+  if (entry.count >= RATE_LIMIT_MAX) {
+    return false;
+  }
+
+  entry.count += 1;
+  return true;
+}
+
+function tooLong(value: string, max: number): boolean {
+  return value.length > max;
+}
+
 async function verifyTurnstile(
   token: string,
   ip: string | null
 ): Promise<boolean> {
   const secret = import.meta.env.TURNSTILE_SECRET_KEY;
+
+  // Require Turnstile in production; optional in local/dev
   if (!secret) {
-    // Turnstile optional when not configured
-    return true;
+    return !import.meta.env.PROD;
   }
+
   if (!token) return false;
 
   const body = new URLSearchParams();
@@ -38,6 +77,29 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
     );
   }
 
+  if (import.meta.env.PROD && !import.meta.env.TURNSTILE_SECRET_KEY) {
+    return Response.json(
+      { ok: false, error: 'Contribution form is not configured.' },
+      { status: 503 }
+    );
+  }
+
+  const ip = clientAddress ?? 'unknown';
+  if (!checkRateLimit(ip)) {
+    return Response.json(
+      { ok: false, error: 'Too many submissions. Please try again later.' },
+      { status: 429 }
+    );
+  }
+
+  const contentLength = Number(request.headers.get('content-length') || 0);
+  if (contentLength > 100_000) {
+    return Response.json(
+      { ok: false, error: 'Submission is too large.' },
+      { status: 413 }
+    );
+  }
+
   let form: FormData;
   try {
     form = await request.formData();
@@ -60,7 +122,7 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
     turnstileToken,
     clientAddress ?? null
   );
-  if (import.meta.env.TURNSTILE_SECRET_KEY && !turnstileOk) {
+  if (!turnstileOk) {
     return Response.json(
       { ok: false, error: 'Spam check failed. Please try again.' },
       { status: 400 }
@@ -72,6 +134,10 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
   const cookingTime = Number(form.get('cookingTime'));
   const ingredients = String(form.get('ingredients') || '').trim();
   const steps = String(form.get('steps') || '').trim();
+  const author = String(form.get('author') || '').trim();
+  const notes = String(form.get('notes') || '').trim();
+  const tags = String(form.get('tags') || '').trim();
+  const imageUrl = String(form.get('imageUrl') || '').trim();
 
   if (
     !title ||
@@ -86,6 +152,22 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
     );
   }
 
+  if (
+    tooLong(title, FIELD_LIMITS.title) ||
+    tooLong(description, FIELD_LIMITS.description) ||
+    tooLong(author, FIELD_LIMITS.author) ||
+    tooLong(ingredients, FIELD_LIMITS.ingredients) ||
+    tooLong(steps, FIELD_LIMITS.steps) ||
+    tooLong(notes, FIELD_LIMITS.notes) ||
+    tooLong(tags, FIELD_LIMITS.tags) ||
+    tooLong(imageUrl, FIELD_LIMITS.imageUrl)
+  ) {
+    return Response.json(
+      { ok: false, error: 'One or more fields exceed the maximum length.' },
+      { status: 400 }
+    );
+  }
+
   if (cookingTime < 1 || cookingTime > 999) {
     return Response.json(
       { ok: false, error: 'Cooking time must be between 1 and 999 minutes.' },
@@ -96,13 +178,13 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
   const payload = {
     title,
     description,
-    author: String(form.get('author') || '').trim(),
+    author,
     cookingTime,
     ingredients,
     steps,
-    notes: String(form.get('notes') || '').trim(),
-    tags: String(form.get('tags') || '').trim(),
-    imageUrl: String(form.get('imageUrl') || '').trim(),
+    notes,
+    tags,
+    imageUrl,
   };
 
   const { slug, markdown } = buildRecipeMarkdown(payload);

@@ -7,6 +7,9 @@ interface Props {
   class?: string;
   loading?: 'eager' | 'lazy';
   draggable?: boolean | 'true' | 'false';
+  width?: number;
+  height?: number;
+  sizes?: string;
 }
 
 const {
@@ -15,6 +18,9 @@ const {
   class: className = '',
   loading = 'lazy',
   draggable = 'false',
+  width = 1200,
+  height = 800,
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px',
 } = Astro.props;
 
 const src = resolveRecipeImage(image);
@@ -24,7 +30,11 @@ const src = resolveRecipeImage(image);
   class={`recipe-img ${className}`}
   src={src}
   alt={imageAlt || 'Recipe image'}
+  width={width}
+  height={height}
+  sizes={sizes}
   loading={loading}
+  decoding="async"
   draggable={draggable}
   data-fallback="/placeholder-recipe.png"
 />

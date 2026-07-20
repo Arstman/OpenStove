@@ -7,6 +7,8 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { RECIPES_PER_PAGE } from '@constants';
 
+export const prerender = false;
+
 const pageParam = Astro.url.searchParams.get('page');
 const currentPage =
   pageParam && !isNaN(+pageParam) ? Math.max(1, +pageParam) : 1;
@@ -20,8 +22,8 @@ const allRecipes: CollectionEntry<'recipes'>[] = (
 
 const totalPages = Math.ceil(allRecipes.length / RECIPES_PER_PAGE);
 
-if (currentPage > totalPages) {
-  Astro.redirect(`/recipes?page=${totalPages}`);
+if (totalPages > 0 && currentPage > totalPages) {
+  return Astro.redirect(`/recipes?page=${totalPages}`);
 }
 
 const recipesPerPage = allRecipes.slice(
@@ -44,7 +46,7 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
   {
     currentPage === 1 && (
       <div class="mt-10 py-6 sm:py-8 lg:py-12">
-        <div class="corner-squircle rounded-[100px] bg-linear-to-br from-[#FDC830] to-[#FF8372] px-4 py-6">
+        <div class="corner-squircle from-brand-gradient-d to-brand-gradient-c rounded-[100px] bg-linear-to-br px-4 py-6">
           <section class="flex items-center justify-center gap-6">
             <div class="flex w-10/12 justify-center text-center sm:py-4 md:py-12 lg:w-6/12 lg:py-0 lg:text-left">
               <h1 class="text-dark text-2xl font-bold tracking-tight text-balance md:text-3xl lg:text-4xl xl:text-5xl">
@@ -71,14 +73,21 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
   >
     <a
       class="group bg-secondary-accent hover:bg-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium text-orange-900 outline-hidden transition duration-300 focus-visible:-translate-y-1 2xl:text-lg"
-      href="https://github.com/mearashadowfax/OpenStove/blob/main/CONTRIBUTING.md"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="/contribute"
+      data-astro-prefetch
       >Add a Recipe
-      <Icon
-        name="github-body"
+      <svg
         class="h-5 w-5 transition duration-300 group-hover:-translate-y-1 group-focus-visible:-translate-y-1"
-      />
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 4.5v15m7.5-7.5h-15"></path>
+      </svg>
     </a>
     <a
       class="group bg-primary hover:shadow-primary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl px-8 py-3 text-center text-base font-medium text-[#422006] outline-hidden transition duration-300 hover:shadow-2xl focus-visible:-translate-y-1 2xl:text-lg"
@@ -138,12 +147,10 @@ const pageDescription = `Explore our collection of ${allRecipes.length} communit
                     <div class="mt-8 text-center">
                       <a
                         class="bg-secondary-accent hover:bg-secondary hover:shadow-secondary focus-visible:ring-secondary corner-squircle inline-flex items-center justify-center gap-x-3 rounded-4xl border border-transparent px-4 py-3 text-center text-sm font-medium text-orange-800 transition duration-300 hover:shadow-2xl focus:outline-hidden focus-visible:-translate-y-1 focus-visible:ring-2 focus-visible:outline-hidden 2xl:text-base"
-                        href="https://github.com/mearashadowfax/OpenStove"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/contribute"
+                        data-astro-prefetch
                       >
-                        <Icon name="github-body" class="h-4 w-4" />
-                        Contribute with GitHub
+                        Contribute a recipe
                       </a>
                     </div>
                   </div>
