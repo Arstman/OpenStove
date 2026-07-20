@@ -51,32 +51,36 @@ scripts/                 Maintainer utilities
 vercel.json              Production headers and CSP
 ```
 
-## Local development
+## Installation
 
-Requirements:
-
-- Node.js 22.12 or newer
-- pnpm
+Clone the repository, navigate to its root directory, and install the dependencies defined in `package.json`:
 
 ```bash
 git clone https://github.com/mearashadowfax/OpenStove.git
 cd OpenStove
 pnpm install
+```
+
+Create a local environment file and start the development server:
+
+```bash
 cp .env.example .env
 pnpm dev
 ```
 
-Open [http://127.0.0.1:4321](http://127.0.0.1:4321).
+## Development commands
 
-Useful commands:
+With dependencies installed, use these pnpm scripts to manage the development lifecycle:
 
 ```bash
-pnpm dev            # Start local development
-pnpm build          # Type-check and create a production build
-pnpm preview        # Preview the production build
+pnpm dev            # Start the local server with hot reloading
+pnpm build          # Type-check and create the production server build
+pnpm preview        # Serve the production build locally
 pnpm format:check   # Check formatting
 pnpm format:fix     # Apply formatting
 ```
+
+For detailed help with Astro CLI commands, see [Astro's CLI documentation](https://docs.astro.build/en/reference/cli-reference/).
 
 Without `PUBLIC_IMAGE_BASE_URL`, local recipe pages intentionally display the fallback image.
 

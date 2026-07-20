@@ -235,6 +235,16 @@ const formConfigured = Boolean(
       >
       </p>
 
+      <a
+        id="form-result-link"
+        class="bg-secondary text-dark hover:bg-secondary-accent focus-visible:ring-secondary hidden w-fit items-center justify-center rounded-lg px-5 py-2.5 font-medium transition-colors focus-visible:ring-2 focus-visible:outline-hidden"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View submission on GitHub
+      </a>
+
       <button
         type="submit"
         id="contribute-submit"
@@ -266,12 +276,17 @@ const formConfigured = Boolean(
   const submitBtn = document.getElementById(
     'contribute-submit'
   ) as HTMLButtonElement | null;
+  const resultLink = document.getElementById(
+    'form-result-link'
+  ) as HTMLAnchorElement | null;
 
   form?.addEventListener('submit', async event => {
     event.preventDefault();
     if (!form || !statusEl || !submitBtn) return;
 
     statusEl.classList.add('hidden');
+    resultLink?.classList.add('hidden');
+    resultLink?.classList.remove('inline-flex');
     submitBtn.disabled = true;
     submitBtn.textContent = 'Submitting…';
 
@@ -290,12 +305,17 @@ const formConfigured = Boolean(
         throw new Error(data.error || 'Submission failed. Please try again.');
       }
 
-      statusEl.textContent = data.url
-        ? `Thanks! Your recipe was submitted for review: ${data.url}`
-        : 'Thanks! Your recipe was submitted for review.';
+      statusEl.textContent = 'Thanks! Your recipe was submitted for review.';
       statusEl.className = 'text-sm text-green-700 dark:text-green-400';
+      if (data.url && resultLink) {
+        resultLink.href = data.url;
+        resultLink.classList.remove('hidden');
+        resultLink.classList.add('inline-flex');
+      }
       form.reset();
     } catch (error) {
+      resultLink?.classList.add('hidden');
+      resultLink?.classList.remove('inline-flex');
       statusEl.textContent =
         error instanceof Error ? error.message : 'Something went wrong.';
       statusEl.className = 'text-sm text-red-700 dark:text-red-400';
