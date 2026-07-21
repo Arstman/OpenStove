@@ -8,7 +8,8 @@ interface Props {
 }
 
 const isScalable = recipe.data.scalable !== false;
-const servings = recipe.data.servings || 1;
+const baseServings = recipe.data.servings || 1;
+const maxServings = Math.max(baseServings * 6, 12);
 ---
 
 <!-- Serving Size Container -->
@@ -16,34 +17,36 @@ const servings = recipe.data.servings || 1;
   {
     isScalable ? (
       <>
-        <label for="serving-scale" class="mb-1 text-base">
-          Scale recipe (×)
+        <label for="serving-count" class="mb-1 text-base">
+          Servings
         </label>
-        {/* Input Number */}
         <div
           class="corner-squircle max-w-40 rounded-4xl border border-stone-300 bg-stone-50 dark:border-stone-600 dark:bg-stone-700/60 print:max-w-none print:border-0 print:bg-transparent"
-          data-hs-input-number
+          data-serving-control
+          data-base-servings={baseServings}
+          data-max-servings={maxServings}
         >
           <div class="flex w-full items-center justify-between gap-x-1">
             <div class="grow px-3 py-2 print:p-0">
               <input
-                id="serving-scale"
+                id="serving-count"
                 class="text-dark w-full [appearance:textfield] border-0 bg-transparent p-0 focus:ring-0 dark:text-stone-100 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
                 type="number"
-                value="1"
+                value={baseServings}
                 min="1"
-                max="6"
-                data-hs-input-number-input
+                max={maxServings}
                 readonly
-                aria-label="Recipe scale multiplier"
+                aria-label="Number of servings"
+                data-serving-input
               />
             </div>
             <div class="-gap-y-px flex items-center divide-x divide-stone-200 border-s border-stone-200 dark:divide-stone-700 dark:border-stone-700 print:hidden">
               <button
                 type="button"
                 class="focus-visible:ring-secondary last:corner-squircle inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-4xl hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
-                data-hs-input-number-decrement
-                aria-label="Decrease scale"
+                data-serving-decrement
+                aria-label="Decrease servings"
+                disabled={baseServings <= 1}
               >
                 <svg
                   class="h-3.5 w-3.5 shrink-0"
@@ -64,8 +67,8 @@ const servings = recipe.data.servings || 1;
               <button
                 type="button"
                 class="focus-visible:ring-secondary last:corner-squircle inline-flex h-10 w-10 touch-manipulation items-center justify-center gap-x-2 bg-stone-50 text-sm font-medium text-stone-800 transition duration-300 last:rounded-e-4xl hover:bg-orange-100 focus:outline-hidden focus-visible:ring-1 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-800/30"
-                data-hs-input-number-increment
-                aria-label="Increase scale"
+                data-serving-increment
+                aria-label="Increase servings"
               >
                 <svg
                   class="h-3.5 w-3.5 shrink-0"
@@ -87,15 +90,19 @@ const servings = recipe.data.servings || 1;
             </div>
           </div>
         </div>
-        <p class="mt-1 text-sm text-stone-500 dark:text-stone-400">
-          Base recipe serves {servings}
+        <p
+          class="mt-1 text-sm text-stone-500 dark:text-stone-400"
+          data-serving-hint
+          hidden
+        >
+          Scaled from {baseServings}{' '}
+          {baseServings === 1 ? 'serving' : 'servings'}
         </p>
-        {/* End Input Number */}
       </>
     ) : (
       <div class="flex flex-col">
         <p class="text-dark text-lg font-semibold dark:text-stone-300">
-          Serves {servings} people
+          Serves {baseServings} {baseServings === 1 ? 'person' : 'people'}
         </p>
       </div>
     )
@@ -131,38 +138,110 @@ const servings = recipe.data.servings || 1;
 </div>
 <script define:vars={{ isScalable }}>
   if (isScalable) {
-    const portionSizeInput = document.querySelector(
-      '[data-hs-input-number-input]'
-    );
+    const control = document.querySelector('[data-serving-control]');
+    const servingsInput = control?.querySelector('[data-serving-input]');
+    const increment = control?.querySelector('[data-serving-increment]');
+    const decrement = control?.querySelector('[data-serving-decrement]');
+    const hint = document.querySelector('[data-serving-hint]');
 
-    let portionSize = 1;
-    const MIN_SCALE = 1;
-    const MAX_SCALE = 6;
+    const baseServings = Number(control?.dataset.baseServings) || 1;
+    const maxServings = Number(control?.dataset.maxServings) || 12;
+    const minServings = 1;
+
+    let currentServings = baseServings;
+
+    const UNICODE_FRACTIONS = {
+      '1/2': '½',
+      '1/3': '⅓',
+      '2/3': '⅔',
+      '1/4': '¼',
+      '3/4': '¾',
+      '1/5': '⅕',
+      '2/5': '⅖',
+      '3/5': '⅗',
+      '4/5': '⅘',
+      '1/6': '⅙',
+      '5/6': '⅚',
+      '1/8': '⅛',
+      '3/8': '⅜',
+      '5/8': '⅝',
+      '7/8': '⅞',
+    };
+
+    const FRACTION_CANDIDATES = [
+      [1, 8],
+      [1, 6],
+      [1, 5],
+      [1, 4],
+      [1, 3],
+      [2, 5],
+      [1, 2],
+      [3, 5],
+      [2, 3],
+      [3, 4],
+      [4, 5],
+      [5, 6],
+      [3, 8],
+      [5, 8],
+      [7, 8],
+    ];
 
     function parseFraction(fraction) {
-      if (!fraction.includes('/')) {
-        return parseFloat(fraction);
+      const value = String(fraction).trim();
+      if (!value) return NaN;
+
+      const mixed = value.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+      if (mixed) {
+        return Number(mixed[1]) + Number(mixed[2]) / Number(mixed[3]);
       }
-      const parts = fraction.split('/');
-      const numerator = Number(parts[0]);
-      const denominator = Number(parts[1]);
-      if (denominator > 0) {
-        return numerator / denominator;
-      } else {
-        return NaN;
+
+      if (value.includes('/')) {
+        const [numerator, denominator] = value.split('/').map(Number);
+        return denominator > 0 ? numerator / denominator : NaN;
       }
+
+      return parseFloat(value);
     }
 
-    function adjustQuantity(quantity, portionSize) {
-      if (!quantity) {
-        return '';
+    function formatQuantity(value) {
+      if (!Number.isFinite(value)) return '';
+
+      const rounded = Math.round(value * 1000) / 1000;
+      if (Math.abs(rounded) < 0.001) return '';
+
+      const whole = Math.floor(rounded + 1e-9);
+      const fractionPart = rounded - whole;
+
+      if (fractionPart < 0.001) {
+        return String(whole);
       }
+
+      let best = null;
+      let bestError = Infinity;
+      for (const [numerator, denominator] of FRACTION_CANDIDATES) {
+        const error = Math.abs(fractionPart - numerator / denominator);
+        if (error < bestError) {
+          bestError = error;
+          best = [numerator, denominator];
+        }
+      }
+
+      if (best && bestError < 0.04) {
+        const key = `${best[0]}/${best[1]}`;
+        const unicode = UNICODE_FRACTIONS[key];
+        const fractionText = unicode || key;
+        if (whole === 0) return fractionText;
+        return unicode ? `${whole}${unicode}` : `${whole} ${key}`;
+      }
+
+      return parseFloat(rounded.toFixed(2)).toString();
+    }
+
+    function adjustQuantity(quantity, scale) {
+      if (!quantity) return '';
       const parsedQuantity = parseFraction(quantity);
-      if (Number.isNaN(parsedQuantity)) {
-        return quantity;
-      }
-      const adjustedQuantity = parsedQuantity * portionSize;
-      return parseFloat(adjustedQuantity.toFixed(2)).toString();
+      if (Number.isNaN(parsedQuantity)) return quantity;
+      return formatQuantity(parsedQuantity * scale);
     }
 
     function formatIngredient(quantity, unit, name) {
@@ -173,57 +252,45 @@ const servings = recipe.data.servings || 1;
     }
 
     function updateIngredientQuantities() {
-      const ingredientCounts = document.querySelectorAll('.count');
-      ingredientCounts.forEach(countElement => {
-        const quantity = countElement.dataset.quantity;
-        const unit = countElement.dataset.unit;
-        const name = countElement.dataset.name;
+      const scale = currentServings / baseServings;
+      document.querySelectorAll('.count').forEach(countElement => {
+        const { quantity, unit, name } = countElement.dataset;
         countElement.textContent = formatIngredient(
-          adjustQuantity(quantity || '', portionSize),
+          adjustQuantity(quantity || '', scale),
           unit || '',
           name || ''
         );
       });
     }
 
-    updateIngredientQuantities();
+    function updateServings(nextServings) {
+      currentServings = Math.min(
+        maxServings,
+        Math.max(minServings, nextServings)
+      );
 
-    function updatePortionSize(newSize) {
-      portionSize = Math.min(MAX_SCALE, Math.max(MIN_SCALE, newSize));
-      if (portionSizeInput) {
-        portionSizeInput.value = portionSize.toString();
-
-        updateIngredientQuantities();
-
-        if (portionSize >= MAX_SCALE) {
-          increment?.setAttribute('disabled', 'disabled');
-        } else {
-          increment?.removeAttribute('disabled');
-        }
-
-        if (portionSize <= MIN_SCALE) {
-          decrement?.setAttribute('disabled', 'disabled');
-        } else {
-          decrement?.removeAttribute('disabled');
-        }
+      if (servingsInput) {
+        servingsInput.value = String(currentServings);
       }
+
+      if (hint) {
+        hint.hidden = currentServings === baseServings;
+      }
+
+      increment?.toggleAttribute('disabled', currentServings >= maxServings);
+      decrement?.toggleAttribute('disabled', currentServings <= minServings);
+
+      updateIngredientQuantities();
     }
 
-    const increment = document.querySelector(
-      '[data-hs-input-number-increment]'
-    );
-    const decrement = document.querySelector(
-      '[data-hs-input-number-decrement]'
-    );
-
-    updatePortionSize(1);
+    updateServings(baseServings);
 
     increment?.addEventListener('click', () => {
-      updatePortionSize(portionSize + 1);
+      updateServings(currentServings + 1);
     });
 
     decrement?.addEventListener('click', () => {
-      updatePortionSize(portionSize - 1);
+      updateServings(currentServings - 1);
     });
   }
 </script>
