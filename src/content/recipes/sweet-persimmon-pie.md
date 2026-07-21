@@ -1,5 +1,5 @@
 ---
-title: 'Sweet Persimmon Pie'
+title: 'Sweet persimmon pie'
 description: 'A delightful dessert featuring the unique flavor of ripe persimmons in a sweet and creamy pie filling, nestled in a flaky crust.'
 
 pubDate: 2024-03-16

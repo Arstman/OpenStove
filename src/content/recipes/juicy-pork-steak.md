@@ -1,5 +1,5 @@
 ---
-title: 'Juicy Pork Steak with Rosemary and Tomatoes'
+title: 'Juicy pork steak with rosemary and tomatoes'
 description: 'Savor the succulence of tender pork steak infused with aromatic rosemary and accompanied by sweet, juicy tomatoes.'
 
 pubDate: 2024-01-30

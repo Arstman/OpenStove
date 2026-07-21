@@ -1,5 +1,5 @@
 ---
-title: 'Fresh Spinach Salad with Eggs, Chili Pepper, and Sweet Cranberries'
+title: 'Fresh spinach salad with eggs, chili pepper, and sweet cranberries'
 description: 'Dive into this vibrant spinach salad featuring boiled eggs, spicy chili pepper, and juicy sweet cranberries, perfectly balanced for a nutritious and delicious meal.'
 
 pubDate: 2024-01-12

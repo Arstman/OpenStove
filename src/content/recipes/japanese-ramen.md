@@ -1,5 +1,5 @@
 ---
-title: 'Japanese Ramen'
+title: 'Japanese ramen'
 description: 'Authentic ramen with rich broth, tender pork, and chewy noodles. A taste of Tokyo in your kitchen!'
 
 author: 'mearashadowfax'

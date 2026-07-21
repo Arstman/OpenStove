@@ -1,5 +1,5 @@
 ---
-title: 'Classic Pavlova'
+title: 'Classic pavlova'
 description: "Australia's iconic meringue-based dessert with a crisp exterior and soft marshmallow center, topped with fresh cream and seasonal fruit."
 
 pubDate: 2025-05-24

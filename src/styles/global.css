@@ -15,20 +15,27 @@
   --color-dark: oklch(26.03% 0 0);
   --color-footer: oklch(37.15% 0 0);
   --color-footer-light: oklch(44.23% 0 0);
-  --color-on-brand: oklch(
-    27% 0.06 55
-  ); /* deep amber text on gold/orange fills */
+  --color-on-brand: oklch(27% 0.06 55);
+  /* deep amber text on gold/orange fills */
 
   /* Brand fills */
-  --color-primary: oklch(85.37% 0.1572 84.13); /* gold */
+  --color-primary: oklch(85.37% 0.1572 84.13);
+  /* gold */
   --color-primary-accent-light: oklch(75.7% 0.1772 60.16);
   --color-primary-accent-dark: oklch(79.27% 0.171 70.67);
-  --color-secondary: oklch(78.14% 0.1357 44.77); /* orange */
+  --color-secondary: oklch(78.14% 0.1357 44.77);
+  /* orange */
   --color-secondary-accent: oklch(80.68% 0.117 44.56);
 
-  /* Two gradient stops — warm orange → gold (use everywhere) */
+  /* Two gradient stops – warm orange → gold (use everywhere) */
   --color-brand-warm: oklch(72% 0.18 45);
   --color-brand-gold: oklch(82% 0.15 85);
+
+  /* Eyebrow text gradient */
+  --color-eyebrow-from: oklch(63.25% 0.1473 59.49);
+  --color-eyebrow-to: oklch(70.31% 0.144 77.8);
+  --color-eyebrow-from-dark: oklch(0.894 0.0714 64.64);
+  --color-eyebrow-to-dark: oklch(92.33% 0.044 50.42);
 }
 
 /*

@@ -1,5 +1,5 @@
 ---
-title: 'Fresh Garden Vegetables Salad Mix'
+title: 'Fresh garden vegetables salad mix'
 description: 'A refreshing salad bursting with the flavors of fresh garden vegetables, perfect for a light and nutritious meal.'
 
 pubDate: 2024-03-24

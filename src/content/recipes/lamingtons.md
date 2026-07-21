@@ -1,5 +1,5 @@
 ---
-title: 'Australian Lamingtons'
+title: 'Australian lamingtons'
 description: 'Classic Australian sponge cake squares coated in chocolate icing and rolled in desiccated coconut. A beloved treat perfect for afternoon tea.'
 
 pubDate: 2025-05-24

@@ -1,5 +1,5 @@
 ---
-title: 'Chinese Quail Egg Stew with Belly Pork'
+title: 'Chinese quail egg stew with belly pork'
 description: 'A hearty and flavorful Chinese stew featuring tender quail eggs and succulent belly pork, simmered in a rich and aromatic broth.'
 
 pubDate: 2024-02-16

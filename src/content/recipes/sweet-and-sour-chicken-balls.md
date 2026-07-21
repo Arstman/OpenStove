@@ -1,5 +1,5 @@
 ---
-title: 'Sweet and Sour Chicken Balls'
+title: 'Sweet and sour chicken balls'
 description: 'Crispy, golden brown chicken encased in a tangy, sticky sweet and sour sauce. A classic Chinese dish right in the comfort of your own home.'
 
 pubDate: 2024-01-17

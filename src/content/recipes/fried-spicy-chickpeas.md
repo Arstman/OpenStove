@@ -1,5 +1,5 @@
 ---
-title: 'Fried Spicy Chickpeas'
+title: 'Fried spicy chickpeas'
 description: 'Crispy fried chickpeas tossed in spicy seasonings for a flavorful and indulgent snack.'
 
 author: 'mearashadowfax'

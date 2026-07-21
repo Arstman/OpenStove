@@ -1,5 +1,5 @@
 ---
-title: 'Pasta with Pesto & Sun-Dried Tomato Sauce, Cauliflower, and Carrots'
+title: 'Pasta with pesto & sun-dried tomato sauce, cauliflower, and carrots'
 description: 'Enjoy a bowl of your favorite pasta tossed in a savory pesto and sun-dried tomato sauce, served with roasted cauliflower and colorful carrots – a satisfying and nutrient-rich meal.'
 
 pubDate: 2024-01-11

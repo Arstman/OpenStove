@@ -1,5 +1,5 @@
 ---
-title: 'Boiled New Potatoes with Dill and Butter'
+title: 'Boiled new potatoes with dill and butter'
 description: 'A classic and flavorful side dish featuring tender new potatoes tossed with fresh dill and melted butter.'
 
 pubDate: 2024-02-01

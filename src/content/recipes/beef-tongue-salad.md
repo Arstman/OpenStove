@@ -1,5 +1,5 @@
 ---
-title: 'Beef Tongue Salad with Potato, Spinach, and Mushrooms'
+title: 'Beef tongue salad with potato, spinach, and mushrooms'
 description: 'A hearty and flavorful salad featuring tender beef tongue, creamy potatoes, fresh spinach, and earthy mushrooms.'
 
 pubDate: 2024-03-10

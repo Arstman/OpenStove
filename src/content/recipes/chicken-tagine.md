@@ -1,5 +1,5 @@
 ---
-title: 'Chicken Tagine'
+title: 'Chicken tagine'
 description: 'Experience the rich flavors of Moroccan cuisine with this aromatic Chicken Tagine. Infused with the tartness of preserved lemons and the distinct taste of olives, this dish is a feast for the senses.'
 
 pubDate: 2024-01-08

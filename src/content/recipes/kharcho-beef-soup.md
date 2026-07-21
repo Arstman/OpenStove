@@ -1,5 +1,5 @@
 ---
-title: 'Kharcho: Spicy Beef and Rice Soup'
+title: 'Kharcho: spicy beef and rice soup'
 description: 'A hearty and flavorful Georgian soup featuring tender beef, fluffy rice, and a rich broth spiced with aromatic herbs.'
 
 author: 'mearashadowfax'

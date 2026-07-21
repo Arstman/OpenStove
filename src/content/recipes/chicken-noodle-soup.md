@@ -1,5 +1,5 @@
 ---
-title: 'Homemade Chicken Noodle Soup'
+title: 'Homemade chicken noodle soup'
 description: 'A comforting classic made with homemade chicken broth, tender chicken, and springy noodles.'
 
 author: 'mearashadowfax'

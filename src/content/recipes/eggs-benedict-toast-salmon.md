@@ -1,5 +1,5 @@
 ---
-title: 'Eggs Benedict Toast with Salmon'
+title: 'Eggs Benedict toast with salmon'
 description: 'A delightful twist on the classic Eggs Benedict, featuring perfectly poached eggs, smoked salmon, and creamy hollandaise sauce atop toasted English muffins.'
 
 author: 'mearashadowfax'

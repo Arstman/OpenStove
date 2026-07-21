@@ -1,5 +1,5 @@
 ---
-title: 'Peanut Butter Banana Sandwich with Chia Seeds'
+title: 'Peanut butter banana sandwich with chia seeds'
 description: 'Enjoy a classic combination of creamy peanut butter and ripe banana slices in this satisfying sandwich topped with nutritious chia seeds.'
 
 pubDate: 2024-02-17

@@ -1,5 +1,5 @@
 ---
-title: 'Chili Con Carne'
+title: 'Chili con carne'
 description: 'A robust and flavorful stew featuring ground beef, a medley of beans, and a rich tomato base with a perfect blend of spices.'
 
 pubDate: 2024-06-30

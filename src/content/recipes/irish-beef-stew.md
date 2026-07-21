@@ -1,5 +1,5 @@
 ---
-title: 'Irish Beef Stew'
+title: 'Irish beef stew'
 description: 'A traditional Irish stew made with tender beef, potatoes, carrots, and onions simmered in a rich, flavorful broth.'
 
 pubDate: 2024-06-30

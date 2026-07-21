@@ -1,5 +1,5 @@
 ---
-title: 'Thai Basil Coconut Curry with Salmon'
+title: 'Thai basil coconut curry with salmon'
 description: 'Creamy coconut milk, fragrant basil, and spicy Thai curry paste pair beautifully with pieces of tender salmon.'
 
 pubDate: 2024-01-23

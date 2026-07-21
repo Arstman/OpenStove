@@ -1,5 +1,5 @@
 ---
-title: 'Russian Olivier Salad with Salmon Caviar'
+title: 'Russian Olivier salad with salmon caviar'
 description: 'A traditional Russian salad featuring a medley of diced vegetables, boiled eggs, pickles, and mayonnaise, topped with luxurious salmon caviar for a gourmet touch.'
 
 pubDate: 2024-02-09

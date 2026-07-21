@@ -1,5 +1,5 @@
 ---
-title: 'Swedish Meatballs with Cream Sauce'
+title: 'Swedish meatballs with cream sauce'
 description: 'Delicious Swedish meatballs smothered in a creamy sauce, perfect for a cozy night in. Experience the flavors of Sweden with this comforting dish!'
 
 pubDate: 2024-01-30

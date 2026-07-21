@@ -1,5 +1,5 @@
 ---
-title: 'Rocchetti Pasta with Brussels Sprouts, Tomato, Eggplant, and Paprika'
+title: 'Rocchetti pasta with Brussels sprouts, tomato, eggplant, and paprika'
 description: 'This rocchetti pasta dish combines the earthy tastes of Brussels sprouts and eggplant with the tangy sweetness of tomato, all balanced by the warm undertones of paprika.'
 
 pubDate: 2024-01-16

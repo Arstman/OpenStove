@@ -1,5 +1,5 @@
 ---
-title: 'Indian Dal Spicy Curry Bowl'
+title: 'Indian dal spicy curry bowl'
 description: 'Experience the bold and aromatic flavors of India with this spicy lentil curry bowl, served over fluffy rice for a satisfying and soul-warming meal.'
 
 author: 'mearashadowfax'

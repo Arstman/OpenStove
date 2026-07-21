@@ -1,5 +1,5 @@
 ---
-title: 'Homemade Pound Cake with Almonds'
+title: 'Homemade pound cake with almonds'
 description: 'A dense and buttery pound cake bursting with almond flavor. Perfect for tea time or a delightful afternoon snack.'
 
 author: 'mearashadowfax'

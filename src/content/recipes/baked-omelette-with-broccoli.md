@@ -1,5 +1,5 @@
 ---
-title: 'Baked Omelette with Broccoli'
+title: 'Baked omelette with broccoli'
 description: 'A simple and nutritious baked omelette loaded with tender broccoli and seasoned to perfection.'
 
 author: 'mearashadowfax'

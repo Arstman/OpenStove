@@ -1,5 +1,5 @@
 ---
-title: 'Hearty Beef and Beetroot Borscht'
+title: 'Hearty beef and beetroot borscht'
 description: 'Savor the deep flavors and hearty warmth of a classic Ukrainian soup with a twist. This beef and beetroot borscht combines tender beef pieces with the traditional vibrancy of beetroots and vegetables.'
 
 pubDate: 2024-01-13

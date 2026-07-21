@@ -1,5 +1,5 @@
 ---
-title: 'Tagliatelle Pasta with Mussels and Mushrooms'
+title: 'Tagliatelle pasta with mussels and mushrooms'
 description: 'A delightful Italian-inspired dish featuring tender mussels and savory mushrooms tossed with tagliatelle pasta in a flavorful garlic and white wine sauce.'
 
 author: 'mearashadowfax'

@@ -99,7 +99,7 @@ Please note that if you want to keep the field blank, keep the `""`. Also, pleas
 ### Adding Your Recipe
 
 - Place your recipe markdown file in the correct category folder within the repository, which is `/src/content/recipes/`.
-- Adhere to the file naming conventions, such as `dish-name.md` for clarity and organization. The filename (without `.md`) is the recipe URL slug — do not add a separate `slug:` field in frontmatter.
+- Adhere to the file naming conventions, such as `dish-name.md` for clarity and organization. The filename (without `.md`) is the recipe URL slug – do not add a separate `slug:` field in frontmatter.
 
 ### Creating a Pull Request
 

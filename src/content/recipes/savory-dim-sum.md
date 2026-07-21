@@ -1,5 +1,5 @@
 ---
-title: 'Savory Dim Sum'
+title: 'Savory dim sum'
 description: 'Indulge in the rich flavors of Chinese cuisine with these savory dim sum, a traditional bite-sized delicacy that delivers a pleasing combination of textures and flavors.'
 
 pubDate: 2024-01-11

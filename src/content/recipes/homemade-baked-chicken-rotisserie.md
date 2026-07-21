@@ -1,5 +1,5 @@
 ---
-title: Homemade Chicken Rotisserie (with Thyme)
+title: Homemade chicken rotisserie (with thyme)
 
 description: 'This recipe delivers juicy, flavorful chicken with a crispy golden skin, all thanks to the magic of your oven and fragrant thyme.'
 

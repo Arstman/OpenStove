@@ -1,5 +1,5 @@
 ---
-title: 'Italian Bolognese Sauce with Thyme'
+title: 'Italian Bolognese sauce with thyme'
 description: 'A classic Italian Bolognese sauce enhanced with the subtle aroma of thyme, ideal for pairing with pasta or polenta.'
 
 author: 'mearashadowfax'

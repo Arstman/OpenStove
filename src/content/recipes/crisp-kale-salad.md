@@ -1,5 +1,5 @@
 ---
-title: 'Crisp Kale Salad'
+title: 'Crisp kale salad'
 description: 'A nutritious and flavorful salad made with kale, tossed with a zesty dressing and garnished with your favorite toppings – a great addition to any balanced meal.'
 
 pubDate: 2024-01-11

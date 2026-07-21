@@ -1,5 +1,5 @@
 ---
-title: 'Australian Damper'
+title: 'Australian damper'
 description: "Traditional Australian bush bread that's simple to make with just flour, water, and salt. Perfect for camping or as a rustic bread to accompany meals."
 
 pubDate: 2025-05-24

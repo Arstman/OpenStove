@@ -1,5 +1,5 @@
 ---
-title: 'Coconut Chocolate Balls'
+title: 'Coconut chocolate balls'
 description: 'Satisfy your sweet tooth with these irresistible coconut chocolate balls, a delightful candy dessert that combines the flavors of coconut and chocolate in every bite.'
 
 author: 'mearashadowfax'

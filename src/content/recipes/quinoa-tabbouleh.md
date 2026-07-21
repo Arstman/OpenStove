@@ -1,5 +1,5 @@
 ---
-title: 'Quinoa Tabbouleh'
+title: 'Quinoa tabbouleh'
 description: 'A refreshing and nutritious twist on traditional tabbouleh, using quinoa for added protein and gluten-free goodness.'
 
 author: 'mearashadowfax'

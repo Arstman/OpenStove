@@ -1,5 +1,5 @@
 ---
-title: 'Pan-Roasted Chicken Legs with Thyme'
+title: 'Pan-roasted chicken legs with thyme'
 description: 'Juicy chicken legs infused with the aromatic flavor of thyme, cooked to perfection in a pan.'
 
 author: 'mearashadowfax'

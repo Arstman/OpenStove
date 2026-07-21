@@ -1,5 +1,5 @@
 ---
-title: 'German Lentil Soup with Carrots and Red Chili Pepper'
+title: 'German lentil soup with carrots and red chili pepper'
 description: 'A hearty lentil soup featuring tender carrots and a hint of spice from red chili pepper, perfect for chilly days and comforting meals.'
 
 pubDate: 2024-02-01

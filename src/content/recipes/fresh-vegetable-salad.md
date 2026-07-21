@@ -1,5 +1,5 @@
 ---
-title: 'Fresh Vegetable Salad'
+title: 'Fresh vegetable salad'
 description: 'A crisp and refreshing salad made with a colorful mix of fresh vegetables – a perfect side dish or a light meal on its own.'
 
 pubDate: 2024-01-11

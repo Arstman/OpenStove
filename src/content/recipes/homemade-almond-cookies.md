@@ -1,5 +1,5 @@
 ---
-title: 'Homemade Almond Cookies'
+title: 'Homemade almond cookies'
 description: 'Crispy, buttery almond cookies with a delicate nutty flavor – perfect for tea time or as a sweet snack.'
 
 pubDate: 2024-02-13

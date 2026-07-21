@@ -1,5 +1,5 @@
 ---
-title: 'Homemade Plum Pie'
+title: 'Homemade plum pie'
 description: 'Indulge in the comforting flavors of this homemade plum pie, bursting with the sweetness of ripe plums and warm spices.'
 
 author: 'mearashadowfax'

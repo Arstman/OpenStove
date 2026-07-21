@@ -1,5 +1,5 @@
 ---
-title: 'Sweet Curd Pancakes with Cottage Cheese'
+title: 'Sweet curd pancakes with cottage cheese'
 description: 'Delicious and fluffy sweet curd pancakes, known as Syrniki, served with a creamy cottage cheese topping.'
 
 pubDate: 2024-06-16

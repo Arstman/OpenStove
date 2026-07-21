@@ -1,5 +1,5 @@
 ---
-title: 'Chicken Tikka Masala Curry'
+title: 'Chicken tikka masala curry'
 description: 'A rich and flavorful Indian curry featuring tender chicken tikka pieces in a creamy tomato-based sauce infused with aromatic herbs and peppers.'
 
 author: 'mearashadowfax'

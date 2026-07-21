@@ -1,5 +1,5 @@
 ---
-title: "Ben's Oat-imate Oatmeal"
+title: "Ben's oat-imate oatmeal"
 description: 'The ultimate oatmeal meal prep recipe.'
 
 author: 'BHolmesDev'

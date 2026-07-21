@@ -1,5 +1,5 @@
 ---
-title: 'Fried Rice with Egg'
+title: 'Fried rice with egg'
 description: 'This classic Fried Rice with Egg recipe is a simple and satisfying dish, perfect for a quick lunch or dinner. Packed with flavor, it’s a crowd-pleaser that you can whip up in no time.'
 
 pubDate: 2024-01-04

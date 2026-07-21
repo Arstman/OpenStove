@@ -1,5 +1,5 @@
 ---
-title: 'Traditional French Lemon Tart'
+title: 'Traditional French lemon tart'
 description: 'A classic French dessert featuring a crisp pastry shell filled with silky smooth, tangy lemon curd.'
 
 pubDate: 2024-01-22

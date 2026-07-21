@@ -1,5 +1,5 @@
 ---
-title: 'Classic Minestrone Soup'
+title: 'Classic minestrone soup'
 description: 'A comforting and hearty soup full of beans, pasta, and vegetables. Perfect to warm you up on a cold day.'
 
 pubDate: 2024-01-10

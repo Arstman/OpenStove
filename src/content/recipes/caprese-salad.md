@@ -1,5 +1,5 @@
 ---
-title: 'Caprese Salad with Lettuce'
+title: 'Caprese salad with lettuce'
 description: 'A gourmet twist on the classic Caprese salad featuring ripe tomatoes, fresh mozzarella, basil, and a drizzle of balsamic glaze, served alongside a crisp lettuce salad.'
 
 pubDate: 2024-02-04

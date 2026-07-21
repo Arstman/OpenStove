@@ -1,5 +1,5 @@
 ---
-title: 'Baked Potatoes with Garlic, Herbs, and Fried Chanterelles'
+title: 'Baked potatoes with garlic, herbs, and fried chanterelles'
 description: 'Savor the delightful combination of oven-baked potatoes infused with garlic and herbs, complemented by a crispy topping of fried chanterelle mushrooms.'
 
 pubDate: 2024-03-07

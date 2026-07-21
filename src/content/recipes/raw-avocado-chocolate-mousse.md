@@ -1,5 +1,5 @@
 ---
-title: 'Raw Avocado Chocolate Mousse Topped with Hazelnuts'
+title: 'Raw avocado chocolate mousse topped with hazelnuts'
 description: "Indulge in a decadent yet healthy dessert with this raw avocado chocolate mousse. Topped with crunchy hazelnuts, it's a treat that's both delicious and nutritious."
 
 author: 'mearashadowfax'

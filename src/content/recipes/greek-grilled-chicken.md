@@ -1,5 +1,5 @@
 ---
-title: 'Greek Grilled Chicken With Green Beans'
+title: 'Greek grilled chicken with green beans'
 description: 'Marinated in flavorful Greek seasonings, this grilled chicken is served with a side of crisp, tender green beans for a healthy and balanced meal.'
 
 pubDate: 2024-01-08

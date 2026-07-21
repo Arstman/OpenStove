@@ -1,5 +1,5 @@
 ---
-title: 'Baked Pizza with Tomatoes, Cheese, Olives, Salami, and a Fried Egg'
+title: 'Baked pizza with tomatoes, cheese, olives, salami, and a fried egg'
 description: 'A delicious homemade pizza loaded with juicy tomatoes, melted cheese, flavorful salami, tangy olives, and topped with a perfectly fried egg – the ultimate treat for pizza lovers.'
 
 pubDate: 2024-01-05

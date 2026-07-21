@@ -1,5 +1,5 @@
 ---
-title: 'Uyghur Guiru Lagman Noodles with Ear Mushrooms'
+title: 'Uyghur guiru lagman noodles with ear mushrooms'
 description: 'A savory and comforting Uyghur dish featuring hand-pulled noodles, ear mushrooms, and aromatic spices.'
 
 pubDate: 2024-02-18

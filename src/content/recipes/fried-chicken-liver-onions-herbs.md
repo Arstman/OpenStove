@@ -1,5 +1,5 @@
 ---
-title: 'Fried Chicken Liver with Onions and Herbs'
+title: 'Fried chicken liver with onions and herbs'
 description: 'Enjoy the rich, iron-packed flavor of chicken livers fried with caramelized onions and fragrant herbs.'
 
 pubDate: 2024-01-10

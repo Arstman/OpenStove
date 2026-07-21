@@ -1,5 +1,5 @@
 ---
-title: 'Creamy Mushroom and Spinach Soup'
+title: 'Creamy mushroom and spinach soup'
 description: 'A comforting and creamy soup loaded with earthy mushrooms and nutritious spinach.'
 
 author: 'mearashadowfax'

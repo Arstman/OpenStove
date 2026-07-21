@@ -1,5 +1,5 @@
 ---
-title: 'Chicken Ragout with Fried Chicken Drumsticks and Vegetables'
+title: 'Chicken ragout with fried chicken drumsticks and vegetables'
 description: 'A hearty and flavorful chicken ragout served with crispy fried chicken drumsticks, sautéed onions, bell peppers, and greens.'
 
 pubDate: 2024-02-18

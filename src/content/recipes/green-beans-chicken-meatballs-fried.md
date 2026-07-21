@@ -1,5 +1,5 @@
 ---
-title: 'Asian-Style Green Beans Fried with Chicken Meatballs and Garlic'
+title: 'Asian-style green beans fried with chicken meatballs and garlic'
 description: 'A delicious and flavorful dish combining tender chicken meatballs, crisp green beans, and aromatic garlic, all stir-fried in a delightful Asian-inspired sauce.'
 
 author: 'mearashadowfax'

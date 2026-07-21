@@ -1,5 +1,5 @@
 ---
-title: 'Heirloom Tomato and Green Leaf Panzanella Salad'
+title: 'Heirloom tomato and green leaf panzanella salad'
 description: 'A vibrant and refreshing salad, combining juicy red heirloom tomatoes, crispy green leaves, and crunchy panzanella breadcrumbs.'
 
 pubDate: 2024-01-10

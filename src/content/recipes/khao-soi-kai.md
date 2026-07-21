@@ -1,5 +1,5 @@
 ---
-title: 'Khao Soi Kai'
+title: 'Khao soi kai'
 description: 'Khao Soi Kai is a traditional Northern Thai dish featuring tender chicken in a fragrant curry broth, served over egg noodles and topped with crispy fried noodles.'
 
 pubDate: 2024-03-30

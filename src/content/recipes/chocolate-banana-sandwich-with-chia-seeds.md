@@ -1,5 +1,5 @@
 ---
-title: 'Chocolate Banana Sandwich with Chia Seeds'
+title: 'Chocolate banana sandwich with chia seeds'
 description: 'Satisfy your cravings with this delightful chocolate banana sandwich topped with nutritious chia seeds. Perfect for a quick and delicious snack or breakfast!'
 
 pubDate: 2024-02-06

@@ -1,5 +1,5 @@
 ---
-title: 'Pan-Seared Duck Breast Fillet'
+title: 'Pan-seared duck breast fillet'
 description: "Indulge in the rich flavor of duck with this pan-seared duck breast fillet recipe. Crispy on the outside and tender on the inside, it's a luxurious dish perfect for special occasions."
 
 pubDate: 2024-02-29

@@ -1,5 +1,5 @@
 ---
-title: 'Chicken Potato Salad with Mayonnaise Dressing'
+title: 'Chicken potato salad with mayonnaise dressing'
 description: 'Indulge in a delicious chicken and potato salad, generously coated in a creamy mayonnaise dressing.'
 
 pubDate: 2024-03-02

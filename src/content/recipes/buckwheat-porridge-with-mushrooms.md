@@ -1,5 +1,5 @@
 ---
-title: 'Buckwheat Porridge with Mushrooms'
+title: 'Buckwheat porridge with mushrooms'
 description: 'A comforting and nutritious bowl of porridge made with buckwheat groats and savory sautéed mushrooms.'
 
 author: 'mearashadowfax'

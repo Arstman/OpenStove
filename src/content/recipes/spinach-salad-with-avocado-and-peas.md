@@ -1,5 +1,5 @@
 ---
-title: 'Spinach Salad with Avocado and Peas'
+title: 'Spinach salad with avocado and peas'
 description: 'A refreshing and nutritious salad combining the goodness of spinach, creamy avocado, and sweet peas.'
 
 pubDate: 2024-02-18

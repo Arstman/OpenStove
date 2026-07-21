@@ -1,5 +1,5 @@
 ---
-title: 'Creamy Tomato Soup'
+title: 'Creamy tomato soup'
 description: 'A velvety and comforting classic – this creamy tomato soup is simple to make and perfect for any season.'
 
 author: 'mearashadowfax'

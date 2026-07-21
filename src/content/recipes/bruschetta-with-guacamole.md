@@ -1,5 +1,5 @@
 ---
-title: 'Bruschetta with Guacamole, Radish, White Cheese, Chickpeas, and Sage'
+title: 'Bruschetta with guacamole, radish, white cheese, chickpeas, and sage'
 description: 'Enjoy a delightful twist on the classic bruschetta with this vegetarian combination of creamy guacamole, crisp radishes, tangy white cheese, hearty chickpeas, and fragrant sage.'
 
 pubDate: 2024-08-07

@@ -1,5 +1,5 @@
 ---
-title: 'Japanese-Style Salad with Medium-Rare Grilled Ahi Tuna and Sesame'
+title: 'Japanese-style salad with medium-rare grilled Ahi tuna and sesame'
 description: 'Experience the fresh flavors of Japan with this traditional salad, featuring succulent medium-rare grilled ahi tuna, mixed with a rainbow of fresh vegetables.'
 
 pubDate: 2024-01-14

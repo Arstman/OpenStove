@@ -1,5 +1,5 @@
 ---
-title: 'Homemade Creamy Pumpkin Soup'
+title: 'Homemade creamy pumpkin soup'
 description: 'Warm and comforting, this creamy pumpkin soup is a fall favorite, loaded with flavor and easy to prepare.'
 
 pubDate: 2024-01-11

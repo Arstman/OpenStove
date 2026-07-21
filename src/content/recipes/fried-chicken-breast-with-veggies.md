@@ -1,5 +1,5 @@
 ---
-title: 'Fried Chicken Breast with Veggies'
+title: 'Fried chicken breast with veggies'
 description: 'A simple, fast and healthy one-pan meal perfect for a single serving. Enjoy your crispy chicken breast with a colorful mix of stir-fried veggies!'
 
 author: 'mearashadowfax'

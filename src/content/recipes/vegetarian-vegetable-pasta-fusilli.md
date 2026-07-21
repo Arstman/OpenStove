@@ -1,5 +1,5 @@
 ---
-title: 'Vegetarian Vegetable Pasta Fusilli'
+title: 'Vegetarian vegetable pasta fusilli'
 description: 'Enjoy a flavorful vegetarian delight with this vegetable pasta fusilli, featuring zucchini, mushrooms, capers, and fresh greens.'
 
 author: 'mearashadowfax'

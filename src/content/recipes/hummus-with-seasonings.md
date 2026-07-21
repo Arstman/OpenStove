@@ -1,5 +1,5 @@
 ---
-title: 'Hummus with Seasonings'
+title: 'Hummus with seasonings'
 description: 'A creamy hummus infused with aromatic spices like chili flakes and nutmeg powder. Perfect for dipping or spreading on sandwiches and wraps.'
 
 pubDate: 2024-02-07

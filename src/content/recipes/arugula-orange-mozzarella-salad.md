@@ -1,5 +1,5 @@
 ---
-title: 'Arugula Orange Mozzarella Salad'
+title: 'Arugula orange mozzarella salad'
 description: 'A refreshing salad combining peppery arugula, sweet orange segments, and creamy mozzarella with a light citrus dressing.'
 
 author: 'mearashadowfax'

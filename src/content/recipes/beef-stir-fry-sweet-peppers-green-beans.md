@@ -1,5 +1,5 @@
 ---
-title: 'Beef Stir-Fry with Sweet Peppers and Green Beans'
+title: 'Beef stir-fry with sweet peppers and green beans'
 description: 'A savory and colorful dish featuring tender beef strips stir-fried with sweet peppers and crisp green beans.'
 
 author: 'mearashadowfax'

@@ -1,5 +1,5 @@
 ---
-title: 'Green Shakshuka'
+title: 'Green shakshuka'
 description: 'Bring some green to your breakfast table with this fulfilling Green Shakshuka – a healthy twist on a North African classic.'
 
 pubDate: 2024-01-11

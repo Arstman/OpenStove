@@ -1,5 +1,5 @@
 ---
-title: 'Pan-Seared Picanha Beef Steaks'
+title: 'Pan-seared Picanha beef steaks'
 description: 'Enjoy the exquisite flavors of pan-seared Picanha beef steaks, a delightful alternative to grilling that promises succulent results.'
 
 author: 'mearashadowfax'
